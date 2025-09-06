@@ -1,0 +1,13 @@
+{
+  "plugins": ["tailwindcss"],
+  "extends": [
+    "next/core-web-vitals",
+    "prettier",
+    "plugin:tailwindcss/recommended"
+  ],
+  "rules": {
+    "tailwindcss/no-custom-classname": "warn", // Optional, warns for custom class names not in Tailwind
+    "tailwindcss/classnames-order": "off",
+    "tailwindcss/enforces-negative-arbitrary-values": "off"
+  }
+}

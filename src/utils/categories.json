@@ -1,0 +1,128 @@
+[
+  {
+    "label": "Smart Watches",
+    "href": "/categories/smart-watches",
+    "items": [
+      {
+        "label": "Amazfit",
+        "href": "/categories/smart-watches/amazfit"
+      },
+      {
+        "label": "Xiaomi",
+        "href": "/categories/smart-watches/xiaomi"
+      }
+    ]
+  },
+  {
+    "label": "Mobile Phones",
+    "href": "/categories/mobile-phones",
+    "items": [
+      {
+        "label": "iPhone",
+        "href": "/categories/mobile-phones/iphone"
+      },
+      {
+        "label": "Samsung",
+        "href": "/categories/mobile-phones/samsung"
+      }
+    ]
+  },
+  {
+    "label": "Laptops",
+    "href": "/categories/laptops",
+    "items": [
+      {
+        "label": "MacBook",
+        "href": "/categories/laptops/macbook"
+      },
+      {
+        "label": "Dell",
+        "href": "/categories/laptops/dell"
+      }
+    ]
+  },
+  {
+    "label": "Gaming Consoles",
+    "href": "/categories/gaming-consoles",
+    "items": [
+      {
+        "label": "PlayStation",
+        "href": "/categories/gaming-consoles/playstation"
+      },
+      {
+        "label": "Xbox",
+        "href": "/categories/gaming-consoles/xbox"
+      }
+    ]
+  },
+  {
+    "label": "Cameras",
+    "href": "/categories/cameras",
+    "items": [
+      {
+        "label": "Canon",
+        "href": "/categories/cameras/canon"
+      },
+      {
+        "label": "Nikon",
+        "href": "/categories/cameras/nikon"
+      }
+    ]
+  },
+  {
+    "label": "Headphones",
+    "href": "/categories/headphones",
+    "items": [
+      {
+        "label": "Sony",
+        "href": "/categories/headphones/sony"
+      },
+      {
+        "label": "Bose",
+        "href": "/categories/headphones/bose"
+      }
+    ]
+  },
+  {
+    "label": "Home Appliances",
+    "href": "/categories/home-appliances",
+    "items": [
+      {
+        "label": "Air Conditioners",
+        "href": "/categories/home-appliances/air-conditioners"
+      },
+      {
+        "label": "Refrigerators",
+        "href": "/categories/home-appliances/refrigerators"
+      }
+    ]
+  },
+  {
+    "label": "Fashion",
+    "href": "/categories/fashion",
+    "items": [
+      {
+        "label": "Men",
+        "href": "/categories/fashion/men"
+      },
+      {
+        "label": "Women",
+        "href": "/categories/fashion/women"
+      }
+    ]
+  },
+  {
+    "label": "Books",
+    "href": "/categories/books",
+    "items": [
+      {
+        "label": "Fiction",
+        "href": "/categories/books/fiction"
+      },
+      {
+        "label": "Non-Fiction",
+        "href": "/categories/books/non-fiction"
+      }
+    ]
+  }
+]

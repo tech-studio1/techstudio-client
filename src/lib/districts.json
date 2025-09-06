@@ -1,0 +1,450 @@
+[
+  {
+    "area_name": "Ujalkur",
+    "district": "district:bd4001",
+    "district_name": "Bagerhat",
+    "id": "town:883cf31965fffff",
+    "subdistrict_name": "Rampal"
+  },
+  {
+    "area_name": "Tindu",
+    "district": "district:bd2003",
+    "district_name": "Bandarban",
+    "id": "town:883cdc8801fffff",
+    "subdistrict_name": "Thanchi"
+  },
+  {
+    "area_name": "Sonakata",
+    "district": "district:bd1004",
+    "district_name": "Barguna",
+    "id": "town:883cd43449fffff",
+    "subdistrict_name": "Amtali"
+  },
+  {
+    "area_name": "Ward No-30",
+    "district": "district:bd1006",
+    "district_name": "Barisal",
+    "id": "town:883cf3210bfffff",
+    "subdistrict_name": "Barisal Sadar (Kotwali)"
+  },
+  {
+    "area_name": "Uttar Sakuchia",
+    "district": "district:bd1009",
+    "district_name": "Bhola",
+    "id": "town:883cd506c9fffff",
+    "subdistrict_name": "Manpura"
+  },
+  {
+    "area_name": "Zianagar",
+    "district": "district:bd5010",
+    "district_name": "Bogra",
+    "id": "town:883cf58037fffff",
+    "subdistrict_name": "Dhupchanchia"
+  },
+  {
+    "area_name": "Uttar Panisar",
+    "district": "district:bd2012",
+    "district_name": "Brahamanbaria",
+    "id": "town:883cc4cca5fffff",
+    "subdistrict_name": "Sarail"
+  },
+  {
+    "area_name": "West Chitasi",
+    "district": "district:bd2013",
+    "district_name": "Chandpur",
+    "id": "town:883cc61181fffff",
+    "subdistrict_name": "Shahrasti"
+  },
+  {
+    "area_name": "Zorwarganj",
+    "district": "district:bd2015",
+    "district_name": "Chittagong",
+    "id": "town:883cc29341fffff",
+    "subdistrict_name": "Mirsharai"
+  },
+  {
+    "area_name": "Uthali",
+    "district": "district:bd4018",
+    "district_name": "Chuadanga",
+    "id": "town:883cf01803fffff",
+    "subdistrict_name": "Jiban Nagar"
+  },
+  {
+    "area_name": "Uttardah",
+    "district": "district:bd2019",
+    "district_name": "Comilla",
+    "id": "town:883cc6028bfffff",
+    "subdistrict_name": "Laksam"
+  },
+  {
+    "area_name": "Whykong",
+    "district": "district:bd2022",
+    "district_name": "Cox's Bazar",
+    "id": "town:883cd1288bfffff",
+    "subdistrict_name": "Teknaf"
+  },
+  {
+    "area_name": "Zinjira",
+    "district": "district:bd3026",
+    "district_name": "Dhaka",
+    "id": "town:883cf17663fffff",
+    "subdistrict_name": "Keraniganj"
+  },
+  {
+    "area_name": "Uthrail",
+    "district": "district:bd5527",
+    "district_name": "Dinajpur",
+    "id": "town:883c1b3249fffff",
+    "subdistrict_name": "Dinajpur Sadar"
+  },
+  {
+    "area_name": "Uttar Channel",
+    "district": "district:bd3029",
+    "district_name": "Faridpur",
+    "id": "town:883cf1509bfffff",
+    "subdistrict_name": "Faridpur Sadar"
+  },
+  {
+    "area_name": "Yakubpur",
+    "district": "district:bd2030",
+    "district_name": "Feni",
+    "id": "town:883cc6746dfffff",
+    "subdistrict_name": "Daganbhuiyan"
+  },
+  {
+    "area_name": "Uria",
+    "district": "district:bd5532",
+    "district_name": "Gaibandha",
+    "id": "town:883ce67801fffff",
+    "subdistrict_name": "Fulchhari"
+  },
+  {
+    "area_name": "Tumulia",
+    "district": "district:bd3033",
+    "district_name": "Gazipur",
+    "id": "town:883cf13021fffff",
+    "subdistrict_name": "Kaliganj"
+  },
+  {
+    "area_name": "Urafi",
+    "district": "district:bd3035",
+    "district_name": "Gopalganj",
+    "id": "town:883cf38c21fffff",
+    "subdistrict_name": "Gopalganj Sadar"
+  },
+  {
+    "area_name": "Uttar Purba Baniachang",
+    "district": "district:bd6036",
+    "district_name": "Habiganj",
+    "id": "town:883cc48581fffff",
+    "subdistrict_name": "Baniachong"
+  },
+  {
+    "area_name": "Tulsir Char",
+    "district": "district:bd4539",
+    "district_name": "Jamalpur",
+    "id": "town:883ce2c1b1fffff",
+    "subdistrict_name": "Jamalpur Sadar"
+  },
+  {
+    "area_name": "Upasahar",
+    "district": "district:bd4041",
+    "district_name": "Jessore",
+    "id": "town:883cf06003fffff",
+    "subdistrict_name": "Kotwali"
+  },
+  {
+    "area_name": "Suktagarh",
+    "district": "district:bd1042",
+    "district_name": "Jhalokati",
+    "id": "town:883cf37441fffff",
+    "subdistrict_name": "Rajapur"
+  },
+  {
+    "area_name": "Umedpur",
+    "district": "district:bd4044",
+    "district_name": "Jhenaidah",
+    "id": "town:883cf004d1fffff",
+    "subdistrict_name": "Shailkupa"
+  },
+  {
+    "area_name": "Zindarpur",
+    "district": "district:bd5038",
+    "district_name": "Joypurhat",
+    "id": "town:883cf58091fffff",
+    "subdistrict_name": "Kalai"
+  },
+  {
+    "area_name": "Ulta Chari",
+    "district": "district:bd2046",
+    "district_name": "Khagrachhari",
+    "id": "town:883cc05201fffff",
+    "subdistrict_name": "Panchhari"
+  },
+  {
+    "area_name": "Ward No-02 (part)",
+    "district": "district:bd4047",
+    "district_name": "Khulna",
+    "id": "town:883cf3c759fffff",
+    "subdistrict_name": "Daulatpur"
+  },
+  {
+    "area_name": "Tarail Sachail",
+    "district": "district:bd3048",
+    "district_name": "Kishoreganj",
+    "id": "town:883ce265a5fffff",
+    "subdistrict_name": "Tarail"
+  },
+  {
+    "area_name": "Tilai",
+    "district": "district:bd5549",
+    "district_name": "Kurigram",
+    "id": "town:883ce6b00dfffff",
+    "subdistrict_name": "Bhurungamari"
+  },
+  {
+    "area_name": "Ujangram",
+    "district": "district:bd4050",
+    "district_name": "Kushtia",
+    "id": "town:883cf0aa65fffff",
+    "subdistrict_name": "Kushtia Sadar"
+  },
+  {
+    "area_name": "Uttar Joypur",
+    "district": "district:bd2051",
+    "district_name": "Lakshmipur",
+    "id": "town:883cc60b01fffff",
+    "subdistrict_name": "Lakshmipur Sadar"
+  },
+  {
+    "area_name": "Tushbhandar",
+    "district": "district:bd5552",
+    "district_name": "Lalmonirhat",
+    "id": "town:883ce69825fffff",
+    "subdistrict_name": "Kaliganj"
+  },
+  {
+    "area_name": "Siruail",
+    "district": "district:bd3054",
+    "district_name": "Madaripur",
+    "id": "town:883cf14db7fffff",
+    "subdistrict_name": "Shib Char"
+  },
+  {
+    "area_name": "Talkhari",
+    "district": "district:bd4055",
+    "district_name": "Magura",
+    "id": "town:883cf02b01fffff",
+    "subdistrict_name": "Shalikha"
+  },
+  {
+    "area_name": "Ulail",
+    "district": "district:bd3056",
+    "district_name": "Manikganj",
+    "id": "town:883cf1cc01fffff",
+    "subdistrict_name": "Shibalaya"
+  },
+  {
+    "area_name": "Uttarbhag",
+    "district": "district:bd6058",
+    "district_name": "Maulvibazar",
+    "id": "town:883cc4a49bfffff",
+    "subdistrict_name": "Rajnagar"
+  },
+  {
+    "area_name": "Tentulbaria",
+    "district": "district:bd4057",
+    "district_name": "Meherpur",
+    "id": "town:883cf08005fffff",
+    "subdistrict_name": "Gangni"
+  },
+  {
+    "area_name": "Tenger Char",
+    "district": "district:bd3059",
+    "district_name": "Munshiganj",
+    "id": "town:883cf16485fffff",
+    "subdistrict_name": "Gazaria"
+  },
+  {
+    "area_name": "Uthura",
+    "district": "district:bd4561",
+    "district_name": "Mymensingh",
+    "id": "town:883ce24881fffff",
+    "subdistrict_name": "Bhaluka"
+  },
+  {
+    "area_name": "Uttargram",
+    "district": "district:bd5064",
+    "district_name": "Naogaon",
+    "id": "town:883c1b6c01fffff",
+    "subdistrict_name": "Mahadebpur"
+  },
+  {
+    "area_name": "Tularampur",
+    "district": "district:bd4065",
+    "district_name": "Narail",
+    "id": "town:883cf06485fffff",
+    "subdistrict_name": "Narail Sadar"
+  },
+  {
+    "area_name": "Uchitpur",
+    "district": "district:bd3067",
+    "district_name": "Narayanganj",
+    "id": "town:883cf128c1fffff",
+    "subdistrict_name": "Araihazar"
+  },
+  {
+    "area_name": "Uttar Bakharnagar",
+    "district": "district:bd3068",
+    "district_name": "Narsingdi",
+    "id": "town:883cc4c827fffff",
+    "subdistrict_name": "Roypura"
+  },
+  {
+    "area_name": "Walia",
+    "district": "district:bd5069",
+    "district_name": "Natore",
+    "id": "town:883cf54021fffff",
+    "subdistrict_name": "Lalpur"
+  },
+  {
+    "area_name": "Uzirpur",
+    "district": "district:bd5070",
+    "district_name": "Nawabganj",
+    "id": "town:883cf4b845fffff",
+    "subdistrict_name": "Shibganj"
+  },
+  {
+    "area_name": "Tiasree",
+    "district": "district:bd4572",
+    "district_name": "Netrakona",
+    "id": "town:883cc49301fffff",
+    "subdistrict_name": "Madan"
+  },
+  {
+    "area_name": "Tupamari",
+    "district": "district:bd5573",
+    "district_name": "Nilphamari",
+    "id": "town:883c196101fffff",
+    "subdistrict_name": "Nilphamari Sadar"
+  },
+  {
+    "area_name": "Tamaruddin",
+    "district": "district:bd2075",
+    "district_name": "Noakhali",
+    "id": "town:883cd5a891fffff",
+    "subdistrict_name": "Hatiya"
+  },
+  {
+    "area_name": "Tantibanda",
+    "district": "district:bd5076",
+    "district_name": "Pabna",
+    "id": "town:883cf0a403fffff",
+    "subdistrict_name": "Sujanagar"
+  },
+  {
+    "area_name": "Tirnaihat",
+    "district": "district:bd5577",
+    "district_name": "Panchagarh",
+    "id": "town:883c198901fffff",
+    "subdistrict_name": "Tentulia"
+  },
+  {
+    "area_name": "Tiakhali",
+    "district": "district:bd1078",
+    "district_name": "Patuakhali",
+    "id": "town:883cd5c101fffff",
+    "subdistrict_name": "Kala Para"
+  },
+  {
+    "area_name": "Tushkhali",
+    "district": "district:bd1079",
+    "district_name": "Pirojpur",
+    "id": "town:883cf37805fffff",
+    "subdistrict_name": "Mathbaria"
+  },
+  {
+    "area_name": "Ujan Char",
+    "district": "district:bd3082",
+    "district_name": "Rajbari",
+    "id": "town:883cf15201fffff",
+    "subdistrict_name": "Goalandaghat"
+  },
+  {
+    "area_name": "Yusufpur",
+    "district": "district:bd5081",
+    "district_name": "Rajshahi",
+    "id": "town:883cf4240dfffff",
+    "subdistrict_name": "Charghat"
+  },
+  {
+    "area_name": "Wagga",
+    "district": "district:bd2084",
+    "district_name": "Rangamati",
+    "id": "town:883cc2a949fffff",
+    "subdistrict_name": "Kaptai"
+  },
+  {
+    "area_name": "Uttam",
+    "district": "district:bd5585",
+    "district_name": "Rangpur",
+    "id": "town:883ce6c665fffff",
+    "subdistrict_name": "Rangpur Sadar"
+  },
+  {
+    "area_name": "Tarali",
+    "district": "district:bd4087",
+    "district_name": "Satkhira",
+    "id": "town:883cf2224dfffff",
+    "subdistrict_name": "Kaliganj"
+  },
+  {
+    "area_name": "Zanjira Paurashava",
+    "district": "district:bd3086",
+    "district_name": "Shariatpur",
+    "id": "town:883cf1682dfffff",
+    "subdistrict_name": "Zanjira"
+  },
+  {
+    "area_name": "Urpha",
+    "district": "district:bd4589",
+    "district_name": "Sherpur",
+    "id": "town:883ce2c403fffff",
+    "subdistrict_name": "Nakla"
+  },
+  {
+    "area_name": "Ullah Para Paurashava",
+    "district": "district:bd5088",
+    "district_name": "Sirajganj",
+    "id": "town:883cf56291fffff",
+    "subdistrict_name": "Ullah Para"
+  },
+  {
+    "area_name": "Vimkhali",
+    "district": "district:bd6090",
+    "district_name": "Sunamganj",
+    "id": "town:883ce22497fffff",
+    "subdistrict_name": "Jamalganj"
+  },
+  {
+    "area_name": "Zakiganj Paurashava",
+    "district": "district:bd6091",
+    "district_name": "Sylhet",
+    "id": "town:883cc58001fffff",
+    "subdistrict_name": "Zakiganj"
+  },
+  {
+    "area_name": "Uarsi",
+    "district": "district:bd3093",
+    "district_name": "Tangail",
+    "id": "town:883cf11201fffff",
+    "subdistrict_name": "Mirzapur"
+  },
+  {
+    "area_name": "Sukhanpukhari",
+    "district": "district:bd5594",
+    "district_name": "Thakurgaon",
+    "id": "town:883c194401fffff",
+    "subdistrict_name": "Thakurgaon Sadar"
+  }
+]

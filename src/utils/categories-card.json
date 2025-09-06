@@ -1,0 +1,29 @@
+[
+  {
+    "url": "/categories/adapter",
+    "image": "/categories/charger-cables.webp",
+    "label": "Charger Cables"
+  },
+  {
+    "url": "/categories/true-wireless-earbuds",
+    "image": "/categories/headphones.webp",
+    "label": "Head Phones"
+  },
+
+  {
+    "url": "/categories/powerbanks",
+    "image": "/categories/power-banks.webp",
+    "label": "Power Banks"
+  },
+  {
+    "url": "/categories/smart-watches",
+    "image": "/categories/smart-watches.webp",
+    "label": "Smart Watches"
+  },
+
+  {
+    "url": "/categories/fans",
+    "image": "/categories/smart-home-appliances.webp",
+    "label": "Home Appliances"
+  }
+]

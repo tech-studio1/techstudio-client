@@ -1,0 +1,17 @@
+[
+  {
+    "label": "haylou",
+    "href": "/brands/haylou",
+    "image": "/hero/1.png"
+  },
+  {
+    "label": "kislect",
+    "href": "/brands/kislect",
+    "image": "/hero/2.png"
+  },
+  {
+    "label": "xiaomei",
+    "href": "/brands/xiaomei",
+    "image": "/hero/3.png"
+  }
+]

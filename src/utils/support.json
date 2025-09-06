@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Support 24/7",
+    "image": "/support/call-center.svg",
+    "description": "We Support Online 24 Hours"
+  },
+  {
+    "title": "Online Payment",
+    "image": "/support/online-payment.webp",
+    "description": "Make payments hands free very easily"
+  },
+  {
+    "title": "Authentic Product",
+    "image": "/support/authentic-product.webp",
+    "description": "Guaranteed 100% authentic product"
+  },
+  {
+    "title": "Fast Delivery",
+    "image": "/support/truck.svg",
+    "description": "Fast Delivery is our first moto"
+  }
+]

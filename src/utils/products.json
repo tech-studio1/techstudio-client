@@ -1,0 +1,1896 @@
+[
+  {
+    "status": "active",
+    "image": "/products/16896721628.webp",
+    "name": "Amazfit Cheetah Pro AI-Powered with GPS Smart Watch",
+    "price": "36999",
+    "discount": "37",
+    "feature": [
+      "Premium AI-powered GPS Running Watch",
+      "Dual-band Circularly-polarized GPS",
+      "Offline Maps & Route Navigation",
+      "Zepp Coach™: AI Guidance for Runners",
+      "Track 24/7 Health & Fitness Data",
+      "Lightweight Design with Titanium Alloy",
+      "Display Corning GG3 tempered glass and anti-fingerprint coating.",
+      "Display Resolution: 480x480, with max 1,000nit.",
+      "440mAh capacity big Battery",
+      " Sensors: BioTrackerTM 3.0 PPG biometric sensor",
+      "Connection: Wi-Fi 2.4GHz, Bluetooth 5.3."
+    ],
+    "specs": [
+      { "label": "Brand", "value": "Amazfit" },
+      { "label": "Model No", "value": "Cheetah Pro" },
+      { "label": "Battery capacity", "value": "440 mAh" },
+      { "label": "AOD", "value": "yes" },
+      { "label": "Custom Watch Face", "value": "yes" }
+    ],
+    "details": {
+      "product": "Amazfit Cheetah Pro Smart Watch",
+      "description": "AI-Powered with GPS",
+      "keyPoints": {
+        "design": "Black color, titanium alloy bezel, and fiber-reinforced polymer middle frame",
+        "dimensions": "47x47x11.8mm",
+        "weight": {
+          "withoutStrap": "35g",
+          "withStrap": "43g"
+        },
+        "display": {
+          "size": "1.45\"",
+          "type": "AMOLED touchscreen",
+          "resolution": "480x480",
+          "ppi": 331,
+          "brightness": {
+            "regular": "500nit",
+            "maximum": "up to 1,000nit"
+          },
+          "protection": "Corning GG3 tempered glass, anti-fingerprint coating"
+        },
+        "battery": {
+          "capacity": "440mAh",
+          "chargingMethod": "Magnetic charging",
+          "typicalUsage": "Up to 14 days"
+        },
+        "sensors": {
+          "biometric": "BioTrackerTM 3.0 PPG biometric sensor (including blood-oxygen)",
+          "movement": [
+            "Acceleration sensor",
+            "Gyroscope sensor",
+            "Geomagnetic sensor",
+            "Air Pressure sensor (Barometer)",
+            "Ambient light sensor"
+          ],
+          "positioning": [
+            "Dual-band GPS",
+            "GLONASS",
+            "Galileo",
+            "BeiDou",
+            "QZSS",
+            "NAVIC"
+          ]
+        },
+        "connection": {
+          "wifi": "2.4GHz",
+          "bluetooth": "5.3"
+        },
+        "strap": {
+          "type": "Quick-release nylon strap",
+          "width": "22mm",
+          "wristDimensions": {
+            "min": "150mm",
+            "max": "210mm"
+          }
+        },
+        "features": {
+          "speaker": true,
+          "microphone": true,
+          "motor": "Linear motor"
+        },
+        "compatibility": {
+          "android": "7.0 and above",
+          "ios": "12.0 and above"
+        },
+        "packaging": {
+          "contents": [
+            "Smartwatch",
+            "Magnetic charging base",
+            "Instruction manual"
+          ],
+          "appRequirement": "Zepp App"
+        }
+      },
+      "technicalSpecifications": {
+        "design": {
+          "colors": "Black",
+          "dimensions": "47x47x11.8mm",
+          "weight": {
+            "withoutStrap": "35g",
+            "withStrap": "43g"
+          },
+          "bodyMaterial": {
+            "bezel": "Titanium alloy",
+            "frame": "Fiber-reinforced polymer"
+          },
+          "buttons": 2,
+          "waterResistanceGrade": "5ATM"
+        },
+        "display": {
+          "type": "AMOLED",
+          "size": "1.45\"",
+          "resolution": "480x480",
+          "ppi": 331,
+          "brightness": {
+            "regular": "500nit",
+            "maximum": "up to 1,000nit"
+          },
+          "protection": "Corning GG3 tempered glass, anti-fingerprint coating"
+        },
+        "battery": {
+          "capacity": "440mAh",
+          "chargingMethod": "Magnetic charging",
+          "chargingDuration": "Approx. 2 hours",
+          "modes": {
+            "typicalUsage": "Up to 14 days",
+            "batterySaverMode": "Up to 24 days",
+            "clockMode": "Up to 45 days",
+            "heavyUsage": "Up to 7 days",
+            "gps": {
+              "accuracyMode": "Up to 25 hours",
+              "automaticMode": "Up to 37 hours",
+              "powerSavingMode": "Up to 45 hours"
+            }
+          }
+        },
+        "sensors": {
+          "health": "BioTrackerTM 3.0 PPG biometric sensor (support blood-oxygen), 6PD + 2LED",
+          "movement": [
+            "Acceleration sensor",
+            "Gyroscope sensor",
+            "Geomagnetic sensor",
+            "Air Pressure sensor (Barometer)",
+            "Ambient light sensor"
+          ],
+          "positioning": [
+            "Dual-band (L1+L5)",
+            "GPS",
+            "GLONASS",
+            "Galileo",
+            "BeiDou",
+            "QZSS",
+            "NAVIC"
+          ]
+        },
+        "strap": {
+          "material": "Nylon",
+          "quickRelease": true,
+          "width": "22mm",
+          "wristDimensions": {
+            "min": "150mm",
+            "max": "210mm"
+          },
+          "buckle": "Classic pin buckle"
+        },
+        "other": {
+          "speaker": true,
+          "microphone": true,
+          "motor": "Linear motor",
+          "packingList": [
+            "Smartwatch (including standard strap)",
+            "Magnetic charging base",
+            "Instruction manual"
+          ],
+          "supportedDevices": {
+            "android": "7.0 and above",
+            "ios": "12.0 and above"
+          },
+          "application": "Zepp App"
+        }
+      }
+    }
+  },
+  {
+    "status": "active",
+    "image": "/products/17162628886.webp",
+    "name": "Amazfit Pop 3R Smart Watch(Bluetooth Calling)",
+    "price": "6499",
+    "discount": "8",
+    "feature": [
+      "Premium AI-powered GPS Running Watch",
+      "Dual-band Circularly-polarized GPS",
+      "Offline Maps & Route Navigation",
+      "Zepp Coach™: AI Guidance for Runners",
+      "Track 24/7 Health & Fitness Data",
+      "Lightweight Design with Titanium Alloy",
+      "Display Corning GG3 tempered glass and anti-fingerprint coating.",
+      "Display Resolution: 480x480, with max 1,000nit.",
+      "440mAh capacity big Battery",
+      " Sensors: BioTrackerTM 3.0 PPG biometric sensor",
+      "Connection: Wi-Fi 2.4GHz, Bluetooth 5.3."
+    ],
+    "specs": [
+      { "label": "Brand", "value": "Amazfit" },
+      { "label": "Model No", "value": "Cheetah Pro" },
+      { "label": "Battery capacity", "value": "440 mAh" },
+      { "label": "AOD", "value": "yes" },
+      { "label": "Custom Watch Face", "value": "yes" }
+    ],
+    "details": {
+      "product": "Amazfit Cheetah Pro Smart Watch",
+      "description": "AI-Powered with GPS",
+      "keyPoints": {
+        "design": "Black color, titanium alloy bezel, and fiber-reinforced polymer middle frame",
+        "dimensions": "47x47x11.8mm",
+        "weight": {
+          "withoutStrap": "35g",
+          "withStrap": "43g"
+        },
+        "display": {
+          "size": "1.45\"",
+          "type": "AMOLED touchscreen",
+          "resolution": "480x480",
+          "ppi": 331,
+          "brightness": {
+            "regular": "500nit",
+            "maximum": "up to 1,000nit"
+          },
+          "protection": "Corning GG3 tempered glass, anti-fingerprint coating"
+        },
+        "battery": {
+          "capacity": "440mAh",
+          "chargingMethod": "Magnetic charging",
+          "typicalUsage": "Up to 14 days"
+        },
+        "sensors": {
+          "biometric": "BioTrackerTM 3.0 PPG biometric sensor (including blood-oxygen)",
+          "movement": [
+            "Acceleration sensor",
+            "Gyroscope sensor",
+            "Geomagnetic sensor",
+            "Air Pressure sensor (Barometer)",
+            "Ambient light sensor"
+          ],
+          "positioning": [
+            "Dual-band GPS",
+            "GLONASS",
+            "Galileo",
+            "BeiDou",
+            "QZSS",
+            "NAVIC"
+          ]
+        },
+        "connection": {
+          "wifi": "2.4GHz",
+          "bluetooth": "5.3"
+        },
+        "strap": {
+          "type": "Quick-release nylon strap",
+          "width": "22mm",
+          "wristDimensions": {
+            "min": "150mm",
+            "max": "210mm"
+          }
+        },
+        "features": {
+          "speaker": true,
+          "microphone": true,
+          "motor": "Linear motor"
+        },
+        "compatibility": {
+          "android": "7.0 and above",
+          "ios": "12.0 and above"
+        },
+        "packaging": {
+          "contents": [
+            "Smartwatch",
+            "Magnetic charging base",
+            "Instruction manual"
+          ],
+          "appRequirement": "Zepp App"
+        }
+      },
+      "technicalSpecifications": {
+        "design": {
+          "colors": "Black",
+          "dimensions": "47x47x11.8mm",
+          "weight": {
+            "withoutStrap": "35g",
+            "withStrap": "43g"
+          },
+          "bodyMaterial": {
+            "bezel": "Titanium alloy",
+            "frame": "Fiber-reinforced polymer"
+          },
+          "buttons": 2,
+          "waterResistanceGrade": "5ATM"
+        },
+        "display": {
+          "type": "AMOLED",
+          "size": "1.45\"",
+          "resolution": "480x480",
+          "ppi": 331,
+          "brightness": {
+            "regular": "500nit",
+            "maximum": "up to 1,000nit"
+          },
+          "protection": "Corning GG3 tempered glass, anti-fingerprint coating"
+        },
+        "battery": {
+          "capacity": "440mAh",
+          "chargingMethod": "Magnetic charging",
+          "chargingDuration": "Approx. 2 hours",
+          "modes": {
+            "typicalUsage": "Up to 14 days",
+            "batterySaverMode": "Up to 24 days",
+            "clockMode": "Up to 45 days",
+            "heavyUsage": "Up to 7 days",
+            "gps": {
+              "accuracyMode": "Up to 25 hours",
+              "automaticMode": "Up to 37 hours",
+              "powerSavingMode": "Up to 45 hours"
+            }
+          }
+        },
+        "sensors": {
+          "health": "BioTrackerTM 3.0 PPG biometric sensor (support blood-oxygen), 6PD + 2LED",
+          "movement": [
+            "Acceleration sensor",
+            "Gyroscope sensor",
+            "Geomagnetic sensor",
+            "Air Pressure sensor (Barometer)",
+            "Ambient light sensor"
+          ],
+          "positioning": [
+            "Dual-band (L1+L5)",
+            "GPS",
+            "GLONASS",
+            "Galileo",
+            "BeiDou",
+            "QZSS",
+            "NAVIC"
+          ]
+        },
+        "strap": {
+          "material": "Nylon",
+          "quickRelease": true,
+          "width": "22mm",
+          "wristDimensions": {
+            "min": "150mm",
+            "max": "210mm"
+          },
+          "buckle": "Classic pin buckle"
+        },
+        "other": {
+          "speaker": true,
+          "microphone": true,
+          "motor": "Linear motor",
+          "packingList": [
+            "Smartwatch (including standard strap)",
+            "Magnetic charging base",
+            "Instruction manual"
+          ],
+          "supportedDevices": {
+            "android": "7.0 and above",
+            "ios": "12.0 and above"
+          },
+          "application": "Zepp App"
+        }
+      }
+    }
+  },
+  {
+    "status": "active",
+    "image": "/products/173364075914.webp",
+    "name": "oraimo Watch 5 BT Calling Smart Watch (OSW-805)",
+    "warranty": "1 year",
+    "price": "2999",
+    "discount": "16",
+    "feature": [
+      "Premium AI-powered GPS Running Watch",
+      "Dual-band Circularly-polarized GPS",
+      "Offline Maps & Route Navigation",
+      "Zepp Coach™: AI Guidance for Runners",
+      "Track 24/7 Health & Fitness Data",
+      "Lightweight Design with Titanium Alloy",
+      "Display Corning GG3 tempered glass and anti-fingerprint coating.",
+      "Display Resolution: 480x480, with max 1,000nit.",
+      "440mAh capacity big Battery",
+      " Sensors: BioTrackerTM 3.0 PPG biometric sensor",
+      "Connection: Wi-Fi 2.4GHz, Bluetooth 5.3."
+    ],
+    "specs": [
+      { "label": "Brand", "value": "Amazfit" },
+      { "label": "Model No", "value": "Cheetah Pro" },
+      { "label": "Battery capacity", "value": "440 mAh" },
+      { "label": "AOD", "value": "yes" },
+      { "label": "Custom Watch Face", "value": "yes" }
+    ],
+    "details": {
+      "product": "Amazfit Cheetah Pro Smart Watch",
+      "description": "AI-Powered with GPS",
+      "keyPoints": {
+        "design": "Black color, titanium alloy bezel, and fiber-reinforced polymer middle frame",
+        "dimensions": "47x47x11.8mm",
+        "weight": {
+          "withoutStrap": "35g",
+          "withStrap": "43g"
+        },
+        "display": {
+          "size": "1.45\"",
+          "type": "AMOLED touchscreen",
+          "resolution": "480x480",
+          "ppi": 331,
+          "brightness": {
+            "regular": "500nit",
+            "maximum": "up to 1,000nit"
+          },
+          "protection": "Corning GG3 tempered glass, anti-fingerprint coating"
+        },
+        "battery": {
+          "capacity": "440mAh",
+          "chargingMethod": "Magnetic charging",
+          "typicalUsage": "Up to 14 days"
+        },
+        "sensors": {
+          "biometric": "BioTrackerTM 3.0 PPG biometric sensor (including blood-oxygen)",
+          "movement": [
+            "Acceleration sensor",
+            "Gyroscope sensor",
+            "Geomagnetic sensor",
+            "Air Pressure sensor (Barometer)",
+            "Ambient light sensor"
+          ],
+          "positioning": [
+            "Dual-band GPS",
+            "GLONASS",
+            "Galileo",
+            "BeiDou",
+            "QZSS",
+            "NAVIC"
+          ]
+        },
+        "connection": {
+          "wifi": "2.4GHz",
+          "bluetooth": "5.3"
+        },
+        "strap": {
+          "type": "Quick-release nylon strap",
+          "width": "22mm",
+          "wristDimensions": {
+            "min": "150mm",
+            "max": "210mm"
+          }
+        },
+        "features": {
+          "speaker": true,
+          "microphone": true,
+          "motor": "Linear motor"
+        },
+        "compatibility": {
+          "android": "7.0 and above",
+          "ios": "12.0 and above"
+        },
+        "packaging": {
+          "contents": [
+            "Smartwatch",
+            "Magnetic charging base",
+            "Instruction manual"
+          ],
+          "appRequirement": "Zepp App"
+        }
+      },
+      "technicalSpecifications": {
+        "design": {
+          "colors": "Black",
+          "dimensions": "47x47x11.8mm",
+          "weight": {
+            "withoutStrap": "35g",
+            "withStrap": "43g"
+          },
+          "bodyMaterial": {
+            "bezel": "Titanium alloy",
+            "frame": "Fiber-reinforced polymer"
+          },
+          "buttons": 2,
+          "waterResistanceGrade": "5ATM"
+        },
+        "display": {
+          "type": "AMOLED",
+          "size": "1.45\"",
+          "resolution": "480x480",
+          "ppi": 331,
+          "brightness": {
+            "regular": "500nit",
+            "maximum": "up to 1,000nit"
+          },
+          "protection": "Corning GG3 tempered glass, anti-fingerprint coating"
+        },
+        "battery": {
+          "capacity": "440mAh",
+          "chargingMethod": "Magnetic charging",
+          "chargingDuration": "Approx. 2 hours",
+          "modes": {
+            "typicalUsage": "Up to 14 days",
+            "batterySaverMode": "Up to 24 days",
+            "clockMode": "Up to 45 days",
+            "heavyUsage": "Up to 7 days",
+            "gps": {
+              "accuracyMode": "Up to 25 hours",
+              "automaticMode": "Up to 37 hours",
+              "powerSavingMode": "Up to 45 hours"
+            }
+          }
+        },
+        "sensors": {
+          "health": "BioTrackerTM 3.0 PPG biometric sensor (support blood-oxygen), 6PD + 2LED",
+          "movement": [
+            "Acceleration sensor",
+            "Gyroscope sensor",
+            "Geomagnetic sensor",
+            "Air Pressure sensor (Barometer)",
+            "Ambient light sensor"
+          ],
+          "positioning": [
+            "Dual-band (L1+L5)",
+            "GPS",
+            "GLONASS",
+            "Galileo",
+            "BeiDou",
+            "QZSS",
+            "NAVIC"
+          ]
+        },
+        "strap": {
+          "material": "Nylon",
+          "quickRelease": true,
+          "width": "22mm",
+          "wristDimensions": {
+            "min": "150mm",
+            "max": "210mm"
+          },
+          "buckle": "Classic pin buckle"
+        },
+        "other": {
+          "speaker": true,
+          "microphone": true,
+          "motor": "Linear motor",
+          "packingList": [
+            "Smartwatch (including standard strap)",
+            "Magnetic charging base",
+            "Instruction manual"
+          ],
+          "supportedDevices": {
+            "android": "7.0 and above",
+            "ios": "12.0 and above"
+          },
+          "application": "Zepp App"
+        }
+      }
+    }
+  },
+  {
+    "status": "active",
+    "image": "/products/171626308056.webp",
+    "name": "Amazfit Pop 3S Smart Watch (Bluetooth Calling)",
+    "warranty": "1 year",
+    "price": "6499",
+    "discount": "8",
+    "feature": [
+      "Premium AI-powered GPS Running Watch",
+      "Dual-band Circularly-polarized GPS",
+      "Offline Maps & Route Navigation",
+      "Zepp Coach™: AI Guidance for Runners",
+      "Track 24/7 Health & Fitness Data",
+      "Lightweight Design with Titanium Alloy",
+      "Display Corning GG3 tempered glass and anti-fingerprint coating.",
+      "Display Resolution: 480x480, with max 1,000nit.",
+      "440mAh capacity big Battery",
+      " Sensors: BioTrackerTM 3.0 PPG biometric sensor",
+      "Connection: Wi-Fi 2.4GHz, Bluetooth 5.3."
+    ],
+    "specs": [
+      { "label": "Brand", "value": "Amazfit" },
+      { "label": "Model No", "value": "Cheetah Pro" },
+      { "label": "Battery capacity", "value": "440 mAh" },
+      { "label": "AOD", "value": "yes" },
+      { "label": "Custom Watch Face", "value": "yes" }
+    ],
+    "details": {
+      "product": "Amazfit Cheetah Pro Smart Watch",
+      "description": "AI-Powered with GPS",
+      "keyPoints": {
+        "design": "Black color, titanium alloy bezel, and fiber-reinforced polymer middle frame",
+        "dimensions": "47x47x11.8mm",
+        "weight": {
+          "withoutStrap": "35g",
+          "withStrap": "43g"
+        },
+        "display": {
+          "size": "1.45\"",
+          "type": "AMOLED touchscreen",
+          "resolution": "480x480",
+          "ppi": 331,
+          "brightness": {
+            "regular": "500nit",
+            "maximum": "up to 1,000nit"
+          },
+          "protection": "Corning GG3 tempered glass, anti-fingerprint coating"
+        },
+        "battery": {
+          "capacity": "440mAh",
+          "chargingMethod": "Magnetic charging",
+          "typicalUsage": "Up to 14 days"
+        },
+        "sensors": {
+          "biometric": "BioTrackerTM 3.0 PPG biometric sensor (including blood-oxygen)",
+          "movement": [
+            "Acceleration sensor",
+            "Gyroscope sensor",
+            "Geomagnetic sensor",
+            "Air Pressure sensor (Barometer)",
+            "Ambient light sensor"
+          ],
+          "positioning": [
+            "Dual-band GPS",
+            "GLONASS",
+            "Galileo",
+            "BeiDou",
+            "QZSS",
+            "NAVIC"
+          ]
+        },
+        "connection": {
+          "wifi": "2.4GHz",
+          "bluetooth": "5.3"
+        },
+        "strap": {
+          "type": "Quick-release nylon strap",
+          "width": "22mm",
+          "wristDimensions": {
+            "min": "150mm",
+            "max": "210mm"
+          }
+        },
+        "features": {
+          "speaker": true,
+          "microphone": true,
+          "motor": "Linear motor"
+        },
+        "compatibility": {
+          "android": "7.0 and above",
+          "ios": "12.0 and above"
+        },
+        "packaging": {
+          "contents": [
+            "Smartwatch",
+            "Magnetic charging base",
+            "Instruction manual"
+          ],
+          "appRequirement": "Zepp App"
+        }
+      },
+      "technicalSpecifications": {
+        "design": {
+          "colors": "Black",
+          "dimensions": "47x47x11.8mm",
+          "weight": {
+            "withoutStrap": "35g",
+            "withStrap": "43g"
+          },
+          "bodyMaterial": {
+            "bezel": "Titanium alloy",
+            "frame": "Fiber-reinforced polymer"
+          },
+          "buttons": 2,
+          "waterResistanceGrade": "5ATM"
+        },
+        "display": {
+          "type": "AMOLED",
+          "size": "1.45\"",
+          "resolution": "480x480",
+          "ppi": 331,
+          "brightness": {
+            "regular": "500nit",
+            "maximum": "up to 1,000nit"
+          },
+          "protection": "Corning GG3 tempered glass, anti-fingerprint coating"
+        },
+        "battery": {
+          "capacity": "440mAh",
+          "chargingMethod": "Magnetic charging",
+          "chargingDuration": "Approx. 2 hours",
+          "modes": {
+            "typicalUsage": "Up to 14 days",
+            "batterySaverMode": "Up to 24 days",
+            "clockMode": "Up to 45 days",
+            "heavyUsage": "Up to 7 days",
+            "gps": {
+              "accuracyMode": "Up to 25 hours",
+              "automaticMode": "Up to 37 hours",
+              "powerSavingMode": "Up to 45 hours"
+            }
+          }
+        },
+        "sensors": {
+          "health": "BioTrackerTM 3.0 PPG biometric sensor (support blood-oxygen), 6PD + 2LED",
+          "movement": [
+            "Acceleration sensor",
+            "Gyroscope sensor",
+            "Geomagnetic sensor",
+            "Air Pressure sensor (Barometer)",
+            "Ambient light sensor"
+          ],
+          "positioning": [
+            "Dual-band (L1+L5)",
+            "GPS",
+            "GLONASS",
+            "Galileo",
+            "BeiDou",
+            "QZSS",
+            "NAVIC"
+          ]
+        },
+        "strap": {
+          "material": "Nylon",
+          "quickRelease": true,
+          "width": "22mm",
+          "wristDimensions": {
+            "min": "150mm",
+            "max": "210mm"
+          },
+          "buckle": "Classic pin buckle"
+        },
+        "other": {
+          "speaker": true,
+          "microphone": true,
+          "motor": "Linear motor",
+          "packingList": [
+            "Smartwatch (including standard strap)",
+            "Magnetic charging base",
+            "Instruction manual"
+          ],
+          "supportedDevices": {
+            "android": "7.0 and above",
+            "ios": "12.0 and above"
+          },
+          "application": "Zepp App"
+        }
+      }
+    }
+  },
+  {
+    "status": "active",
+    "image": "/products/172639315386.webp",
+    "name": "Amazfit T-Rex Ultra Rugged with GPS Smart watch",
+    "warranty": "1 year",
+    "price": "6499",
+    "discount": "8",
+    "feature": [
+      "Premium AI-powered GPS Running Watch",
+      "Dual-band Circularly-polarized GPS",
+      "Offline Maps & Route Navigation",
+      "Zepp Coach™: AI Guidance for Runners",
+      "Track 24/7 Health & Fitness Data",
+      "Lightweight Design with Titanium Alloy",
+      "Display Corning GG3 tempered glass and anti-fingerprint coating.",
+      "Display Resolution: 480x480, with max 1,000nit.",
+      "440mAh capacity big Battery",
+      " Sensors: BioTrackerTM 3.0 PPG biometric sensor",
+      "Connection: Wi-Fi 2.4GHz, Bluetooth 5.3."
+    ],
+    "specs": [
+      { "label": "Brand", "value": "Amazfit" },
+      { "label": "Model No", "value": "Cheetah Pro" },
+      { "label": "Battery capacity", "value": "440 mAh" },
+      { "label": "AOD", "value": "yes" },
+      { "label": "Custom Watch Face", "value": "yes" }
+    ],
+    "details": {
+      "product": "Amazfit Cheetah Pro Smart Watch",
+      "description": "AI-Powered with GPS",
+      "keyPoints": {
+        "design": "Black color, titanium alloy bezel, and fiber-reinforced polymer middle frame",
+        "dimensions": "47x47x11.8mm",
+        "weight": {
+          "withoutStrap": "35g",
+          "withStrap": "43g"
+        },
+        "display": {
+          "size": "1.45\"",
+          "type": "AMOLED touchscreen",
+          "resolution": "480x480",
+          "ppi": 331,
+          "brightness": {
+            "regular": "500nit",
+            "maximum": "up to 1,000nit"
+          },
+          "protection": "Corning GG3 tempered glass, anti-fingerprint coating"
+        },
+        "battery": {
+          "capacity": "440mAh",
+          "chargingMethod": "Magnetic charging",
+          "typicalUsage": "Up to 14 days"
+        },
+        "sensors": {
+          "biometric": "BioTrackerTM 3.0 PPG biometric sensor (including blood-oxygen)",
+          "movement": [
+            "Acceleration sensor",
+            "Gyroscope sensor",
+            "Geomagnetic sensor",
+            "Air Pressure sensor (Barometer)",
+            "Ambient light sensor"
+          ],
+          "positioning": [
+            "Dual-band GPS",
+            "GLONASS",
+            "Galileo",
+            "BeiDou",
+            "QZSS",
+            "NAVIC"
+          ]
+        },
+        "connection": {
+          "wifi": "2.4GHz",
+          "bluetooth": "5.3"
+        },
+        "strap": {
+          "type": "Quick-release nylon strap",
+          "width": "22mm",
+          "wristDimensions": {
+            "min": "150mm",
+            "max": "210mm"
+          }
+        },
+        "features": {
+          "speaker": true,
+          "microphone": true,
+          "motor": "Linear motor"
+        },
+        "compatibility": {
+          "android": "7.0 and above",
+          "ios": "12.0 and above"
+        },
+        "packaging": {
+          "contents": [
+            "Smartwatch",
+            "Magnetic charging base",
+            "Instruction manual"
+          ],
+          "appRequirement": "Zepp App"
+        }
+      },
+      "technicalSpecifications": {
+        "design": {
+          "colors": "Black",
+          "dimensions": "47x47x11.8mm",
+          "weight": {
+            "withoutStrap": "35g",
+            "withStrap": "43g"
+          },
+          "bodyMaterial": {
+            "bezel": "Titanium alloy",
+            "frame": "Fiber-reinforced polymer"
+          },
+          "buttons": 2,
+          "waterResistanceGrade": "5ATM"
+        },
+        "display": {
+          "type": "AMOLED",
+          "size": "1.45\"",
+          "resolution": "480x480",
+          "ppi": 331,
+          "brightness": {
+            "regular": "500nit",
+            "maximum": "up to 1,000nit"
+          },
+          "protection": "Corning GG3 tempered glass, anti-fingerprint coating"
+        },
+        "battery": {
+          "capacity": "440mAh",
+          "chargingMethod": "Magnetic charging",
+          "chargingDuration": "Approx. 2 hours",
+          "modes": {
+            "typicalUsage": "Up to 14 days",
+            "batterySaverMode": "Up to 24 days",
+            "clockMode": "Up to 45 days",
+            "heavyUsage": "Up to 7 days",
+            "gps": {
+              "accuracyMode": "Up to 25 hours",
+              "automaticMode": "Up to 37 hours",
+              "powerSavingMode": "Up to 45 hours"
+            }
+          }
+        },
+        "sensors": {
+          "health": "BioTrackerTM 3.0 PPG biometric sensor (support blood-oxygen), 6PD + 2LED",
+          "movement": [
+            "Acceleration sensor",
+            "Gyroscope sensor",
+            "Geomagnetic sensor",
+            "Air Pressure sensor (Barometer)",
+            "Ambient light sensor"
+          ],
+          "positioning": [
+            "Dual-band (L1+L5)",
+            "GPS",
+            "GLONASS",
+            "Galileo",
+            "BeiDou",
+            "QZSS",
+            "NAVIC"
+          ]
+        },
+        "strap": {
+          "material": "Nylon",
+          "quickRelease": true,
+          "width": "22mm",
+          "wristDimensions": {
+            "min": "150mm",
+            "max": "210mm"
+          },
+          "buckle": "Classic pin buckle"
+        },
+        "other": {
+          "speaker": true,
+          "microphone": true,
+          "motor": "Linear motor",
+          "packingList": [
+            "Smartwatch (including standard strap)",
+            "Magnetic charging base",
+            "Instruction manual"
+          ],
+          "supportedDevices": {
+            "android": "7.0 and above",
+            "ios": "12.0 and above"
+          },
+          "application": "Zepp App"
+        }
+      }
+    }
+  },
+  {
+    "status": "active",
+    "image": "/products/1.webp",
+    "name": "Anker 511 USB C GaN Charger Nano 3 30W",
+    "warranty": "1 year",
+    "price": "1999",
+    "discount": "33",
+    "feature": [
+      "Premium AI-powered GPS Running Watch",
+      "Dual-band Circularly-polarized GPS",
+      "Offline Maps & Route Navigation",
+      "Zepp Coach™: AI Guidance for Runners",
+      "Track 24/7 Health & Fitness Data",
+      "Lightweight Design with Titanium Alloy",
+      "Display Corning GG3 tempered glass and anti-fingerprint coating.",
+      "Display Resolution: 480x480, with max 1,000nit.",
+      "440mAh capacity big Battery",
+      " Sensors: BioTrackerTM 3.0 PPG biometric sensor",
+      "Connection: Wi-Fi 2.4GHz, Bluetooth 5.3."
+    ],
+    "specs": [
+      { "label": "Brand", "value": "Amazfit" },
+      { "label": "Model No", "value": "Cheetah Pro" },
+      { "label": "Battery capacity", "value": "440 mAh" },
+      { "label": "AOD", "value": "yes" },
+      { "label": "Custom Watch Face", "value": "yes" }
+    ],
+    "details": {
+      "product": "Amazfit Cheetah Pro Smart Watch",
+      "description": "AI-Powered with GPS",
+      "keyPoints": {
+        "design": "Black color, titanium alloy bezel, and fiber-reinforced polymer middle frame",
+        "dimensions": "47x47x11.8mm",
+        "weight": {
+          "withoutStrap": "35g",
+          "withStrap": "43g"
+        },
+        "display": {
+          "size": "1.45\"",
+          "type": "AMOLED touchscreen",
+          "resolution": "480x480",
+          "ppi": 331,
+          "brightness": {
+            "regular": "500nit",
+            "maximum": "up to 1,000nit"
+          },
+          "protection": "Corning GG3 tempered glass, anti-fingerprint coating"
+        },
+        "battery": {
+          "capacity": "440mAh",
+          "chargingMethod": "Magnetic charging",
+          "typicalUsage": "Up to 14 days"
+        },
+        "sensors": {
+          "biometric": "BioTrackerTM 3.0 PPG biometric sensor (including blood-oxygen)",
+          "movement": [
+            "Acceleration sensor",
+            "Gyroscope sensor",
+            "Geomagnetic sensor",
+            "Air Pressure sensor (Barometer)",
+            "Ambient light sensor"
+          ],
+          "positioning": [
+            "Dual-band GPS",
+            "GLONASS",
+            "Galileo",
+            "BeiDou",
+            "QZSS",
+            "NAVIC"
+          ]
+        },
+        "connection": {
+          "wifi": "2.4GHz",
+          "bluetooth": "5.3"
+        },
+        "strap": {
+          "type": "Quick-release nylon strap",
+          "width": "22mm",
+          "wristDimensions": {
+            "min": "150mm",
+            "max": "210mm"
+          }
+        },
+        "features": {
+          "speaker": true,
+          "microphone": true,
+          "motor": "Linear motor"
+        },
+        "compatibility": {
+          "android": "7.0 and above",
+          "ios": "12.0 and above"
+        },
+        "packaging": {
+          "contents": [
+            "Smartwatch",
+            "Magnetic charging base",
+            "Instruction manual"
+          ],
+          "appRequirement": "Zepp App"
+        }
+      },
+      "technicalSpecifications": {
+        "design": {
+          "colors": "Black",
+          "dimensions": "47x47x11.8mm",
+          "weight": {
+            "withoutStrap": "35g",
+            "withStrap": "43g"
+          },
+          "bodyMaterial": {
+            "bezel": "Titanium alloy",
+            "frame": "Fiber-reinforced polymer"
+          },
+          "buttons": 2,
+          "waterResistanceGrade": "5ATM"
+        },
+        "display": {
+          "type": "AMOLED",
+          "size": "1.45\"",
+          "resolution": "480x480",
+          "ppi": 331,
+          "brightness": {
+            "regular": "500nit",
+            "maximum": "up to 1,000nit"
+          },
+          "protection": "Corning GG3 tempered glass, anti-fingerprint coating"
+        },
+        "battery": {
+          "capacity": "440mAh",
+          "chargingMethod": "Magnetic charging",
+          "chargingDuration": "Approx. 2 hours",
+          "modes": {
+            "typicalUsage": "Up to 14 days",
+            "batterySaverMode": "Up to 24 days",
+            "clockMode": "Up to 45 days",
+            "heavyUsage": "Up to 7 days",
+            "gps": {
+              "accuracyMode": "Up to 25 hours",
+              "automaticMode": "Up to 37 hours",
+              "powerSavingMode": "Up to 45 hours"
+            }
+          }
+        },
+        "sensors": {
+          "health": "BioTrackerTM 3.0 PPG biometric sensor (support blood-oxygen), 6PD + 2LED",
+          "movement": [
+            "Acceleration sensor",
+            "Gyroscope sensor",
+            "Geomagnetic sensor",
+            "Air Pressure sensor (Barometer)",
+            "Ambient light sensor"
+          ],
+          "positioning": [
+            "Dual-band (L1+L5)",
+            "GPS",
+            "GLONASS",
+            "Galileo",
+            "BeiDou",
+            "QZSS",
+            "NAVIC"
+          ]
+        },
+        "strap": {
+          "material": "Nylon",
+          "quickRelease": true,
+          "width": "22mm",
+          "wristDimensions": {
+            "min": "150mm",
+            "max": "210mm"
+          },
+          "buckle": "Classic pin buckle"
+        },
+        "other": {
+          "speaker": true,
+          "microphone": true,
+          "motor": "Linear motor",
+          "packingList": [
+            "Smartwatch (including standard strap)",
+            "Magnetic charging base",
+            "Instruction manual"
+          ],
+          "supportedDevices": {
+            "android": "7.0 and above",
+            "ios": "12.0 and above"
+          },
+          "application": "Zepp App"
+        }
+      }
+    }
+  },
+  {
+    "status": "Out of Stock",
+    "image": "/products/2.webp",
+    "name": "Redmi Buds 5C Hybrid 40dB ANC TWS Earbuds",
+    "warranty": "1 year",
+    "price": "3399",
+    "feature": [
+      "Premium AI-powered GPS Running Watch",
+      "Dual-band Circularly-polarized GPS",
+      "Offline Maps & Route Navigation",
+      "Zepp Coach™: AI Guidance for Runners",
+      "Track 24/7 Health & Fitness Data",
+      "Lightweight Design with Titanium Alloy",
+      "Display Corning GG3 tempered glass and anti-fingerprint coating.",
+      "Display Resolution: 480x480, with max 1,000nit.",
+      "440mAh capacity big Battery",
+      " Sensors: BioTrackerTM 3.0 PPG biometric sensor",
+      "Connection: Wi-Fi 2.4GHz, Bluetooth 5.3."
+    ],
+    "specs": [
+      { "label": "Brand", "value": "Amazfit" },
+      { "label": "Model No", "value": "Cheetah Pro" },
+      { "label": "Battery capacity", "value": "440 mAh" },
+      { "label": "AOD", "value": "yes" },
+      { "label": "Custom Watch Face", "value": "yes" }
+    ],
+    "details": {
+      "product": "Amazfit Cheetah Pro Smart Watch",
+      "description": "AI-Powered with GPS",
+      "keyPoints": {
+        "design": "Black color, titanium alloy bezel, and fiber-reinforced polymer middle frame",
+        "dimensions": "47x47x11.8mm",
+        "weight": {
+          "withoutStrap": "35g",
+          "withStrap": "43g"
+        },
+        "display": {
+          "size": "1.45\"",
+          "type": "AMOLED touchscreen",
+          "resolution": "480x480",
+          "ppi": 331,
+          "brightness": {
+            "regular": "500nit",
+            "maximum": "up to 1,000nit"
+          },
+          "protection": "Corning GG3 tempered glass, anti-fingerprint coating"
+        },
+        "battery": {
+          "capacity": "440mAh",
+          "chargingMethod": "Magnetic charging",
+          "typicalUsage": "Up to 14 days"
+        },
+        "sensors": {
+          "biometric": "BioTrackerTM 3.0 PPG biometric sensor (including blood-oxygen)",
+          "movement": [
+            "Acceleration sensor",
+            "Gyroscope sensor",
+            "Geomagnetic sensor",
+            "Air Pressure sensor (Barometer)",
+            "Ambient light sensor"
+          ],
+          "positioning": [
+            "Dual-band GPS",
+            "GLONASS",
+            "Galileo",
+            "BeiDou",
+            "QZSS",
+            "NAVIC"
+          ]
+        },
+        "connection": {
+          "wifi": "2.4GHz",
+          "bluetooth": "5.3"
+        },
+        "strap": {
+          "type": "Quick-release nylon strap",
+          "width": "22mm",
+          "wristDimensions": {
+            "min": "150mm",
+            "max": "210mm"
+          }
+        },
+        "features": {
+          "speaker": true,
+          "microphone": true,
+          "motor": "Linear motor"
+        },
+        "compatibility": {
+          "android": "7.0 and above",
+          "ios": "12.0 and above"
+        },
+        "packaging": {
+          "contents": [
+            "Smartwatch",
+            "Magnetic charging base",
+            "Instruction manual"
+          ],
+          "appRequirement": "Zepp App"
+        }
+      },
+      "technicalSpecifications": {
+        "design": {
+          "colors": "Black",
+          "dimensions": "47x47x11.8mm",
+          "weight": {
+            "withoutStrap": "35g",
+            "withStrap": "43g"
+          },
+          "bodyMaterial": {
+            "bezel": "Titanium alloy",
+            "frame": "Fiber-reinforced polymer"
+          },
+          "buttons": 2,
+          "waterResistanceGrade": "5ATM"
+        },
+        "display": {
+          "type": "AMOLED",
+          "size": "1.45\"",
+          "resolution": "480x480",
+          "ppi": 331,
+          "brightness": {
+            "regular": "500nit",
+            "maximum": "up to 1,000nit"
+          },
+          "protection": "Corning GG3 tempered glass, anti-fingerprint coating"
+        },
+        "battery": {
+          "capacity": "440mAh",
+          "chargingMethod": "Magnetic charging",
+          "chargingDuration": "Approx. 2 hours",
+          "modes": {
+            "typicalUsage": "Up to 14 days",
+            "batterySaverMode": "Up to 24 days",
+            "clockMode": "Up to 45 days",
+            "heavyUsage": "Up to 7 days",
+            "gps": {
+              "accuracyMode": "Up to 25 hours",
+              "automaticMode": "Up to 37 hours",
+              "powerSavingMode": "Up to 45 hours"
+            }
+          }
+        },
+        "sensors": {
+          "health": "BioTrackerTM 3.0 PPG biometric sensor (support blood-oxygen), 6PD + 2LED",
+          "movement": [
+            "Acceleration sensor",
+            "Gyroscope sensor",
+            "Geomagnetic sensor",
+            "Air Pressure sensor (Barometer)",
+            "Ambient light sensor"
+          ],
+          "positioning": [
+            "Dual-band (L1+L5)",
+            "GPS",
+            "GLONASS",
+            "Galileo",
+            "BeiDou",
+            "QZSS",
+            "NAVIC"
+          ]
+        },
+        "strap": {
+          "material": "Nylon",
+          "quickRelease": true,
+          "width": "22mm",
+          "wristDimensions": {
+            "min": "150mm",
+            "max": "210mm"
+          },
+          "buckle": "Classic pin buckle"
+        },
+        "other": {
+          "speaker": true,
+          "microphone": true,
+          "motor": "Linear motor",
+          "packingList": [
+            "Smartwatch (including standard strap)",
+            "Magnetic charging base",
+            "Instruction manual"
+          ],
+          "supportedDevices": {
+            "android": "7.0 and above",
+            "ios": "12.0 and above"
+          },
+          "application": "Zepp App"
+        }
+      }
+    }
+  },
+  {
+    "status": "Coming Soon",
+    "image": "/products/3.webp",
+    "name": "KOSPET TANK X2 ULTRA Smart watch with GPS",
+    "warranty": "1 year",
+    "price": "9999",
+    "feature": [
+      "Premium AI-powered GPS Running Watch",
+      "Dual-band Circularly-polarized GPS",
+      "Offline Maps & Route Navigation",
+      "Zepp Coach™: AI Guidance for Runners",
+      "Track 24/7 Health & Fitness Data",
+      "Lightweight Design with Titanium Alloy",
+      "Display Corning GG3 tempered glass and anti-fingerprint coating.",
+      "Display Resolution: 480x480, with max 1,000nit.",
+      "440mAh capacity big Battery",
+      " Sensors: BioTrackerTM 3.0 PPG biometric sensor",
+      "Connection: Wi-Fi 2.4GHz, Bluetooth 5.3."
+    ],
+    "specs": [
+      { "label": "Brand", "value": "Amazfit" },
+      { "label": "Model No", "value": "Cheetah Pro" },
+      { "label": "Battery capacity", "value": "440 mAh" },
+      { "label": "AOD", "value": "yes" },
+      { "label": "Custom Watch Face", "value": "yes" }
+    ],
+    "details": {
+      "product": "Amazfit Cheetah Pro Smart Watch",
+      "description": "AI-Powered with GPS",
+      "keyPoints": {
+        "design": "Black color, titanium alloy bezel, and fiber-reinforced polymer middle frame",
+        "dimensions": "47x47x11.8mm",
+        "weight": {
+          "withoutStrap": "35g",
+          "withStrap": "43g"
+        },
+        "display": {
+          "size": "1.45\"",
+          "type": "AMOLED touchscreen",
+          "resolution": "480x480",
+          "ppi": 331,
+          "brightness": {
+            "regular": "500nit",
+            "maximum": "up to 1,000nit"
+          },
+          "protection": "Corning GG3 tempered glass, anti-fingerprint coating"
+        },
+        "battery": {
+          "capacity": "440mAh",
+          "chargingMethod": "Magnetic charging",
+          "typicalUsage": "Up to 14 days"
+        },
+        "sensors": {
+          "biometric": "BioTrackerTM 3.0 PPG biometric sensor (including blood-oxygen)",
+          "movement": [
+            "Acceleration sensor",
+            "Gyroscope sensor",
+            "Geomagnetic sensor",
+            "Air Pressure sensor (Barometer)",
+            "Ambient light sensor"
+          ],
+          "positioning": [
+            "Dual-band GPS",
+            "GLONASS",
+            "Galileo",
+            "BeiDou",
+            "QZSS",
+            "NAVIC"
+          ]
+        },
+        "connection": {
+          "wifi": "2.4GHz",
+          "bluetooth": "5.3"
+        },
+        "strap": {
+          "type": "Quick-release nylon strap",
+          "width": "22mm",
+          "wristDimensions": {
+            "min": "150mm",
+            "max": "210mm"
+          }
+        },
+        "features": {
+          "speaker": true,
+          "microphone": true,
+          "motor": "Linear motor"
+        },
+        "compatibility": {
+          "android": "7.0 and above",
+          "ios": "12.0 and above"
+        },
+        "packaging": {
+          "contents": [
+            "Smartwatch",
+            "Magnetic charging base",
+            "Instruction manual"
+          ],
+          "appRequirement": "Zepp App"
+        }
+      },
+      "technicalSpecifications": {
+        "design": {
+          "colors": "Black",
+          "dimensions": "47x47x11.8mm",
+          "weight": {
+            "withoutStrap": "35g",
+            "withStrap": "43g"
+          },
+          "bodyMaterial": {
+            "bezel": "Titanium alloy",
+            "frame": "Fiber-reinforced polymer"
+          },
+          "buttons": 2,
+          "waterResistanceGrade": "5ATM"
+        },
+        "display": {
+          "type": "AMOLED",
+          "size": "1.45\"",
+          "resolution": "480x480",
+          "ppi": 331,
+          "brightness": {
+            "regular": "500nit",
+            "maximum": "up to 1,000nit"
+          },
+          "protection": "Corning GG3 tempered glass, anti-fingerprint coating"
+        },
+        "battery": {
+          "capacity": "440mAh",
+          "chargingMethod": "Magnetic charging",
+          "chargingDuration": "Approx. 2 hours",
+          "modes": {
+            "typicalUsage": "Up to 14 days",
+            "batterySaverMode": "Up to 24 days",
+            "clockMode": "Up to 45 days",
+            "heavyUsage": "Up to 7 days",
+            "gps": {
+              "accuracyMode": "Up to 25 hours",
+              "automaticMode": "Up to 37 hours",
+              "powerSavingMode": "Up to 45 hours"
+            }
+          }
+        },
+        "sensors": {
+          "health": "BioTrackerTM 3.0 PPG biometric sensor (support blood-oxygen), 6PD + 2LED",
+          "movement": [
+            "Acceleration sensor",
+            "Gyroscope sensor",
+            "Geomagnetic sensor",
+            "Air Pressure sensor (Barometer)",
+            "Ambient light sensor"
+          ],
+          "positioning": [
+            "Dual-band (L1+L5)",
+            "GPS",
+            "GLONASS",
+            "Galileo",
+            "BeiDou",
+            "QZSS",
+            "NAVIC"
+          ]
+        },
+        "strap": {
+          "material": "Nylon",
+          "quickRelease": true,
+          "width": "22mm",
+          "wristDimensions": {
+            "min": "150mm",
+            "max": "210mm"
+          },
+          "buckle": "Classic pin buckle"
+        },
+        "other": {
+          "speaker": true,
+          "microphone": true,
+          "motor": "Linear motor",
+          "packingList": [
+            "Smartwatch (including standard strap)",
+            "Magnetic charging base",
+            "Instruction manual"
+          ],
+          "supportedDevices": {
+            "android": "7.0 and above",
+            "ios": "12.0 and above"
+          },
+          "application": "Zepp App"
+        }
+      }
+    }
+  },
+  {
+    "status": "active",
+    "image": "/products/4.webp",
+    "name": "IMIKI ST2 BT Calling Smartwatch",
+    "warranty": "1 year",
+    "price": "2699",
+    "discount": "10",
+    "feature": [
+      "Premium AI-powered GPS Running Watch",
+      "Dual-band Circularly-polarized GPS",
+      "Offline Maps & Route Navigation",
+      "Zepp Coach™: AI Guidance for Runners",
+      "Track 24/7 Health & Fitness Data",
+      "Lightweight Design with Titanium Alloy",
+      "Display Corning GG3 tempered glass and anti-fingerprint coating.",
+      "Display Resolution: 480x480, with max 1,000nit.",
+      "440mAh capacity big Battery",
+      " Sensors: BioTrackerTM 3.0 PPG biometric sensor",
+      "Connection: Wi-Fi 2.4GHz, Bluetooth 5.3."
+    ],
+    "specs": [
+      { "label": "Brand", "value": "Amazfit" },
+      { "label": "Model No", "value": "Cheetah Pro" },
+      { "label": "Battery capacity", "value": "440 mAh" },
+      { "label": "AOD", "value": "yes" },
+      { "label": "Custom Watch Face", "value": "yes" }
+    ],
+    "details": {
+      "product": "Amazfit Cheetah Pro Smart Watch",
+      "description": "AI-Powered with GPS",
+      "keyPoints": {
+        "design": "Black color, titanium alloy bezel, and fiber-reinforced polymer middle frame",
+        "dimensions": "47x47x11.8mm",
+        "weight": {
+          "withoutStrap": "35g",
+          "withStrap": "43g"
+        },
+        "display": {
+          "size": "1.45\"",
+          "type": "AMOLED touchscreen",
+          "resolution": "480x480",
+          "ppi": 331,
+          "brightness": {
+            "regular": "500nit",
+            "maximum": "up to 1,000nit"
+          },
+          "protection": "Corning GG3 tempered glass, anti-fingerprint coating"
+        },
+        "battery": {
+          "capacity": "440mAh",
+          "chargingMethod": "Magnetic charging",
+          "typicalUsage": "Up to 14 days"
+        },
+        "sensors": {
+          "biometric": "BioTrackerTM 3.0 PPG biometric sensor (including blood-oxygen)",
+          "movement": [
+            "Acceleration sensor",
+            "Gyroscope sensor",
+            "Geomagnetic sensor",
+            "Air Pressure sensor (Barometer)",
+            "Ambient light sensor"
+          ],
+          "positioning": [
+            "Dual-band GPS",
+            "GLONASS",
+            "Galileo",
+            "BeiDou",
+            "QZSS",
+            "NAVIC"
+          ]
+        },
+        "connection": {
+          "wifi": "2.4GHz",
+          "bluetooth": "5.3"
+        },
+        "strap": {
+          "type": "Quick-release nylon strap",
+          "width": "22mm",
+          "wristDimensions": {
+            "min": "150mm",
+            "max": "210mm"
+          }
+        },
+        "features": {
+          "speaker": true,
+          "microphone": true,
+          "motor": "Linear motor"
+        },
+        "compatibility": {
+          "android": "7.0 and above",
+          "ios": "12.0 and above"
+        },
+        "packaging": {
+          "contents": [
+            "Smartwatch",
+            "Magnetic charging base",
+            "Instruction manual"
+          ],
+          "appRequirement": "Zepp App"
+        }
+      },
+      "technicalSpecifications": {
+        "design": {
+          "colors": "Black",
+          "dimensions": "47x47x11.8mm",
+          "weight": {
+            "withoutStrap": "35g",
+            "withStrap": "43g"
+          },
+          "bodyMaterial": {
+            "bezel": "Titanium alloy",
+            "frame": "Fiber-reinforced polymer"
+          },
+          "buttons": 2,
+          "waterResistanceGrade": "5ATM"
+        },
+        "display": {
+          "type": "AMOLED",
+          "size": "1.45\"",
+          "resolution": "480x480",
+          "ppi": 331,
+          "brightness": {
+            "regular": "500nit",
+            "maximum": "up to 1,000nit"
+          },
+          "protection": "Corning GG3 tempered glass, anti-fingerprint coating"
+        },
+        "battery": {
+          "capacity": "440mAh",
+          "chargingMethod": "Magnetic charging",
+          "chargingDuration": "Approx. 2 hours",
+          "modes": {
+            "typicalUsage": "Up to 14 days",
+            "batterySaverMode": "Up to 24 days",
+            "clockMode": "Up to 45 days",
+            "heavyUsage": "Up to 7 days",
+            "gps": {
+              "accuracyMode": "Up to 25 hours",
+              "automaticMode": "Up to 37 hours",
+              "powerSavingMode": "Up to 45 hours"
+            }
+          }
+        },
+        "sensors": {
+          "health": "BioTrackerTM 3.0 PPG biometric sensor (support blood-oxygen), 6PD + 2LED",
+          "movement": [
+            "Acceleration sensor",
+            "Gyroscope sensor",
+            "Geomagnetic sensor",
+            "Air Pressure sensor (Barometer)",
+            "Ambient light sensor"
+          ],
+          "positioning": [
+            "Dual-band (L1+L5)",
+            "GPS",
+            "GLONASS",
+            "Galileo",
+            "BeiDou",
+            "QZSS",
+            "NAVIC"
+          ]
+        },
+        "strap": {
+          "material": "Nylon",
+          "quickRelease": true,
+          "width": "22mm",
+          "wristDimensions": {
+            "min": "150mm",
+            "max": "210mm"
+          },
+          "buckle": "Classic pin buckle"
+        },
+        "other": {
+          "speaker": true,
+          "microphone": true,
+          "motor": "Linear motor",
+          "packingList": [
+            "Smartwatch (including standard strap)",
+            "Magnetic charging base",
+            "Instruction manual"
+          ],
+          "supportedDevices": {
+            "android": "7.0 and above",
+            "ios": "12.0 and above"
+          },
+          "application": "Zepp App"
+        }
+      }
+    }
+  },
+  {
+    "image": "/products/5.webp",
+    "name": "IMIKI Frame 2 Lite BT calling Smart Watch",
+    "warranty": "1 year",
+    "price": "2499",
+    "feature": [
+      "Premium AI-powered GPS Running Watch",
+      "Dual-band Circularly-polarized GPS",
+      "Offline Maps & Route Navigation",
+      "Zepp Coach™: AI Guidance for Runners",
+      "Track 24/7 Health & Fitness Data",
+      "Lightweight Design with Titanium Alloy",
+      "Display Corning GG3 tempered glass and anti-fingerprint coating.",
+      "Display Resolution: 480x480, with max 1,000nit.",
+      "440mAh capacity big Battery",
+      " Sensors: BioTrackerTM 3.0 PPG biometric sensor",
+      "Connection: Wi-Fi 2.4GHz, Bluetooth 5.3."
+    ],
+    "specs": [
+      { "label": "Brand", "value": "Amazfit" },
+      { "label": "Model No", "value": "Cheetah Pro" },
+      { "label": "Battery capacity", "value": "440 mAh" },
+      { "label": "AOD", "value": "yes" },
+      { "label": "Custom Watch Face", "value": "yes" }
+    ],
+    "details": {
+      "product": "Amazfit Cheetah Pro Smart Watch",
+      "description": "AI-Powered with GPS",
+      "keyPoints": {
+        "design": "Black color, titanium alloy bezel, and fiber-reinforced polymer middle frame",
+        "dimensions": "47x47x11.8mm",
+        "weight": {
+          "withoutStrap": "35g",
+          "withStrap": "43g"
+        },
+        "display": {
+          "size": "1.45\"",
+          "type": "AMOLED touchscreen",
+          "resolution": "480x480",
+          "ppi": 331,
+          "brightness": {
+            "regular": "500nit",
+            "maximum": "up to 1,000nit"
+          },
+          "protection": "Corning GG3 tempered glass, anti-fingerprint coating"
+        },
+        "battery": {
+          "capacity": "440mAh",
+          "chargingMethod": "Magnetic charging",
+          "typicalUsage": "Up to 14 days"
+        },
+        "sensors": {
+          "biometric": "BioTrackerTM 3.0 PPG biometric sensor (including blood-oxygen)",
+          "movement": [
+            "Acceleration sensor",
+            "Gyroscope sensor",
+            "Geomagnetic sensor",
+            "Air Pressure sensor (Barometer)",
+            "Ambient light sensor"
+          ],
+          "positioning": [
+            "Dual-band GPS",
+            "GLONASS",
+            "Galileo",
+            "BeiDou",
+            "QZSS",
+            "NAVIC"
+          ]
+        },
+        "connection": {
+          "wifi": "2.4GHz",
+          "bluetooth": "5.3"
+        },
+        "strap": {
+          "type": "Quick-release nylon strap",
+          "width": "22mm",
+          "wristDimensions": {
+            "min": "150mm",
+            "max": "210mm"
+          }
+        },
+        "features": {
+          "speaker": true,
+          "microphone": true,
+          "motor": "Linear motor"
+        },
+        "compatibility": {
+          "android": "7.0 and above",
+          "ios": "12.0 and above"
+        },
+        "packaging": {
+          "contents": [
+            "Smartwatch",
+            "Magnetic charging base",
+            "Instruction manual"
+          ],
+          "appRequirement": "Zepp App"
+        }
+      },
+      "technicalSpecifications": {
+        "design": {
+          "colors": "Black",
+          "dimensions": "47x47x11.8mm",
+          "weight": {
+            "withoutStrap": "35g",
+            "withStrap": "43g"
+          },
+          "bodyMaterial": {
+            "bezel": "Titanium alloy",
+            "frame": "Fiber-reinforced polymer"
+          },
+          "buttons": 2,
+          "waterResistanceGrade": "5ATM"
+        },
+        "display": {
+          "type": "AMOLED",
+          "size": "1.45\"",
+          "resolution": "480x480",
+          "ppi": 331,
+          "brightness": {
+            "regular": "500nit",
+            "maximum": "up to 1,000nit"
+          },
+          "protection": "Corning GG3 tempered glass, anti-fingerprint coating"
+        },
+        "battery": {
+          "capacity": "440mAh",
+          "chargingMethod": "Magnetic charging",
+          "chargingDuration": "Approx. 2 hours",
+          "modes": {
+            "typicalUsage": "Up to 14 days",
+            "batterySaverMode": "Up to 24 days",
+            "clockMode": "Up to 45 days",
+            "heavyUsage": "Up to 7 days",
+            "gps": {
+              "accuracyMode": "Up to 25 hours",
+              "automaticMode": "Up to 37 hours",
+              "powerSavingMode": "Up to 45 hours"
+            }
+          }
+        },
+        "sensors": {
+          "health": "BioTrackerTM 3.0 PPG biometric sensor (support blood-oxygen), 6PD + 2LED",
+          "movement": [
+            "Acceleration sensor",
+            "Gyroscope sensor",
+            "Geomagnetic sensor",
+            "Air Pressure sensor (Barometer)",
+            "Ambient light sensor"
+          ],
+          "positioning": [
+            "Dual-band (L1+L5)",
+            "GPS",
+            "GLONASS",
+            "Galileo",
+            "BeiDou",
+            "QZSS",
+            "NAVIC"
+          ]
+        },
+        "strap": {
+          "material": "Nylon",
+          "quickRelease": true,
+          "width": "22mm",
+          "wristDimensions": {
+            "min": "150mm",
+            "max": "210mm"
+          },
+          "buckle": "Classic pin buckle"
+        },
+        "other": {
+          "speaker": true,
+          "microphone": true,
+          "motor": "Linear motor",
+          "packingList": [
+            "Smartwatch (including standard strap)",
+            "Magnetic charging base",
+            "Instruction manual"
+          ],
+          "supportedDevices": {
+            "android": "7.0 and above",
+            "ios": "12.0 and above"
+          },
+          "application": "Zepp App"
+        }
+      }
+    }
+  }
+]

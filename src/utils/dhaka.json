@@ -1,0 +1,194 @@
+{
+  "data": [
+    {
+      "id": 484,
+      "name": "Agargaon",
+      "city_id": 1
+    },
+    {
+      "id": 461,
+      "name": "Badda",
+      "city_id": 1
+    },
+    {
+      "id": 529,
+      "name": "Bashundhara R/A",
+      "city_id": 1
+    },
+    {
+      "id": 462,
+      "name": "Biman Bandar Thana",
+      "city_id": 1
+    },
+    {
+      "id": 463,
+      "name": "Cantonment",
+      "city_id": 1
+    },
+    {
+      "id": 464,
+      "name": "Demra",
+      "city_id": 1
+    },
+    {
+      "id": 465,
+      "name": "Dhanmondi",
+      "city_id": 1
+    },
+    {
+      "id": 458,
+      "name": "Dohar",
+      "city_id": 1
+    },
+    {
+      "id": 466,
+      "name": "Gulshan",
+      "city_id": 1
+    },
+    {
+      "id": 467,
+      "name": "Hazaribagh",
+      "city_id": 1
+    },
+    {
+      "id": 468,
+      "name": "Kafrul",
+      "city_id": 1
+    },
+    {
+      "id": 469,
+      "name": "Kamrangir Char",
+      "city_id": 1
+    },
+    {
+      "id": 459,
+      "name": "Keraniganj",
+      "city_id": 1
+    },
+    {
+      "id": 470,
+      "name": "Khilgaon",
+      "city_id": 1
+    },
+    {
+      "id": 471,
+      "name": "Kotwali",
+      "city_id": 1
+    },
+    {
+      "id": 472,
+      "name": "Lalbagh",
+      "city_id": 1
+    },
+    {
+      "id": 483,
+      "name": "Lalmatia",
+      "city_id": 1
+    },
+    {
+      "id": 473,
+      "name": "Mirpur",
+      "city_id": 1
+    },
+    {
+      "id": 474,
+      "name": "Mohammadpur",
+      "city_id": 1
+    },
+    {
+      "id": 475,
+      "name": "Motijheel",
+      "city_id": 1
+    },
+    {
+      "id": 4,
+      "name": "Nabinagor",
+      "city_id": 1
+    },
+    {
+      "id": 389,
+      "name": "Nikunja",
+      "city_id": 1
+    },
+    {
+      "id": 476,
+      "name": "Pallabi",
+      "city_id": 1
+    },
+    {
+      "id": 477,
+      "name": "Ramna",
+      "city_id": 1
+    },
+    {
+      "id": 478,
+      "name": "Sabujbagh",
+      "city_id": 1
+    },
+    {
+      "id": 460,
+      "name": "Savar",
+      "city_id": 1
+    },
+    {
+      "id": 480,
+      "name": "Shutrapur",
+      "city_id": 1
+    },
+    {
+      "id": 479,
+      "name": "Shyampur",
+      "city_id": 1
+    },
+    {
+      "id": 481,
+      "name": "Tejgaon",
+      "city_id": 1
+    },
+    {
+      "id": 482,
+      "name": "Uttara",
+      "city_id": 1
+    },
+    {
+      "id": 390,
+      "name": "Uttora",
+      "city_id": 1
+    },
+    {
+      "id": 543,
+      "name": "Ashulia",
+      "city_id": 2
+    },
+    {
+      "id": 541,
+      "name": "Demra",
+      "city_id": 2
+    },
+    {
+      "id": 542,
+      "name": "Dhamrai",
+      "city_id": 2
+    },
+    {
+      "id": 544,
+      "name": "Kamrangichar",
+      "city_id": 2
+    },
+    {
+      "id": 545,
+      "name": "Keranigonj",
+      "city_id": 2
+    },
+    {
+      "id": 546,
+      "name": "Nobabgong",
+      "city_id": 2
+    },
+    {
+      "id": 540,
+      "name": "Savar",
+      "city_id": 2
+    }
+  ]
+}

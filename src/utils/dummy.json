@@ -1,0 +1,1109 @@
+[
+  {
+    "brand": {
+      "created_at": "2025-02-13T07:21:03.779Z",
+      "id": "brand:ef07vurs9yq3rhp4mghy",
+      "medias": [
+        "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/brands/foneng.webp"
+      ],
+      "slug": "foneng",
+      "status": "ACTIVE",
+      "title": "Foneng",
+      "updated_at": "2025-02-13T07:21:03.779Z"
+    },
+    "category": {
+      "created_at": "2025-02-13T08:28:14.175Z",
+      "description": "Durable and high-speed charging and data cables for smartphones, tablets, and other devices.",
+      "id": "category:s7e64q8209ksmel8fvxp",
+      "medias": [
+        "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/categories/cables.webp"
+      ],
+      "slug": "cables",
+      "status": "DEACTIVE",
+      "title": "Cables",
+      "updated_at": "2025-02-13T08:28:14.175Z"
+    },
+    "created_at": "2025-01-29T07:18:52.841147Z",
+    "description": "<h2 class=\"font-bold text-lg\"><strong>FONENG EU46 QC3 18W Fast Charger with Type - C Cable</strong></h2><p>The FONENG <strong>EU46</strong> QC3 18W Fast Charger, painstakingly designed to maximize your charging experience, will let you unleash the power of quick charging. Along with Micro, Lightning, and Type-C kits, this adaptable charger ensures compatibility with a broad range of devices, including tablets and smartphones. It also comes with a Type-C cable. You can quickly refuel your gadgets with this charger's rapid and effective 3A output rate, which enables you to use them. The EU46 charger is made for ease of use and adaptability. It may be used anywhere in the globe thanks to its universal input range of 100-240V.You can depend on the EU46 to keep your gadgets charged and ready to go whether you're at home, at work, or on the road. This charger is the ideal travel companion since it is very light, weighing only 39.5g, even with its potent capabilities. The EU46 charger is small and useful, measuring just 804526 mm. It may fit into your pocket or backpack for easy storage and transportation. The FONENG EU46 QC3 18W Fast Charger offers a smooth charging solution, enabling you to stay connected and productive wherever life takes you—whether you're traveling, working remotely, or going on an adventure.</p>",
+    "features": [
+      "Model: EU46",
+      "Output Rate 3A",
+      "Input 100-240V",
+      "Output 5V-3A",
+      "Weight 39.5g±1g"
+    ],
+    "id": "product:3h5cjfyerd70bg7c2ypv",
+    "medias": [
+      "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/FonEnG%2BIMIKI(481-500)/18W%20Fast%20Charger%20QC3/18W%20Fast%20Charger%20QC3-White.png"
+    ],
+    "pricing": {
+      "compareAtPrice": 320,
+      "costPerItem": 350,
+      "price": 450
+    },
+    "slug": "foneng-eu46-qc3-18w-fast-charger-with-type-c-cable",
+    "specs": [
+      {
+        "key": "Brand\t",
+        "value": "FONENG"
+      },
+      {
+        "key": "Charging Interface\t",
+        "value": "Fast Charger"
+      },
+      {
+        "key": "Power Output",
+        "value": "5V-3A"
+      },
+      {
+        "key": "Power Input\t",
+        "value": "100-240V"
+      },
+      {
+        "key": "Model\t",
+        "value": "FONENG 18W Fast Charger QC3 with Cable Type - C 6A - White (EU46)"
+      },
+      {
+        "key": "Charging port\t",
+        "value": "Type-C"
+      },
+      {
+        "key": "Dimensions",
+        "value": "80 x 45 x 26mm"
+      },
+      {
+        "key": "Weight",
+        "value": "39.5g±1g"
+      }
+    ],
+    "status": "ACTIVE",
+    "title": "FONENG EU46 QC3 18W Fast Charger with Type - C Cable",
+    "updated_at": "2025-03-11T11:09:11.033668969Z",
+    "variants": [
+      {
+        "color_code": "#ffffff",
+        "color_name": "white",
+        "compareAtPrice": 320,
+        "costPerItem": 350,
+        "price": 450,
+        "quantity": 0,
+        "sku": ""
+      }
+    ]
+  },
+  {
+    "brand": {
+      "created_at": "2025-02-13T07:21:03.778Z",
+      "id": "brand:q7kn8gql3dqtl4uq05l9",
+      "medias": [
+        "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/brands/baseus.webp"
+      ],
+      "slug": "baseus",
+      "status": "ACTIVE",
+      "title": "Baseus",
+      "updated_at": "2025-02-13T07:21:03.778Z"
+    },
+    "category": {
+      "created_at": "2025-02-13T08:28:14.175Z",
+      "description": "Durable and high-speed charging and data cables for smartphones, tablets, and other devices.",
+      "id": "category:s7e64q8209ksmel8fvxp",
+      "medias": [
+        "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/categories/cables.webp"
+      ],
+      "slug": "cables",
+      "status": "DEACTIVE",
+      "title": "Cables",
+      "updated_at": "2025-02-13T08:28:14.175Z"
+    },
+    "created_at": "2025-01-29T07:18:52.841147Z",
+    "description": "<h2 class=\"font-bold text-lg\"><strong>Baseus Cafule Cable USB to Type-C</strong></h2><p>Good news for you folks! Apple Gadgets has brought something extraordinary as usual! Presenting you the Baseus Cafule Cable USB to Type-C! The Baseus Cafule USB to Type-C 3A 1M Charging Data Cable supports high current and high speed data transfer for fast charging of devices. The Cable supports Quick Charge 3.0, Huawei FCP, Dash Charge, and other charging protocols. The Baseus Cafule Cable is compatible with all USB Type-C connection devices. For more bending and twisting strength, the Baseus Type-C Data Cable is provided by the nylon braid, which also doesn't tangle. Rapid data transfer of up to 480 Mbps and high current of up to 3A are possible with fast charging of devices. Grab it now!&nbsp;</p>",
+    "features": [
+      "MPN: CATKLF-B91",
+      "Model: Cafule",
+      "Interface: USB-A to Type-C ",
+      "Output current: 5V (3A) or 9V (2A) ",
+      "Transmission Speed: 480Mbps ",
+      "Cable Length: 1 Meter Nylon-braided wire"
+    ],
+    "id": "product:33iyb9qgvsa06idmhw07",
+    "medias": [
+      "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/Basues%20(1-32)%20Canva%20Link%203/Baseus%20Cafule%20Series%20-Cable%20Type%20C(1M)/Cafule%20Series%20%20BLACK-2.png",
+      "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/Basues%20(1-32)%20Canva%20Link%203/Baseus%20Cafule%20Series%20-Cable%20Type%20C(1M)/Cafule%20Series%20-BLACK.png",
+      "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/Basues%20(1-32)%20Canva%20Link%203/Baseus%20Cafule%20Series%20-Cable%20Type%20C(1M)/Cafule%20Series%20BLACK-3.png"
+    ],
+    "pricing": {
+      "compareAtPrice": 280,
+      "costPerItem": 220,
+      "price": 350
+    },
+    "slug": "baseus-cafule-usb-to-type-c-3a-1m-charging-data-cable",
+    "specs": [
+      {
+        "key": "Brand",
+        "value": "Baseus"
+      },
+      {
+        "key": "Model",
+        "value": "Cafule Cable USB to Type-C"
+      },
+      {
+        "key": "Cable Length",
+        "value": "1 Meter"
+      },
+      {
+        "key": "Material",
+        "value": "Nylon-braided wire"
+      },
+      {
+        "key": "Interface / Port",
+        "value": "USB-A to Type-C"
+      },
+      {
+        "key": "Data Transfer Rate",
+        "value": "480Mbps"
+      }
+    ],
+    "status": "ACTIVE",
+    "title": "Baseus Cafule USB to Type-C 3A 1M Charging Data Cable",
+    "updated_at": "2025-03-11T11:09:11.027750397Z",
+    "variants": [
+      {
+        "color_code": "#000000",
+        "color_name": "Black",
+        "compareAtPrice": 280,
+        "costPerItem": 220,
+        "price": 350,
+        "quantity": 0,
+        "sku": ""
+      }
+    ]
+  },
+  {
+    "brand": {
+      "created_at": "2025-02-13T07:21:03.778Z",
+      "id": "brand:fynibezm4l5iyixrg80r",
+      "medias": [
+        "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/brands/anker.webp"
+      ],
+      "slug": "anker",
+      "status": "ACTIVE",
+      "title": "Anker",
+      "updated_at": "2025-02-13T07:21:03.778Z"
+    },
+    "category": {
+      "created_at": "2025-02-13T08:28:14.175Z",
+      "description": "Durable and high-speed charging and data cables for smartphones, tablets, and other devices.",
+      "id": "category:s7e64q8209ksmel8fvxp",
+      "medias": [
+        "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/categories/cables.webp"
+      ],
+      "slug": "cables",
+      "status": "DEACTIVE",
+      "title": "Cables",
+      "updated_at": "2025-02-13T08:28:14.175Z"
+    },
+    "created_at": "2025-01-29T07:18:52.841147Z",
+    "description": "<h2 class=\"font-bold text-lg\"><strong>Anker PowerPort III 20W Cube PD Description</strong></h2><p>Introducing the Anker PowerPort III 20W Cube, a powerful and fast-charging solution for your phones and tablets. Designed for efficiency and convenience, this compact charger is equipped with features that make it a must-have accessory.</p><p><strong>Fast Charging Performance:</strong> Experience lightning-fast charging with the PowerPort III 20W Cube. Charge your iPhone 13/14/15 series to 50% in just 25 minutes, achieving up to 3 times the speed compared to an original 5W charger.</p><p><strong>Compact and Portable Design:</strong> Take the power wherever you go with the PowerPort III 20W Cube’s miniature design and foldable plug. Its compact size ensures that you can easily slip it into your pocket or bag, making it perfect for travel and on-the-go charging.</p><p><strong>Universal Compatibility:</strong> Thanks to the advanced PowerIQ 3.0 technology, this charger is universally compatible. Charge a variety of devices, including phones, tablets, earbuds, and more, all at top speed.</p><p><strong>Built to Last:</strong> Anker is known for durability, and the PowerPort III 20W Cube is no exception. Built to withstand the rigors of daily use, you can rely on this charger for consistent and reliable performance.</p>",
+    "features": [
+      "The Anker Advantage: Join the 55 million+ powered by our leading technology.",
+      "Charge Up to 3x Faster: Power up the iPhone 11/12/13/14/15 series to 50% in less than half an hour—that’s 3x faster compared to an original 5W charger.",
+      "Take Anywhere: Easily carry PowerPort III 20W Cube with you thanks to the compact design and foldaway charging prongs.",
+      "Superior Safety: Equipped with a wide range of safety features including temperature control and current regulation to protect your connected devices.",
+      "Proven in strict laboratory tests, the Anker 310 USB-C to USB-C Cable is designed to withstand up to 10,000 bends, ensuring durability and longevity."
+    ],
+    "id": "product:3m8w9w40w9u8l3xcqbgm",
+    "medias": [
+      "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/Anker(112-143)%20Canva%20Link%203/Anker%20Combo%20PowerPort%20III%2020W%20USB-C-White%2B%20Adapter%20%2B%20USB-C%20to%20C%20Cable/Combo%20PowerPort%20III%2020W%20USB-C-White-2.png",
+      "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/Anker(112-143)%20Canva%20Link%203/Anker%20Combo%20PowerPort%20III%2020W%20USB-C-White%2B%20Adapter%20%2B%20USB-C%20to%20C%20Cable/Combo%20PowerPort%20III%2020W%20USB-C-White-3.png",
+      "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/Anker(112-143)%20Canva%20Link%203/Anker%20Combo%20PowerPort%20III%2020W%20USB-C-White%2B%20Adapter%20%2B%20USB-C%20to%20C%20Cable/Combo%20PowerPort%20III%2020W%20USB-C-White.png"
+    ],
+    "pricing": {
+      "compareAtPrice": 1899.99,
+      "costPerItem": 1549.99,
+      "price": 2000
+    },
+    "slug": "anker-combo-powerport-iii-20w-usb-c-adapter-usb-c-to-lightning-cable",
+    "specs": [
+      {
+        "key": "Total Wattage: ",
+        "value": "20W"
+      },
+      {
+        "key": "Input: ",
+        "value": "100-240V 0.7A 50-60Hz"
+      },
+      {
+        "key": "Output:",
+        "value": " 5V=3A/9V=2.22A"
+      },
+      {
+        "key": "Weight:",
+        "value": " 38g"
+      },
+      {
+        "key": "Dimensions: ",
+        "value": "32.3 × 31.8 × 33mm / 1.23 × 1.25 × 1.30in"
+      }
+    ],
+    "status": "ACTIVE",
+    "title": "Anker Combo PowerPort III 20W USB-C  Adapter + USB-C to Lightning Cable",
+    "updated_at": "2025-03-11T11:09:11.034801841Z",
+    "variants": [
+      {
+        "color_code": "#ffffff",
+        "color_name": "white",
+        "compareAtPrice": 1900,
+        "costPerItem": 1550,
+        "price": 2000,
+        "quantity": 0,
+        "sku": ""
+      },
+      {
+        "color_code": "#ffffff",
+        "color_name": "White",
+        "compareAtPrice": 1900,
+        "costPerItem": 1550,
+        "price": 2000,
+        "quantity": 0,
+        "sku": ""
+      }
+    ]
+  },
+  {
+    "brand": {
+      "created_at": "2025-02-13T07:21:03.778Z",
+      "id": "brand:fc3jus412clvg8mxvoq3",
+      "medias": [
+        "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/brands/oneplus.webp"
+      ],
+      "slug": "oneplus",
+      "status": "ACTIVE",
+      "title": "Oneplus",
+      "updated_at": "2025-02-13T07:21:03.778Z"
+    },
+    "category": {
+      "created_at": "2025-02-13T08:28:14.175Z",
+      "description": "Durable and high-speed charging and data cables for smartphones, tablets, and other devices.",
+      "id": "category:s7e64q8209ksmel8fvxp",
+      "medias": [
+        "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/categories/cables.webp"
+      ],
+      "slug": "cables",
+      "status": "DEACTIVE",
+      "title": "Cables",
+      "updated_at": "2025-02-13T08:28:14.175Z"
+    },
+    "created_at": "2025-01-29T07:18:52.841147Z",
+    "description": "<h2 class=\"font-bold text-lg\"><strong>OnePlus USB-A to Type-C 8A Gaming Elbow Cable 1.5m</strong></h2><p>The OnePlus USB-A to Type-C 8A Gaming Elbow Cable, spanning 1.5 meters, facilitates hassle-free phone charging at a distance. With its SuperVOOC 80W power delivery, device charging surpasses prior speeds. Its robust build, coupled with a unique shape, enhances convenience and durability, supported by thousands of bend tests. Specifically designed for gamers, the elbow cable ensures ease during gameplay. This cable epitomizes efficiency, durability, and ergonomic design for seamless charging and gaming experiences.</p>",
+    "features": [
+      "1.5 m cable makes it easy to charge the phone from a distance",
+      "Supervooc 80w power delivery to charge devices quicker than ever",
+      "Its unique shape and sturdy construction make it more convenience",
+      "It has an elbow cable especially for gamers to play games easily",
+      "It has an elbow cable especially for gamers to play games easily"
+    ],
+    "id": "product:77tv7ymaddfm2gldi0rd",
+    "pricing": {
+      "compareAtPrice": 1200,
+      "costPerItem": 850,
+      "price": 1400
+    },
+    "slug": "oneplus-usb-a-to-type-c-8a-gmaing-elbow-cable-1-5m",
+    "specs": [
+      {
+        "key": "Brand",
+        "value": "OnePlus"
+      },
+      {
+        "key": "Model\t",
+        "value": "OnePlus USB-A to Type-C 8A Gaming Elbow Cable 1.5m"
+      },
+      {
+        "key": "Connectivity\t",
+        "value": "Type A | Type C"
+      },
+      {
+        "key": "Other Features / Info\t",
+        "value": "Maximum Current 6A | Elbow Cable for Game"
+      }
+    ],
+    "status": "ACTIVE",
+    "title": "OnePlus USB-A to Type-C 8A Gmaing Elbow Cable 1.5m",
+    "updated_at": "2025-03-11T11:09:11.071613017Z",
+    "variants": [
+      {
+        "color_code": "#ff0000",
+        "color_name": "Red",
+        "compareAtPrice": 1200,
+        "costPerItem": 850,
+        "price": 1400,
+        "quantity": 0,
+        "sku": ""
+      }
+    ]
+  },
+  {
+    "brand": {
+      "created_at": "2025-02-13T07:21:03.778Z",
+      "id": "brand:fc3jus412clvg8mxvoq3",
+      "medias": [
+        "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/brands/oneplus.webp"
+      ],
+      "slug": "oneplus",
+      "status": "ACTIVE",
+      "title": "Oneplus",
+      "updated_at": "2025-02-13T07:21:03.778Z"
+    },
+    "category": {
+      "created_at": "2025-02-13T08:28:14.175Z",
+      "description": "Durable and high-speed charging and data cables for smartphones, tablets, and other devices.",
+      "id": "category:s7e64q8209ksmel8fvxp",
+      "medias": [
+        "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/categories/cables.webp"
+      ],
+      "slug": "cables",
+      "status": "DEACTIVE",
+      "title": "Cables",
+      "updated_at": "2025-02-13T08:28:14.175Z"
+    },
+    "created_at": "2025-01-29T07:18:52.841147Z",
+    "description": "<h2 class=\"font-bold text-lg\"><strong>OnePlus SuperVooc Type-C To Type-C Cable</strong></h2><p>Unlock unparalleled charging with the OnePlus SUPERVOOC Type-C to Type-C cable. Crafted for versatility, its robust silicon coating and premium materials ensure durability against bends and ties, perfect for extended use. The flat cable design makes storage a breeze, and its 100cm length allows charging from higher-placed plugs. Weighing just 40 grams, it's lightweight and easy to carry. Beyond smartphones, this cable caters to diverse charging needs, including devices, power banks, and earbuds. Experience peak performance when paired with OnePlus devices featuring the SUPERVOOC 80W power adapter. Elevate your charging game with the OnePlus SUPERVOOC Type-C to Type-C cable – where reliability meets convenience.</p>",
+    "features": [
+      "Built from finest TPE + PC + PBT material, making it stronger & tangle-free design;",
+      "Premium silicon coating and high-grade grade copper & nickel is used for safe power;",
+      "Made from greater materials and superior quality, assuring damage free charging;",
+      "Get flexibility while charging from greater height plug with a 100cm long cable;",
+      "Comes with just 32 grams of weight, making it easy to carry anywhere you go;",
+      "Lightweight enough to carry around from home to office and even in your pocket;",
+      "Reverse charging from its Type-C to Type-C design, easy connect even in the dark;",
+      "Diverse charging capability from OnePlus to any other which has Type-C port."
+    ],
+    "id": "product:3w5k3a6fealo7g7vkafh",
+    "medias": [
+      "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/2nd%20Oneplus%20211-253%20Pages/SUPERVOOC(100cm)%20Type-C%20to%20Type-C%20Cable/SUPERVOOC(100cm)%20Type-C%20to%20Type-C%20Cable-Red-2.png",
+      "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/2nd%20Oneplus%20211-253%20Pages/SUPERVOOC(100cm)%20Type-C%20to%20Type-C%20Cable/SUPERVOOC(100cm)%20Type-C%20to%20Type-C%20Cable-Red.png"
+    ],
+    "pricing": {
+      "compareAtPrice": 1499.98,
+      "costPerItem": 1000,
+      "price": 1600
+    },
+    "slug": "oneplus-supervooc-type-c-to-type-c-cable-100cm-1",
+    "specs": [
+      {
+        "key": "Brand:",
+        "value": "OnePlus"
+      },
+      {
+        "key": "Model Name:",
+        "value": "SUPERVOOC Charging Cable"
+      },
+      {
+        "key": "Connector Type: ",
+        "value": "USB Type C to C"
+      },
+      {
+        "key": "Color: ",
+        "value": "White"
+      },
+      {
+        "key": "Data Transfer Rate:",
+        "value": "65 Watts"
+      },
+      {
+        "key": " length",
+        "value": "100cm"
+      },
+      {
+        "key": "Indoor/Outdoor Usage: ",
+        "value": "Outdoor, Indoor"
+      }
+    ],
+    "status": "ACTIVE",
+    "title": "OnePlus SUPERVOOC Type-C to Type-C Cable 100cm",
+    "updated_at": "2025-03-11T11:09:11.038721520Z",
+    "variants": [
+      {
+        "color_code": "#FF0000",
+        "color_name": "Red",
+        "compareAtPrice": 1500,
+        "costPerItem": 1000,
+        "price": 1600,
+        "quantity": 0,
+        "sku": ""
+      }
+    ]
+  },
+  {
+    "brand": {
+      "created_at": "2025-02-13T07:21:03.777Z",
+      "id": "brand:ea9nwf16antocbvhwgtd",
+      "medias": [
+        "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/brands/awei.webp"
+      ],
+      "slug": "awei",
+      "status": "ACTIVE",
+      "title": "Awei",
+      "updated_at": "2025-02-13T07:21:03.777Z"
+    },
+    "category": {
+      "created_at": "2025-02-13T08:28:14.175Z",
+      "description": "Durable and high-speed charging and data cables for smartphones, tablets, and other devices.",
+      "id": "category:s7e64q8209ksmel8fvxp",
+      "medias": [
+        "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/categories/cables.webp"
+      ],
+      "slug": "cables",
+      "status": "DEACTIVE",
+      "title": "Cables",
+      "updated_at": "2025-02-13T08:28:14.175Z"
+    },
+    "created_at": "2025-01-29T07:18:52.841147Z",
+    "description": "<p><strong>The Awei CL-113T </strong>is a 30 cm USB Type-C cable designed for fast charging and data synchronization. It supports a maximum current of 5A, enabling rapid charging of compatible devices. Constructed from environmentally friendly TPE and metal materials, the cable ensures durability and longevity. Its compact 30 cm length makes it ideal for use with power banks, car chargers, or when space is limited. The cable is compatible with various devices, including smartphones, tablets, and other USB Type-C enabled gadgets.</p>",
+    "features": [
+      "Fast charging: The Huawei USB charging cable is designed with high-quality and durable wire, which can be used for a long time.",
+      " Super useful: Awei USB charging cable can be used to charge your phone, laptop, power bank, etc. It is very convenient and practical.",
+      "Wide occasions: This USB charging cable can be used for a variety of devices, such as mobile phones, tablets, laptops, etc."
+    ],
+    "id": "product:aeshfx6oh4yn6zlw2lq6",
+    "medias": [
+      "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/2nd%20awei%2BZeblaze%20142-210%20Pages/Awei%20CL-113T-Cable/Awei%20CL-113T-Black-2.png",
+      "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/2nd%20awei%2BZeblaze%20142-210%20Pages/Awei%20CL-113T-Cable/Awei%20CL-113T-Black-3.png",
+      "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/2nd%20awei%2BZeblaze%20142-210%20Pages/Awei%20CL-113T-Cable/Awei%20CL-113T-Black.png"
+    ],
+    "pricing": {
+      "compareAtPrice": 140,
+      "costPerItem": 80,
+      "price": 150
+    },
+    "slug": "awei-cl-113t-type-c-fast-charging-date-cable",
+    "specs": [
+      {
+        "key": "Brand ",
+        "value": "Awei"
+      },
+      {
+        "key": "Model ",
+        "value": "CL-113T"
+      },
+      {
+        "key": "Charging ",
+        "value": "Type-A to Type-C"
+      },
+      {
+        "key": "Current",
+        "value": "5A (Max）"
+      },
+      {
+        "key": "Length",
+        "value": "30CM"
+      }
+    ],
+    "status": "ACTIVE",
+    "title": "Awei CL-113T Type-C Fast Charging Date Cable",
+    "updated_at": "2025-03-11T11:09:11.085105217Z",
+    "variants": [
+      {
+        "color_code": "#000000",
+        "color_name": "Black",
+        "compareAtPrice": 140,
+        "costPerItem": 80,
+        "price": 150,
+        "quantity": 0,
+        "sku": ""
+      }
+    ]
+  },
+  {
+    "brand": {
+      "created_at": "2025-02-13T07:21:03.777Z",
+      "id": "brand:ea9nwf16antocbvhwgtd",
+      "medias": [
+        "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/brands/awei.webp"
+      ],
+      "slug": "awei",
+      "status": "ACTIVE",
+      "title": "Awei",
+      "updated_at": "2025-02-13T07:21:03.777Z"
+    },
+    "category": {
+      "created_at": "2025-02-13T08:28:14.175Z",
+      "description": "Durable and high-speed charging and data cables for smartphones, tablets, and other devices.",
+      "id": "category:s7e64q8209ksmel8fvxp",
+      "medias": [
+        "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/categories/cables.webp"
+      ],
+      "slug": "cables",
+      "status": "DEACTIVE",
+      "title": "Cables",
+      "updated_at": "2025-02-13T08:28:14.175Z"
+    },
+    "created_at": "2025-01-29T07:18:52.841147Z",
+    "description": "<p><strong>The AWEI CL-972 </strong>is a versatile 3-in-1 fast charging cable designed to efficiently charge multiple devices simultaneously. Measuring 1.2 meters in length, it features three connectors: <strong>Micro USB, Lightning (for iPhone), and Type-C</strong>, making it compatible with a wide range of smartphones and gadgets. With a high-power output of up to 120W, it ensures rapid and safe charging for your devices. Constructed with durable materials, including a TPE and woven exterior, the cable is designed to be tangle-free and heat-resistant, enhancing its longevity and reliability. Additionally, it supports a current range of 2.4-3A, facilitating efficient power delivery across various devices.</p>",
+    "features": [
+      "Charge your device in half the time",
+      "Keep all of your devices charged at once",
+      "Be able to take on a long car ride without worrying about running out of battery",
+      "Get back to work or school knowing that you have enough power for the day ahead",
+      "You can charge your phone, tablet, and laptop all with one cable",
+      "No more fighting for an outlet to plug in your charger",
+      "Say goodbye to tangled wires on your desk or nightstand",
+      "The cord is 1.2 meters long ",
+      "No more fighting over outlets with your family members and friends",
+      "Charge up to three devices at the same time",
+      "Faster charging speed than other cables"
+    ],
+    "id": "product:aqo6tndjpe6mvc6hzfcx",
+    "medias": [
+      "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/QCY%20222-251%20Image%20%20Canva%20Link-1/Awei%20CL-972/CL-972%20Black%20.png",
+      "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/QCY%20222-251%20Image%20%20Canva%20Link-1/Awei%20CL-972/CL-972%20Black%203%20.png",
+      "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/QCY%20222-251%20Image%20%20Canva%20Link-1/Awei%20CL-972/CL-972%20black%202%20.png"
+    ],
+    "pricing": {
+      "compareAtPrice": 350,
+      "costPerItem": 270,
+      "price": 379.99
+    },
+    "slug": "awei-cl-972-120w-3in1-fast-multi-charging-cable-1-2m",
+    "specs": [
+      {
+        "key": "Brand ",
+        "value": "Awei"
+      },
+      {
+        "key": "Model ",
+        "value": "CL-972"
+      },
+      {
+        "key": "Place of Origin",
+        "value": "Guangdong, China"
+      },
+      {
+        "key": "USB Type",
+        "value": "Micro-USB"
+      },
+      {
+        "key": "Material",
+        "value": "Nylon"
+      },
+      {
+        "key": "Connector",
+        "value": "USB 3.0 Connector, micro, For Iphone"
+      },
+      {
+        "key": "Jacket",
+        "value": "Nylon"
+      },
+      {
+        "key": "Shielding",
+        "value": "Braid"
+      },
+      {
+        "key": "Conductor",
+        "value": "Tinned Copper"
+      },
+      {
+        "key": "Function",
+        "value": "3A Fast Charging"
+      },
+      {
+        "key": "Description",
+        "value": "Type-C Fast Charging Cable"
+      },
+      {
+        "key": "Interface",
+        "value": "Type-C"
+      },
+      {
+        "key": "Length",
+        "value": "1.2M"
+      },
+      {
+        "key": "Current for Android Device",
+        "value": "2A"
+      },
+      {
+        "key": "Current for iOS Device",
+        "value": "2.4A"
+      },
+      {
+        "key": "Rated Voltage",
+        "value": "5V"
+      },
+      {
+        "key": "Product Weight",
+        "value": "20G"
+      },
+      {
+        "key": "Certificate",
+        "value": "ROHS,FCC,CE"
+      },
+      {
+        "key": "Features",
+        "value": "Fast charging"
+      },
+      {
+        "key": "Product Colors",
+        "value": "black"
+      }
+    ],
+    "status": "ACTIVE",
+    "title": " AWEI CL-972 120W 3In1 Fast Multi Charging Cable (1.2m)",
+    "updated_at": "2025-03-11T11:09:11.088094308Z",
+    "variants": [
+      {
+        "color_code": "#000000",
+        "color_name": "Black",
+        "compareAtPrice": 350,
+        "costPerItem": 270,
+        "price": 380,
+        "quantity": 0,
+        "sku": ""
+      }
+    ]
+  },
+  {
+    "brand": {
+      "created_at": "2025-02-13T07:21:03.777Z",
+      "id": "brand:ea9nwf16antocbvhwgtd",
+      "medias": [
+        "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/brands/awei.webp"
+      ],
+      "slug": "awei",
+      "status": "ACTIVE",
+      "title": "Awei",
+      "updated_at": "2025-02-13T07:21:03.777Z"
+    },
+    "category": {
+      "created_at": "2025-02-13T08:28:14.175Z",
+      "description": "Durable and high-speed charging and data cables for smartphones, tablets, and other devices.",
+      "id": "category:s7e64q8209ksmel8fvxp",
+      "medias": [
+        "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/categories/cables.webp"
+      ],
+      "slug": "cables",
+      "status": "DEACTIVE",
+      "title": "Cables",
+      "updated_at": "2025-02-13T08:28:14.175Z"
+    },
+    "created_at": "2025-01-29T07:18:52.841147Z",
+    "description": "<p><strong>The Awei CL-115M</strong> is a 1-meter (1000mm) Micro-USB charging and data cable designed for efficient charging and data transfer. With a 2.4A current capacity, it ensures fast charging for compatible devices. The cable features a durable design with reinforced connectors to withstand daily use and reduce the risk of breakage. Its tangle-free construction adds convenience, making it suitable for both home and travel use. Compatible with a wide range of Micro-USB devices, the Awei CL-115M offers a reliable solution for your charging and data transfer needs.</p>",
+    "features": [
+      "Durable Construction: Made with high-quality TPE or nylon braided materials, ensuring long-lasting durability and resistance to wear and tear.",
+      "Fast Charging: Supports up to 2.4A of power for quick and efficient charging of compatible Apple devices.",
+      "Reliable Data Transfer: Ensures stable and fast data transfer speeds, ideal for syncing and transferring files between devices.",
+      "Compatibility: Designed for use with Apple devices, including iPhones, iPads, and iPods equipped with a Lightning port.",
+      "Tangle-Resistant Design: The braided exterior minimizes tangling, making it easy to store and use.",
+      "Varied Lengths: Available in different lengths to suit various needs, providing flexibility for use at home, in the office, or on the go.",
+      "Secure Connection: Features a snug and secure fit for Lightning ports, ensuring a stable connection during charging and data transfer.",
+      "Sleek Design: Combines functionality with a stylish appearance, complementing your Apple devices."
+    ],
+    "id": "product:arbfm1mne50gk3yuxoak",
+    "medias": [
+      "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/Awei%20182-221%20Image%20Canva%20Link-1/Awei%20CL-115M/CL-115M%20Black%20.png",
+      "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/Awei%20182-221%20Image%20Canva%20Link-1/Awei%20CL-115M/CL-115M%20Black%202%20.png",
+      "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/Awei%20182-221%20Image%20Canva%20Link-1/Awei%20CL-115M/CL-115M%20Black%203%20.png"
+    ],
+    "pricing": {
+      "compareAtPrice": 150,
+      "costPerItem": 100,
+      "price": 170
+    },
+    "slug": "awei-cl-115m-1000mm-charging-data-cable-for-micro-usb-2-4a",
+    "specs": [
+      {
+        "key": "Brand ",
+        "value": "Awei"
+      },
+      {
+        "key": "Model ",
+        "value": "CL-115L"
+      },
+      {
+        "key": "Port",
+        "value": "Lightning"
+      },
+      {
+        "key": "Material",
+        "value": " PVC round cable"
+      },
+      {
+        "key": "Length",
+        "value": "1000 mm"
+      },
+      {
+        "key": "Colour",
+        "value": "Black"
+      },
+      {
+        "key": "Features",
+        "value": "Type: Micro USB Port : USB Output: 5V/2.4A"
+      }
+    ],
+    "status": "ACTIVE",
+    "title": " Awei CL-115M 1000mm Charging Data Cable For Micro-USB 2.4A ",
+    "updated_at": "2025-03-11T11:09:11.089720721Z",
+    "variants": [
+      {
+        "color_code": "#000000",
+        "color_name": "Black",
+        "compareAtPrice": 150,
+        "costPerItem": 99.99,
+        "price": 170,
+        "quantity": 0,
+        "sku": ""
+      }
+    ]
+  },
+  {
+    "brand": {
+      "created_at": "2025-02-13T07:21:03.779Z",
+      "id": "brand:nm64ccs62s1nfervmcm4",
+      "medias": [
+        "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/brands/samsung.webp"
+      ],
+      "slug": "samsung",
+      "status": "ACTIVE",
+      "title": "Samsung",
+      "updated_at": "2025-02-13T07:21:03.779Z"
+    },
+    "category": {
+      "created_at": "2025-02-13T08:28:14.175Z",
+      "description": "Durable and high-speed charging and data cables for smartphones, tablets, and other devices.",
+      "id": "category:s7e64q8209ksmel8fvxp",
+      "medias": [
+        "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/categories/cables.webp"
+      ],
+      "slug": "cables",
+      "status": "DEACTIVE",
+      "title": "Cables",
+      "updated_at": "2025-02-13T08:28:14.175Z"
+    },
+    "created_at": "2025-01-29T07:18:52.841147Z",
+    "description": "<h2 class=\"font-bold text-lg\"><strong>Samsung 25W USB-C Power Adapter with Cable</strong></h2><p>The Samsung 25W USB-C Power Adapter with Cable is a fast and convenient way to charge your devices. It features a USB-C port that can deliver up to 25W of power, making it ideal for charging smartphones and other compatible devices. The included cable is 1.5 meters long, so you can easily charge your devices from a variety of locations. The power adapter is also lightweight and compact, making it easy to take with you on the go.</p>",
+    "features": [
+      "Easily portable adapter helps you to charge your devices on-the-go",
+      "Super Fast Charging to any compatible device with more efficiency and safety",
+      "Rapid Charging delivers up to 3 Amp to give your phone power at a much faster rate",
+      "Included a USB-C cable to charge your device blazing fast and flexible  "
+    ],
+    "id": "product:b2a48z2ikj2uc3qu9q0i",
+    "pricing": {
+      "compareAtPrice": 1300,
+      "costPerItem": 1250,
+      "price": 1599
+    },
+    "slug": "samsung-25w-usb-c-power-adapter-with-cable",
+    "specs": [
+      {
+        "key": "Brand",
+        "value": "Samsung"
+      },
+      {
+        "key": "Model",
+        "value": "USB C Wall Charger"
+      },
+      {
+        "key": "Watt",
+        "value": "25W"
+      },
+      {
+        "key": "Plug\t",
+        "value": "2 Pin | 3 Pin"
+      },
+      {
+        "key": "Cable",
+        "value": "Type-C Cable - 1m"
+      },
+      {
+        "key": "Other Features / Info\t",
+        "value": "Super Fast Charging | Rapid Charging | Flexibility"
+      }
+    ],
+    "status": "ACTIVE",
+    "title": "Samsung 25W USB-C Power Adapter with Cable",
+    "updated_at": "2025-03-11T11:09:11.092110181Z",
+    "variants": [
+      {
+        "color_code": "#000000",
+        "color_name": "Black",
+        "compareAtPrice": 1300,
+        "costPerItem": 1250,
+        "price": 1599,
+        "quantity": 0,
+        "sku": ""
+      }
+    ]
+  },
+  {
+    "brand": {
+      "created_at": "2025-02-13T07:21:03.778Z",
+      "id": "brand:tl9oci8b4pl8y6xqud91",
+      "medias": [
+        "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/brands/xiaomi.webp"
+      ],
+      "slug": "xiaomi",
+      "status": "ACTIVE",
+      "title": "Xiaomi",
+      "updated_at": "2025-02-13T07:21:03.778Z"
+    },
+    "category": {
+      "created_at": "2025-02-13T08:28:14.175Z",
+      "description": "Durable and high-speed charging and data cables for smartphones, tablets, and other devices.",
+      "id": "category:s7e64q8209ksmel8fvxp",
+      "medias": [
+        "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/categories/cables.webp"
+      ],
+      "slug": "cables",
+      "status": "DEACTIVE",
+      "title": "Cables",
+      "updated_at": "2025-02-13T08:28:14.175Z"
+    },
+    "created_at": "2025-01-29T07:18:52.841147Z",
+    "description": "<p><strong>Xiaomi Type B Fast Charging Micro USB &amp; Data Cable</strong></p><p>The Xiaomi Micro USB Cable is suitable for a variety of devices that has the Micro USB 2.0 interface of mobile phone or USB devices. The high-quality environmental protection TPE flat saw-tooth cable layer is strong, durable, and comfortable to use. It supports 2.1A and has a fast charging interface which enables you to charge your phone much faster. It offers data sync and charging facilities simultaneously. <strong>Mi Micro USB cable</strong> supports most phones and devices.</p>",
+    "features": [
+      "Xiaomi USB Cable Type-B",
+      "Original Xiaomi Micro USB 2.0 cable",
+      "Data sync and charge 2-in-1 design",
+      "Eco-friendly TPE cover, green and healthy",
+      "Mini and portable",
+      "Length: 80cm"
+    ],
+    "id": "product:z7idb3u0s6wjbgldnjcc",
+    "medias": [
+      "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/XIaomi%20(426-455)/USB%20Cable%20Type%20B/USB%20Cable%20Type%20B-%20White.png"
+    ],
+    "pricing": {
+      "compareAtPrice": 105,
+      "costPerItem": 115,
+      "price": 170
+    },
+    "slug": "xiaomi-usb-cable-type-b",
+    "specs": [
+      {
+        "key": "Brand",
+        "value": "Xiaomi"
+      },
+      {
+        "key": "Material",
+        "value": "TPE"
+      },
+      {
+        "key": "Type",
+        "value": "Micro USB,USB 2.0"
+      },
+      {
+        "key": "Cable Length",
+        "value": "80cm"
+      },
+      {
+        "key": "Special Features",
+        "value": "Pure Copper Wire Coils"
+      }
+    ],
+    "status": "ACTIVE",
+    "title": "Xiaomi USB Cable Type-B",
+    "updated_at": "2025-03-11T11:09:11.273641855Z",
+    "variants": [
+      {
+        "color_code": "#ffffff",
+        "color_name": "white",
+        "compareAtPrice": 105,
+        "costPerItem": 115,
+        "price": 170,
+        "quantity": 0,
+        "sku": ""
+      }
+    ]
+  },
+  {
+    "brand": {
+      "created_at": "2025-02-13T07:21:03.779Z",
+      "id": "brand:nm64ccs62s1nfervmcm4",
+      "medias": [
+        "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/brands/samsung.webp"
+      ],
+      "slug": "samsung",
+      "status": "ACTIVE",
+      "title": "Samsung",
+      "updated_at": "2025-02-13T07:21:03.779Z"
+    },
+    "category": {
+      "created_at": "2025-02-13T08:28:14.175Z",
+      "description": "Durable and high-speed charging and data cables for smartphones, tablets, and other devices.",
+      "id": "category:s7e64q8209ksmel8fvxp",
+      "medias": [
+        "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/categories/cables.webp"
+      ],
+      "slug": "cables",
+      "status": "DEACTIVE",
+      "title": "Cables",
+      "updated_at": "2025-02-13T08:28:14.175Z"
+    },
+    "created_at": "2025-01-29T07:18:52.841147Z",
+    "description": "<h2 class=\"font-bold text-lg\"><strong>Samsung 45W 5A USB-C Power Adapter with Cable</strong></h2><p>The Samsung 45W USB C Wall Charger with a cable is a versatile accessory compatible with multiple devices such as tabs, phones, earbuds, etc. With its fast charging capability, it charges your device 3X faster, making it an ideal companion for charging on the go. Whether you're in a rush or need a quick boost, this charger ensures efficient and speedy power delivery to keep your devices powered up and ready for action.</p>",
+    "features": [
+      "Fast charge all your devices. Such as phones, tabs, earbuds, etc",
+      "This charger provides stable, secure power for your Galaxy devices",
+      "It protects against overcurrent, short circuits, temperature fluctuations, and more",
+      "45W Super Fast Charge with PD for efficient charging."
+    ],
+    "id": "product:y4oi7b5rhxt1a84ehglw",
+    "medias": [
+      "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/2nd%20Samsung%20355-376%20pages/45W%20PD%20(5A1.8m)/45W%20PD%20(5A1.8m)-%20Black-1.png",
+      "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/2nd%20Samsung%20355-376%20pages/45W%20PD%20(5A1.8m)/45W%20PD%20(5A1.8m)-%20Black-2.png"
+    ],
+    "pricing": {
+      "compareAtPrice": 3350,
+      "costPerItem": 3200,
+      "price": 3899
+    },
+    "slug": "samsung-45w-5a-usb-c-power-adapter-with-cable",
+    "specs": [
+      {
+        "key": "Brand",
+        "value": "Samsung"
+      },
+      {
+        "key": "Model",
+        "value": "USB C Wall Charger With Type C Cable"
+      },
+      {
+        "key": "Watt",
+        "value": "45W"
+      },
+      {
+        "key": "Interface / Port\t",
+        "value": "USB-C"
+      },
+      {
+        "key": "Plug",
+        "value": "2 Pin | 3 Pin"
+      },
+      {
+        "key": "Cable",
+        "value": "Type-C to Type-C | Cable - 1m, 1.8M"
+      },
+      {
+        "key": "Other Features / Info\t",
+        "value": "Super fast charging | Flexibility | Rapid charging"
+      }
+    ],
+    "status": "ACTIVE",
+    "title": "Samsung 45W 5A USB-C Power Adapter with Cable",
+    "updated_at": "2025-03-11T11:09:11.265320343Z",
+    "variants": [
+      {
+        "color_code": "#000000",
+        "color_name": "Black",
+        "compareAtPrice": 3350,
+        "costPerItem": 3200,
+        "price": 3899,
+        "quantity": 0,
+        "sku": ""
+      }
+    ]
+  },
+  {
+    "brand": {
+      "created_at": "2025-02-13T07:21:03.777Z",
+      "id": "brand:ea9nwf16antocbvhwgtd",
+      "medias": [
+        "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/brands/awei.webp"
+      ],
+      "slug": "awei",
+      "status": "ACTIVE",
+      "title": "Awei",
+      "updated_at": "2025-02-13T07:21:03.777Z"
+    },
+    "category": {
+      "created_at": "2025-02-13T08:28:14.175Z",
+      "description": "Durable and high-speed charging and data cables for smartphones, tablets, and other devices.",
+      "id": "category:s7e64q8209ksmel8fvxp",
+      "medias": [
+        "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/categories/cables.webp"
+      ],
+      "slug": "cables",
+      "status": "DEACTIVE",
+      "title": "Cables",
+      "updated_at": "2025-02-13T08:28:14.175Z"
+    },
+    "created_at": "2025-01-29T07:18:52.841147Z",
+    "description": "<p><strong>The Awei CL-971 3-in-1 USB Cable</strong> is a versatile charging solution designed to accommodate multiple devices with different charging ports. It features three connectors: <strong>Micro USB, USB Type-C, and Lightning,</strong> making it compatible with a wide range of smartphones, tablets, and other electronic devices. This multi-functional cable supports fast charging, ensuring efficient power delivery to your devices. Its durable construction includes a braided exterior, enhancing its longevity and resistance to wear and tear. The Awei CL-971 is an ideal accessory for users seeking a single, reliable cable to charge various devices without the need for multiple cords.</p>",
+    "features": [
+      "One for three",
+      "Fast charging with three ports at the same time",
+      "All copper core",
+      "Charging speed up to 60%",
+      "Oxidized metal connector,",
+      "Strong PVC body,",
+      "Durable",
+      "The cord is 1.2 meters long",
+      "Keep all of your devices charged at once"
+    ],
+    "id": "product:xsk09vk5dkk6zzayckjc",
+    "medias": [
+      "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/QCY%20222-251%20Image%20%20Canva%20Link-1/Awei%20CL-971/CL-971%20Multi%20color%20.png",
+      "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/QCY%20222-251%20Image%20%20Canva%20Link-1/Awei%20CL-971/CL-971%20Multi%20color%202%20.png",
+      "https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/QCY%20222-251%20Image%20%20Canva%20Link-1/Awei%20CL-971/CL-971%20Multi%20color%203%20.png"
+    ],
+    "pricing": {
+      "compareAtPrice": 280,
+      "costPerItem": 150,
+      "price": 299.99
+    },
+    "slug": "awei-cl-971-3-in-1-usb-cable-micro-iphone-type-c",
+    "specs": [
+      {
+        "key": "Brand",
+        "value": "Awei"
+      },
+      {
+        "key": "Model ",
+        "value": "Awei CL-971"
+      },
+      {
+        "key": "Color",
+        "value": "Black"
+      },
+      {
+        "key": "Type",
+        "value": "3 in 1 cable "
+      },
+      {
+        "key": "Current",
+        "value": "2.4A"
+      },
+      {
+        "key": "Cable length",
+        "value": "1.2M"
+      },
+      {
+        "key": "Compatible for",
+        "value": "Micro, iPhone & Type-C"
+      },
+      {
+        "key": "Material",
+        "value": "Bold braided wire"
+      },
+      {
+        "key": "Fast charging support",
+        "value": "yes"
+      }
+    ],
+    "status": "ACTIVE",
+    "title": " Awei CL-971 3 in 1 USB Cable (Micro, iPhone, Type-C)",
+    "updated_at": "2025-03-11T11:09:11.263097513Z",
+    "variants": [
+      {
+        "color_code": "#000000",
+        "color_name": "Black",
+        "compareAtPrice": 280,
+        "costPerItem": 299.99,
+        "price": 150,
+        "quantity": 0,
+        "sku": ""
+      }
+    ]
+  }
+]
