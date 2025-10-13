@@ -59,7 +59,11 @@ function OfferPopup() {
           <XIcon />
         </DialogClose>
         <picture>
-          <img src="/delivery-popup.webp" alt="offer" className="size-full" />
+          <img
+            src="https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/ssl-coming-soon.webp"
+            alt="offer"
+            className="size-full"
+          />
         </picture>
       </DialogContent>
     </Dialog>
