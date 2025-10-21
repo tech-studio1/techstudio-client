@@ -4,11 +4,11 @@ import Link from 'next/link';
 
 const legalLinks = [
   { name: 'Privacy Policy', href: '/privacy-policy' },
-  // { name: 'EMI Policy', href: '/emi-policy' },
   { name: 'Warranty Policy', href: '/warranty-policy' },
   { name: 'Terms & Conditions', href: '/terms' },
-  { name: 'Return & Refund Policy', href: '/refund-policy' },
-  { name: 'Delivery Process', href: '/delivery-process' },
+  { name: 'Refund Policy', href: '/refund-policy' },
+  { name: 'Return Policy', href: '/return-policy' },
+  { name: 'Delivery Policy', href: '/delivery-policy' },
 ];
 
 const quickLinks = [
@@ -24,17 +24,16 @@ const footerLinks = [
     title: 'Find It Fast',
     links: [
       { name: 'Privacy Policy', href: '/privacy-policy' },
-      // { name: 'EMI Policy', href: '/emi-policy' },
       { name: 'Warranty Policy', href: '/warranty-policy' },
       { name: 'Terms & Conditions', href: '/terms' },
+      { name: 'Delivery Policy', href: '/delivery-policy' },
     ],
   },
   {
     title: 'Useful Links',
     links: [
-      // { name: 'My account', href: '/user/profile' },
-      { name: 'Return & Refund Policy', href: '/refund-policy' },
-      { name: 'Delivery Process', href: '/delivery-process' },
+      { name: 'Refund Policy', href: '/refund-policy' },
+      { name: 'Return Policy', href: '/return-policy' },
       { name: 'Customer Support', href: '/customer-support' },
     ],
   },
@@ -43,7 +42,6 @@ const footerLinks = [
     links: [
       { name: 'Home', href: '/' },
       { name: 'Outlets', href: '/outlets' },
-      // { name: 'About Us', href: '/about' },
       { name: 'Contact Us', href: '/contact' },
     ],
   },
