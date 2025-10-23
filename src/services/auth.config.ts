@@ -50,18 +50,17 @@ export const authConfig = {
         '/categories',
         '/checkout',
         '/customer-support',
-        '/delivery-process',
+        '/delivery-policy',
         '/',
         '/emi-policy',
         '/outlets',
         '/privacy-policy',
         '/product',
         '/refund-policy',
+        '/return-policy',
         '/search',
         '/terms',
         '/warranty-policy',
-        '/account-verification',
-        '/forgot-password',
       ];
       const path = nextUrl.pathname;
 

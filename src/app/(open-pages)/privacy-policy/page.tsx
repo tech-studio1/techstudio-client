@@ -1,124 +1,155 @@
-import { notoSherif } from '@/app/fonts';
-
 export default function PrivacyPolicyPage() {
   return (
-    <main
-      className={`${notoSherif.className} mx-auto my-20 max-w-6xl p-2 text-gray-600`}
-    >
-      {/* Section 1: Who We Are */}
-      <section className="mb-8">
-        <h1 className="mb-4 text-3xl font-bold">আমরা কারা :</h1>
-        <p className="mb-4">
-          techstudio.com.bd হল বাংলাদেশের একটি ডেডিকেটেড অনলাইন স্টোর যা বিভিন্ন
-          ধরনের ইলেকট্রনিক পণ্য এবং ভোক্তা পণ্য যেমন মোবাইল, ট্যাবলেট, ল্যাপটপ,
-          মোবাইল এক্সেসরিজ, হোম অ্যাপ্লায়েন্সেস সরবরাহ করে।
-        </p>
-        <p className="mb-4">
-          এই ওয়েবসাইটটি techstudio.com.bd দ্বারা মালিকানাধীন, রক্ষণাবেক্ষণ এবং
-          পরিচালিত হয় (এরপরে “আমরা” “আমাদের” “আমাদের সাইট” “ওয়েবসাইট” বা
-          “সাইট” হিসাবে উল্লেখ করা হয়েছে।
-        </p>
-        <p className="mb-4">
-          এখানে techstudio.com.bd এ, আমরা ব্যক্তিগত গোপনীয়তাকে খুব গুরুত্ব
-          সহকারে নিই। গোপনীয়তা নীতি সমস্ত দর্শক, গ্রাহক, ক্রেতা এবং
-          ব্যবহারকারীদের জন্য প্রযোজ্য (সম্পূর্ণ হিসাবে “ব্যবহারকারী” হিসাবে
-          উল্লেখ করা হয়) এই গোপনীয়তা নীতি ব্যবহারকারীদের তথ্য সংগ্রহ করার
-          উপায় ব্যাখ্যা করে, আমরা কীভাবে সেগুলি সংরক্ষণ করি এবং যখন আপনি ব্রাউজ
-          বা টেকস্টুডিওডটকমডটবিডি ভিজিট করেন তখন সেই তথ্যটি ব্যবহার করি৷ com. এই
-          নীতিটি সমস্ত উপায়ে প্রযোজ্য যার মাধ্যমে ওয়েবসাইটটি অ্যাক্সেস করা
-          যেতে পারে।
-        </p>
-      </section>
+    <main className="mx-auto max-w-6xl space-y-6 p-6 text-gray-700">
+      <div className="my-10 space-y-8">
+        <div className="mb-6">
+          <p className="text-base leading-relaxed">
+            This Privacy Policy describes our policies and procedures on the collection, use, and disclosure of your information
+            when you use the service and tells you about your privacy rights and how the law protects you. We use your personal
+            data to provide and improve the service. By using the service, you agree to the collection and use of information
+            in accordance with this Privacy Policy.
+          </p>
+        </div>
 
-      {/* Section 2: What Personal Data We Collect and Why */}
-      <section className="mb-8">
-        <h2 className="mb-4 text-2xl font-bold">
-          আমরা কোন ব্যক্তিগত তথ্য সংগ্রহ করি এবং কেন আমরা তা সংগ্রহ করি :
-        </h2>
-        <p className="mb-4">
-          আপনি যখন এই ওয়েবসাইটটি ব্যবহার করেন, তখন আমরা নির্দিষ্ট সময়ের মধ্যে
-          সরবরাহ করা তথ্য সংগ্রহ ও সংরক্ষণ করি। এটি করার জন্য আমাদের প্রধান
-          লক্ষ্য হল আপনাকে আরও ভাল, মসৃণ, দক্ষ এবং নিরাপদ অভিজ্ঞতা প্রদান করা।
-          এই প্রক্রিয়ায়, আমরা শুধুমাত্র ব্যবহারকারীদের জন্য তথ্য সংগ্রহ করি যা
-          আমরা এই উদ্দেশ্য অর্জনের জন্য অপরিহার্য বলে মনে করি।
-        </p>
-        <p className="mb-4">
-          সাধারণত, ওয়েবসাইটটি আপনার ব্যক্তিগত তথ্য সংগ্রহ করে না যদি না আপনি
-          আমাদের সেই তথ্য প্রদান করতে চান। আপনি যখন আমাদের আপনার ব্যক্তিগত তথ্য
-          প্রদান করতে চান, তখন আপনি এই গোপনীয়তা নীতিতে তালিকাভুক্ত উল্লেখিত
-          উদ্দেশ্যে সেই তথ্য ব্যবহার করার জন্য ওয়েবসাইটকে আপনার অনুমতি দিচ্ছেন।
-          আপনি যদি আমাদের সেই তথ্য প্রদান না করতে চান, তাহলে এটি এই ওয়েবসাইটে
-          ব্যবহার করতে পারেন এমন বৈশিষ্ট্য এবং পরিষেবাগুলিকে সীমিত করতে পারে।
-        </p>
-        <p className="mb-4">
-          আপনি যখন https://techstudio.com.bd/ এর মাধ্যমে আমাদের ওয়েবসাইটে
-          ক্রয়ের জন্য একটি অর্ডার দেন, তখন আমরা আপনার দেওয়া ব্যক্তিগত তথ্য
-          সংগ্রহ করি যেমন, নাম, ডেলিভারির ঠিকানা, ইমেল ঠিকানা এবং যোগাযোগের
-          নম্বর। আমরা আমাদের অনলাইন সাইটে আপনার অর্ডার প্রস্তুত করার জন্য আপনার
-          তথ্য সংগ্রহ, সঞ্চয় এবং প্রক্রিয়া করি এবং ভবিষ্যতের সম্ভাব্য বিরোধ বা
-          অভিযোগের সমাধানের জন্য এটি সংরক্ষণ করব।
-        </p>
-      </section>
+        <section>
+          <h2 className="mb-4 text-2xl font-bold">Interpretation and Definitions</h2>
 
-      {/* Section 3: Minors */}
-      <section className="mb-8">
-        <h2 className="mb-4 text-2xl font-bold">নাবালক :</h2>
-        <p className="mb-4">
-          আমরা আমাদের ওয়েবসাইটে যে পরিষেবাগুলি প্রদান করি তা ব্যবহারকারীদের
-          দ্বারা অ্যাক্সেস করার উদ্দেশ্যে যারা আইনত ক্রয় অর্ডার করতে বাধ্য।
-          আমাদের ওয়েবসাইট, পরিষেবা, বিজ্ঞাপন, পৃষ্ঠাগুলির তথ্য, এমন কাউকে
-          লক্ষ্য করা যায় না যারা কেনাকাটা করতে আইনত বাধ্য নয়৷ এই ইভেন্টে, 18
-          বছরের কম বয়সী বা তার সমান নয় এমন কাউকে আমাদের পরিষেবা নেওয়ার
-          প্রয়োজন হলে, আমরা পিতামাতা/অভিভাবকের তত্ত্বাবধানে তা করার পরামর্শ
-          দিই। www.techstudio.com.bd আপনার ক্রয়ের অনুরোধ বা আপনার নিবন্ধন বন্ধ
-          করার অধিকার সংরক্ষণ করে যে ক্ষেত্রে www.techstudio.com.bd সচেতন হয় যে
-          আপনি 18 (প্রাপ্তবয়স্কদের) এর উপরে বা সমান নন।
-        </p>
-      </section>
+          <h3 className="mb-3 mt-6 text-xl font-semibold">Interpretation</h3>
+          <p className="mb-4 pl-4">
+            Words with initial capital letters have meanings defined under the following conditions. These definitions apply
+            whether the terms appear in singular or plural.
+          </p>
 
-      {/* Section 4: Third-Party Policies */}
-      <section className="mb-8">
-        <h2 className="mb-4 text-2xl font-bold">তৃতীয় পক্ষের নীতি :</h2>
-        <p className="mb-4">
-          আমরা পরিষেবাটি আরও ভাল করার উদ্দেশ্যে আমাদের সাথে অন্যান্য অনুমোদিত
-          সংস্থাগুলিকে আপনার তথ্য সরবরাহ করতে পারি। আমরা আপনার কিছু তথ্য বিপণনের
-          পাশাপাশি গ্রাহক পরিষেবার জন্য ডেটা বিশ্লেষণ করতে ব্যবহার করতে পারি।
-          আমরা আমাদের রিটার্ন নীতি অনুযায়ী অর্থপ্রদান সংগ্রহ করতে, আপনার কাছে
-          পণ্য সরবরাহ করতে এবং ফেরত আইটেম সংগ্রহ করতে তৃতীয় পক্ষকে ব্যবহার করতে
-          পারি।
-        </p>
-        <p className="mb-4">
-          আমরা যে পরিষেবাটি মসৃণ এবং আরও ভাল রেন্ডার করি তা করতে আমরা আমাদের
-          ওয়েবসাইটে তৃতীয় পক্ষের প্লাগইনগুলি ব্যবহার করতে পারি। আমরা আমাদের
-          ওয়েবসাইটে দর্শকদের সংখ্যা পরিমাপ করতে, সাইটে দর্শকদের সাথে যোগাযোগ
-          করতে এবং আমাদের ওয়েবসাইটকে দর্শকদের জন্য আরও উপযোগী করতে এই তৃতীয়
-          পক্ষের পরিষেবাগুলি ব্যবহার করি।
-        </p>
-        <p className="mb-4">
-          এই ধরনের ক্ষেত্রে, তৃতীয়-প্লাগইনগুলি শুধুমাত্র নির্দিষ্ট কাজগুলি করার
-          জন্য আপনার দেওয়া কিছু তথ্য ব্যবহার করতে পারে।
-        </p>
-        <p className="mb-4">
-          যাইহোক, তৃতীয় পক্ষের প্লাগইন বা পরিষেবা প্রদানকারীদের একটি ভিন্ন
-          গোপনীয়তা নীতি থাকতে পারে যা আমরা আপনার দ্বারা দেওয়া আদেশ(গুলি) পূরণ
-          করার জন্য প্রদান করি।
-        </p>
-      </section>
+          <h3 className="mb-3 mt-6 text-xl font-semibold">Definitions</h3>
+          <p className="mb-3 pl-4">For the purposes of this Privacy Policy:</p>
+          <ul className="list-inside list-disc space-y-2 pl-4">
+            <li>Account – a unique account created for you to access our Service.</li>
+            <li>Affiliate – an entity related through control or ownership.</li>
+            <li>Address – Shop no 22, Moon Tower (Shundorban Courier office), Munshiganj Sadar, Munshiganj, Bangladesh</li>
+            <li>Cookies – small files stored on your device by a website.</li>
+            <li>Country – Bangladesh</li>
+            <li>Device – any device like a computer, mobile, or tablet.</li>
+            <li>Personal Data – any information related to an identifiable person.</li>
+            <li>Service – refers to our website.</li>
+            <li>Service Provider – third parties processing data on behalf of the Company.</li>
+            <li>Third-party Social Media Service – social networks for login/registration.</li>
+            <li>Usage Data – data collected automatically from service usage.</li>
+            <li>Website – TechStudio, https://techstudio.com.bd</li>
+            <li>You – the user accessing or using the Service.</li>
+          </ul>
+        </section>
 
-      {/* Section 5: Security */}
-      <section className="mb-8">
-        <h2 className="mb-4 text-2xl font-bold">নিরাপত্তা :</h2>
-        <p className="mb-4">
-          আমরা আপনার কাছ থেকে সংগৃহীত আপনার ব্যক্তিগত তথ্য রক্ষা করার জন্য সমস্ত
-          প্রয়োজনীয় সতর্কতা এবং পদক্ষেপ গ্রহণ করি এবং সম্পূর্ণ ফাইলিং ক্রয়
-          অর্ডার বা আইনের দ্বারা প্রয়োজনীয় প্রকাশ ছাড়া আমাদের সংস্থার বাইরের
-          যে কেউ এটিকে অ্যাক্সেসযোগ্য করে তুলি। এই সতর্কতাগুলির মধ্যে শুধুমাত্র
-          অভ্যন্তরীণ কর্মীদের জন্য সেই তথ্যের অ্যাক্সেস সীমিত করার জন্য উন্নত
-          অ্যাক্সেস নিয়ন্ত্রণ অন্তর্ভুক্ত রয়েছে যাদের সেই তথ্যে অ্যাক্সেস
-          প্রয়োজন। আমাদের নিরাপত্তা ব্যবস্থা নিয়মিত আপগ্রেড করা হয় এবং সেগুলি
-          কার্যকর হয় তা নিশ্চিত করার জন্য পরীক্ষা করা হয়।
-        </p>
-      </section>
+        <section>
+          <h2 className="mb-4 text-2xl font-bold">Collecting and Using Your Personal Data</h2>
+
+          <h3 className="mb-3 mt-6 text-xl font-semibold">Types of Data Collected</h3>
+
+          <div className="space-y-4 pl-4">
+            <div>
+              <h4 className="mb-2 font-semibold">Personal Data:</h4>
+              <p>Email, Name, Phone, Address, Profile Photos (optional)</p>
+            </div>
+
+            <div>
+              <h4 className="mb-2 font-semibold">Image Information:</h4>
+              <p>Photos submitted by users may be stored securely for better experience and never shared with third parties.</p>
+            </div>
+
+            <div>
+              <h4 className="mb-2 font-semibold">Facebook App Events:</h4>
+              <p>
+                We use Facebook SDK to collect anonymous analytics including app interaction, device info, crash data,
+                and ad tracking. You may opt out via Facebook or device settings, or email request.
+              </p>
+            </div>
+
+            <div>
+              <h4 className="mb-2 font-semibold">Usage Data:</h4>
+              <p>IP, browser type, visited pages, timestamps, mobile OS and model.</p>
+            </div>
+          </div>
+
+          <h3 className="mb-3 mt-6 text-xl font-semibold">Information from Third-Party Social Media Services</h3>
+          <p className="pl-4">
+            If you register/login through Google, Facebook, Twitter, or LinkedIn, we may access your name, email, and profile
+            information. Additional data may be optionally shared.
+          </p>
+
+          <h3 className="mb-3 mt-6 text-xl font-semibold">Tracking Technologies and Cookies</h3>
+          <p className="pl-4">
+            We use cookies and web beacons to authenticate users, store preferences, and analyze usage. You can disable
+            cookies via browser settings.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="mb-4 text-2xl font-bold">Use of Your Personal Data</h2>
+          <p className="mb-3 pl-4">We may use your personal data to:</p>
+          <ul className="list-inside list-disc space-y-2 pl-4">
+            <li>Provide and maintain the service</li>
+            <li>Manage your account and purchases</li>
+            <li>Send service communications and offers</li>
+            <li>Analyze usage and improve experience</li>
+            <li>Prevent fraud and ensure security</li>
+            <li>Comply with legal obligations</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 className="mb-4 text-2xl font-bold">Sharing of Your Personal Data</h2>
+          <p className="pl-4">
+            Your data may be shared with service providers, affiliates, business partners, or during legal/business transfers,
+            and only with your consent.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="mb-4 text-2xl font-bold">Retention & Transfer</h2>
+          <p className="pl-4">
+            Your data is retained only as long as needed for legal and service purposes. It may be transferred internationally
+            with proper security measures.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="mb-4 text-2xl font-bold">Delete Your Data</h2>
+          <p className="mb-3 pl-4">You may delete your data anytime by:</p>
+          <ul className="list-inside list-disc space-y-2 pl-4">
+            <li>Using your account settings</li>
+            <li>Emailing us at support@techstudio.com.bd</li>
+            <li>Visiting our Delete Account Data page</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 className="mb-4 text-2xl font-bold">Disclosure & Security</h2>
+          <p className="pl-4">
+            Data may be disclosed for legal reasons or in mergers. While we secure your data, no method is 100% secure
+            online—please use caution.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="mb-4 text-2xl font-bold">Children&apos;s Privacy</h2>
+          <p className="pl-4">
+            We do not knowingly collect data from users under 13. Parents may contact us to delete such data.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="mb-4 text-2xl font-bold">Links to Other Sites</h2>
+          <p className="pl-4">
+            We are not responsible for third-party site privacy. Please check their policies separately.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="mb-4 text-2xl font-bold">Changes to This Policy</h2>
+          <p className="pl-4">
+            We may update this policy. Users will be notified by email or notices on our website.
+          </p>
+        </section>
+      </div>
     </main>
   );
 }

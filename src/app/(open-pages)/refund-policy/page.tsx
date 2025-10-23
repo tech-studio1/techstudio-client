@@ -1,120 +1,131 @@
-import { notoSherif } from '@/app/fonts';
-
 export default function RefundPolicyPage() {
   return (
-    <main className="mx-auto max-w-6xl space-y-8 p-6 text-gray-600">
-      <div className="my-10">
-        <h2 className="mb-4 text-xl font-bold">Return Policy:</h2>
-        <ul className={`${notoSherif.className} space-y-2 md:text-lg`}>
-          <li className="flex items-center">
-            <span className="mr-2 flex size-5 shrink-0 items-center justify-center rounded-sm bg-blue-500 text-white">
-              ✓
-            </span>
-            যদি পন্যটি আসল বা অরিজিনাল না হয়। ২৪ঘন্টার মধ্যে অবহিত করতে হবে
-            আমাদের কাছে।
-          </li>
-          <li className="flex items-center">
-            <span className="mr-2 flex size-5 shrink-0 items-center justify-center rounded-sm bg-blue-500 text-white">
-              ✓
-            </span>
-            যদি প্যাকেজ খোলার পর শারিরীক ক্ষতিগ্রস্ত পন্য পেয়ে থাকেন। (অবশ্যই
-            আনবক্সিং ভিডিও পাঠাতে হবে)
-          </li>
-          <li className="flex items-center">
-            <span className="mr-2 flex size-5 shrink-0 items-center justify-center rounded-sm bg-blue-500 text-white">
-              ✓
-            </span>
-            যদি পন্যটি অর্ডার করার পন্য থেকে আলাদা হয়। (ভুল পন্য হয়)
-          </li>
-          <li className="flex items-center">
-            <span className="mr-2 flex size-5 shrink-0 items-center justify-center rounded-sm bg-blue-500 text-white">
-              ✓
-            </span>
-            আপনি যদি মন পরিবর্তন করেন/ ভুল ক্রমে ওর্ডার করেন।(অবশ্যই প্রোডাক্ট
-            সিল থাকতে হবে।প্রোডাক্ট খুলে ফেলার পর রিটার্ন করা সম্ভব হবে না।
-          </li>
-          <li className="flex items-center">
-            <span className="mr-2 flex size-5 shrink-0 items-center justify-center rounded-sm bg-blue-500 text-white">
-              ✓
-            </span>
-            আপনার আইটেম ফেরত দেওয়ার জন্য আপনার নিজের শিপিং খরচ পরিশোধের জন্য
-            আপনি দায়ী থাকবেন। শিপিং খরচ অফেরতযোগ্য,আপনি যদি ফেরত পান, তাহলে
-            রিটার্ন শিপিংয়ের খরচ আপনার ফেরত থেকে কেটে নেওয়া হবে।
-          </li>
-        </ul>
-      </div>
-      <div className="my-10">
-        <h2 className="mb-4 text-xl font-bold">Refund Policy:</h2>
-        <ul className={`${notoSherif.className} space-y-2 md:text-lg`}>
-          <li className="flex items-center">
-            <span className="mr-2 flex size-5 shrink-0 items-center justify-center rounded-sm bg-blue-500 text-white">
-              ✓
-            </span>
-            যদি আমরা আপনার অর্ডার করা প্রোডাক্ট না দিতে পারি।(স্টক শেষ হলে)
-          </li>
-          <li className="flex items-center">
-            <span className="mr-2 flex size-5 shrink-0 items-center justify-center rounded-sm bg-blue-500 text-white">
-              ✓
-            </span>
-            আপনি যদি মন পরিবর্তন করেন এবং পন্যগুলো ডেলিভারি করার আগেই আমাদের
-            অবহিত করেন।
-          </li>
-          <li className="flex items-center">
-            <span className="mr-2 flex size-5 shrink-0 items-center justify-center rounded-sm bg-blue-500 text-white">
-              ✓
-            </span>
-            রিফান্ড সফল হতে ৭-১৪ কার্যদিবস সময় লাগবে।
-          </li>
-          <li className="flex items-center">
-            <span className="mr-2 flex size-5 shrink-0 items-center justify-center rounded-sm bg-blue-500 text-white">
-              ✓
-            </span>
-            একবার আমরা আপনার আইটেমটি পেয়ে গেলে, আমরা এটি পরিদর্শন করব এবং
-            আপনাকে অবহিত করব যে আমরা আপনার ফেরত আইটেমটি পেয়েছি। আইটেমটি
-            পরিদর্শন করার পরে আমরা অবিলম্বে আপনার ফেরতের স্থিতি সম্পর্কে আপনাকে
-            অবহিত করব।
-          </li>
-          <li className="flex items-center">
-            <span className="mr-2 flex size-5 shrink-0 items-center justify-center rounded-sm bg-blue-500 text-white">
-              ✓
-            </span>
-            রিফান্ডের সময়কাল আপনার কার্ড প্রদানকারীর নীতির উপর নির্ভর করে
-            পরিবর্তিত হতে পারে।
-          </li>
-          <li className="flex items-center">
-            <span className="mr-2 flex size-5 shrink-0 items-center justify-center rounded-sm bg-blue-500 text-white">
-              ✓
-            </span>
-            আপনার আইটেম ফেরত দেওয়ার জন্য আপনার নিজের শিপিং খরচ পরিশোধের জন্য
-            আপনি দায়ী থাকবেন। শিপিং খরচ অফেরতযোগ্য,আপনি যদি ফেরত পান, তাহলে
-            রিটার্ন শিপিংয়ের খরচ আপনার ফেরত থেকে কেটে নেওয়া হবে।
-          </li>
-        </ul>
-      </div>
-      <div className="my-10 pb-10">
-        <h2 className="mb-4 text-xl font-bold">
-          How To Do Return and Refund Request?
-        </h2>
-        <ul className={`${notoSherif.className} space-y-2 md:text-lg`}>
-          <li className="flex items-center">
-            <span className="mr-2 flex size-5 shrink-0 items-center justify-center rounded-sm bg-blue-500 text-white">
-              ✓
-            </span>
-            আমাদের ফেসবুক এ মেসেজ করে জানাতে পারেন।
-          </li>
-          <li className="flex items-center">
-            <span className="mr-2 flex size-5 shrink-0 items-center justify-center rounded-sm bg-blue-500 text-white">
-              ✓
-            </span>
-            আমাদের WhatsApp (01670957108) এ জানাতে পারেন।
-          </li>
-          <li className="flex items-center">
-            <span className="mr-2 flex size-5 shrink-0 items-center justify-center rounded-sm bg-blue-500 text-white">
-              ✓
-            </span>
-            সরাসরি কল দিয়ে জানাতে পারবেন (অফিস টাইমে)।
-          </li>
-        </ul>
+    <main className="mx-auto max-w-6xl space-y-6 p-6 text-gray-700">
+      <div className="my-10 space-y-8">
+        <div className="mb-6">
+          <p className="text-base leading-relaxed">
+            At TechStudio (techstudio.com.bd), your satisfaction is our top
+            priority. We work hard to ensure every product you receive is 100%
+            authentic and in perfect condition. However, if your experience
+            falls short of expectations, our Refund Policy ensures a smooth and
+            transparent process.
+          </p>
+        </div>
+
+        <section>
+          <h3 className="mb-4 text-xl font-bold">1. Eligibility for Refund</h3>
+          <ul className="list-inside list-disc space-y-2 pl-4">
+            <li>
+              The product received is damaged, defective, or not as described.
+            </li>
+            <li>
+              The product you ordered is out of stock and we are unable to
+              deliver it.
+            </li>
+            <li>
+              The product was incorrectly delivered (e.g., wrong model, color,
+              or item).
+            </li>
+            <li>You canceled the order before it was shipped.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3 className="mb-4 text-xl font-bold">2. Refund Conditions</h3>
+          <ul className="list-inside list-disc space-y-2 pl-4">
+            <li>
+              You must notify us within 48 hours of receiving the product.
+            </li>
+            <li>
+              The item must be unused, unopened, and in its original packaging.
+            </li>
+            <li>
+              You must provide valid proof of purchase (order number or
+              receipt).
+            </li>
+            <li>
+              The item must be returned to us in the same condition as received.
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h3 className="mb-4 text-xl font-bold">
+            3. Non-Refundable Situations
+          </h3>
+          <ul className="list-inside list-disc space-y-2 pl-4">
+            <li>
+              Products returned without original packaging or accessories.
+            </li>
+            <li>
+              Physical damage due to misuse or mishandling after delivery.
+            </li>
+            <li>Products with broken security seals or signs of use.</li>
+            <li>Custom orders or items marked as final sale.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3 className="mb-4 text-xl font-bold">4. Refund Process</h3>
+          <ul className="list-inside list-disc space-y-2 pl-4">
+            <li>
+              We will notify you of the approval or rejection of your refund
+              after inspection.
+            </li>
+            <li>
+              If approved, the refund will be processed within 7–10 working
+              days.
+            </li>
+            <li>
+              Refunds will be issued to the original method of payment (e.g.,
+              bKash, Nagad, bank transfer).
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h3 className="mb-4 text-xl font-bold">5. Return Shipping</h3>
+          <ul className="list-inside list-disc space-y-2 pl-4">
+            <li>
+              If the refund is due to an error on our part, we will cover return
+              shipping costs.
+            </li>
+            <li>
+              In all other cases, the customer is responsible for return
+              shipping.
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h3 className="mb-4 text-xl font-bold">6. Order Cancellations</h3>
+          <ul className="list-inside list-disc space-y-2 pl-4">
+            <li>
+              Orders can be canceled before shipment by contacting our customer
+              service.
+            </li>
+            <li>
+              If already shipped, our standard return/refund policy will apply.
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h3 className="mb-4 text-xl font-bold">7. Contact Information</h3>
+          <ul className="list-inside space-y-2 pl-4">
+            <li>📧 Email: support@techstudio.com.bd</li>
+            <li>📞 Phone: 01670957108</li>
+            <li>
+              💬 Facebook:{' '}
+              <a
+                href="https://www.facebook.com/techstudio.com.bd"
+                className="text-blue-600 hover:underline"
+              >
+                facebook.com/techstudio.com.bd
+              </a>
+            </li>
+          </ul>
+        </section>
       </div>
     </main>
   );

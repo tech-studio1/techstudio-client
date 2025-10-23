@@ -1,496 +1,164 @@
-import { notoSherif } from '@/app/fonts';
-import React from 'react';
-
-const TermsAndConditionsPage = () => {
+export default function TermsAndConditionsPage() {
   return (
-    <div
-      className={`${notoSherif.className} mx-auto my-20 max-w-6xl px-2 text-gray-600`}
-    >
-      {/* Section 1: Overview */}
-      <section className="mb-8">
-        <h1 className="mb-4 text-3xl font-bold">ওভারভিউ :</h1>
-        <p className="mb-4">
-          এই ওয়েবসাইটটি techstudio.com.bd দ্বারা পরিচালিত হয়। পুরো সাইট জুড়ে,
-          “আমরা”, “আমাদের” এবং “আমাদের” শব্দগুলি techstudio.com.bd-কে নির্দেশ
-          করে৷ techstudio.com.bd এই ওয়েবসাইটটি অফার করে, এই সাইট থেকে উপলব্ধ
-          সমস্ত তথ্য, সরঞ্জাম এবং পরিষেবাগুলি সহ আপনার, ব্যবহারকারীর জন্য, এখানে
-          উল্লিখিত সমস্ত শর্তাবলী, শর্তাবলী, নীতি এবং নোটিশগুলি আপনার গ্রহণ করার
-          শর্তে৷
-        </p>
-        <p className="mb-4">
-          আমাদের সাইট পরিদর্শন করে এবং/অথবা আমাদের কাছ থেকে কিছু কেনার মাধ্যমে,
-          আপনি আমাদের “পরিষেবা”তে নিযুক্ত হন এবং নিম্নলিখিত শর্তাবলী (“পরিষেবার
-          শর্তাবলী”, “শর্তাবলী”) দ্বারা আবদ্ধ হতে সম্মত হন, সেই অতিরিক্ত
-          শর্তাবলী এবং নীতিগুলি সহ এখানে উল্লেখ করা হয়েছে এবং/অথবা হাইপারলিঙ্ক
-          দ্বারা উপলব্ধ। এই পরিষেবার শর্তাবলী সাইটের সমস্ত ব্যবহারকারীর জন্য
-          প্রযোজ্য, যার মধ্যে সীমাবদ্ধতা ছাড়াই ব্যবহারকারী যারা ব্রাউজার,
-          বিক্রেতা, গ্রাহক, বণিক, এবং/অথবা সামগ্রীর অবদানকারী।
-        </p>
-        <p className="mb-4">
-          আমাদের ওয়েবসাইট অ্যাক্সেস বা ব্যবহার করার আগে দয়া করে এই পরিষেবার
-          শর্তাবলী সাবধানে পড়ুন। সাইটের কোনো অংশ অ্যাক্সেস বা ব্যবহার করে, আপনি
-          এই পরিষেবার শর্তাবলী দ্বারা আবদ্ধ হতে সম্মত হন। আপনি যদি এই চুক্তির
-          সমস্ত শর্তাবলীতে সম্মত না হন, তাহলে আপনি ওয়েবসাইটটি অ্যাক্সেস করতে বা
-          কোনো পরিষেবা ব্যবহার করতে পারবেন না। যদি এই পরিষেবার শর্তাদি একটি অফার
-          হিসাবে বিবেচিত হয়, তবে গ্রহণযোগ্যতা স্পষ্টভাবে এই পরিষেবার শর্তাবলীতে
-          সীমাবদ্ধ।
-        </p>
-        <p className="mb-4">
-          বর্তমান দোকানে যোগ করা যেকোন নতুন বৈশিষ্ট্য বা সরঞ্জামগুলিও পরিষেবার
-          শর্তাবলীর অধীন হবে৷ আপনি এই পৃষ্ঠায় যেকোনো সময় পরিষেবার শর্তাবলীর
-          সবচেয়ে সাম্প্রতিক সংস্করণ পর্যালোচনা করতে পারেন। আমরা আমাদের
-          ওয়েবসাইটে আপডেট এবং/অথবা পরিবর্তন পোস্ট করে এই পরিষেবার শর্তাবলীর
-          যেকোনো অংশ আপডেট, পরিবর্তন বা প্রতিস্থাপন করার অধিকার সংরক্ষণ করি।
-          পরিবর্তনের জন্য পর্যায়ক্রমে এই পৃষ্ঠাটি পরীক্ষা করা আপনার দায়িত্ব।
-          যেকোন পরিবর্তন পোস্ট করার পর আপনার ওয়েবসাইটের ক্রমাগত ব্যবহার বা
-          অ্যাক্সেস সেই পরিবর্তনগুলির গ্রহণযোগ্যতা গঠন করে।
-        </p>
-      </section>
+    <main className="mx-auto max-w-6xl space-y-6 p-6 text-gray-700">
+      <div className="my-10 space-y-8">
+        <h1 className="mb-6 text-3xl font-bold">TechStudio BD: Terms & Conditions</h1>
 
-      {/* Section 2: General Terms */}
-      <section className="mb-8">
-        <h2 className="mb-4 text-2xl font-bold">বিভাগ ১ – সাধারণ শর্তাবলী :</h2>
-        <p className="mb-4">
-          এই পরিষেবার শর্তাবলীতে সম্মত হয়ে, আপনি প্রতিনিধিত্ব করেন যে আপনি
-          আপনার বর্তমান রাজ্য বা বসবাসের প্রদেশে সংখ্যাগরিষ্ঠ বয়সে পৌঁছেছেন, বা
-          আপনি যেখানে আপনার নাবালক নির্ভরশীলদের এই ওয়েবসাইটটি ব্যবহার করার
-          অনুমতি দেওয়ার জন্য আপনি আমাদের সম্মতি দিয়েছেন আপনার রাজ্য বা বসবাসের
-          প্রদেশে সংখ্যাগরিষ্ঠ বয়স।
-        </p>
-        <p className="mb-4">
-          আপনি কোনো বেআইনি বা অননুমোদিত উদ্দেশ্যে আমাদের পণ্যগুলি ব্যবহার করতে
-          পারবেন না বা আপনি, পরিষেবার ব্যবহারে, আপনার এখতিয়ারের কোনো আইন লঙ্ঘন
-          করতে পারেন (কপিরাইট আইন সহ কিন্তু সীমাবদ্ধ নয়)। আপনি অবশ্যই কোন কৃমি
-          বা ভাইরাস বা ধ্বংসাত্মক প্রকৃতির কোন কোড প্রেরণ করবেন না। কোনো শর্ত
-          লঙ্ঘন বা লঙ্ঘনের ফলে আপনার পরিষেবাগুলি অবিলম্বে বন্ধ হয়ে যাবে৷
-        </p>
-        <p className="mb-4">
-          আমরা যে কোন সময় যে কোন কারণে যে কাউকে সেবা প্রত্যাখ্যান করার অধিকার
-          সংরক্ষণ করি। আপনি বুঝতে পেরেছেন যে আপনার সামগ্রী (ক্রেডিট কার্ডের তথ্য
-          সহ নয়), এনক্রিপ্ট ছাড়া স্থানান্তরিত হতে পারে এবং এতে নিম্নলিখিতগুলি
-          জড়িত থাকতে পারে:
-        </p>
-        <ul className="mb-4 list-disc pl-8">
-          <li>বিভিন্ন নেটওয়ার্কের মাধ্যমে সংক্রমণ; এবং</li>
-          <li>
-            সংযোগকারী নেটওয়ার্ক বা ডিভাইসগুলির প্রযুক্তিগত প্রয়োজনীয়তার সাথে
-            সামঞ্জস্য এবং মানিয়ে নেওয়ার পরিবর্তনগুলি।
-          </li>
-        </ul>
-        <p className="mb-4">
-          আপনি আমাদের দ্বারা স্পষ্ট লিখিত অনুমতি ব্যতীত পরিষেবাটির কোনও অংশ
-          পুনরুত্পাদন, সদৃশ, অনুলিপি, বিক্রয়, পুনঃবিক্রয় বা শোষণ না করতে সম্মত
-          হন, পরিষেবার ব্যবহার, বা পরিষেবাটি যে ওয়েবসাইটের মাধ্যমে পরিষেবাটি
-          সরবরাহ করা হয় সেখানে পরিষেবা অ্যাক্সেস না করতে।
-        </p>
-      </section>
+        <div className="mb-6">
+          <p className="text-base leading-relaxed">
+            Welcome to Shei Tech! These Terms and Conditions govern your use of our website (techstudio.com.bd) and
+            the purchase of products or services from us. By accessing or using our site, you agree to comply with these
+            terms. If you do not agree, please refrain from using our website.
+          </p>
+        </div>
 
-      {/* Section 3: Availability and Pricing */}
-      <section className="mb-8">
-        <h2 className="mb-4 text-2xl font-bold">
-          বিভাগ ২ – প্রাপ্যতা এবং মূল্য :
-        </h2>
-        <p className="mb-4">
-          সমস্ত আইটেমের প্রাপ্যতা এবং মূল্য প্রাপ্যতা সাপেক্ষে।
-          techstudio.com.bd যত তাড়াতাড়ি সম্ভব আপনাকে জানাবে, যদি আপনার অর্ডার
-          করা পণ্য(গুলি) এবং পরিষেবাগুলি উপলব্ধ না হয়৷ যদি না হয়, তাহলে
-          কাস্টমার কেয়ার অনুরূপ বিকল্প অফার করবে।
-        </p>
-        <p className="mb-4">
-          techstudio.com.bd থেকে পরিদর্শন এবং/অথবা কিছু কেনার অংশ হিসাবে, আপনি
-          বুঝতে সম্মত হওয়ার ওয়ারেন্টি দিচ্ছেন যে ব্যবসার প্রকৃতির কারণে,
-          অর্ডার দেওয়ার পরেও উপলব্ধতা পরিবর্তিত হতে পারে। এমন একটি ইভেন্টে
-          যেখানে পণ্যটি আর পাওয়া যায় না, কাস্টমার কেয়ার বিকল্প বা আপনার
-          অর্ডার সম্পূর্ণ বাতিল করার বিকল্প অফার করবে।
-        </p>
-        <p className="mb-4">
-          সমস্ত মূল্য বিজ্ঞপ্তি ছাড়াই পরিবর্তন সাপেক্ষে, এবং
-          techstudio.com.bd-এ প্রদর্শিত মূল্যের যথার্থতা নিশ্চিত করার জন্য
-          সর্বাত্মক প্রচেষ্টা করা হলেও, সেগুলি সঠিক হওয়ার নিশ্চয়তা দেওয়া হয়
-          না৷ যদি কোন মূল্য প্রদর্শন করা থেকে ভিন্ন হয় তবে আমরা অর্ডারটি
-          প্রেরণের আগে আপনাকে অবহিত করব এবং আপনার কাছে অর্ডারটি চালিয়ে যাওয়ার
-          বা না করার বিকল্প থাকবে।
-        </p>
-        <p className="mb-4">
-          আমরা যে কোনো সময় কোনো বিজ্ঞপ্তি ছাড়াই কোনো পরিষেবা (বা এর কোনো অংশ
-          বা বিষয়বস্তু) পরিবর্তন বা বন্ধ করার অধিকার সংরক্ষণ করি। পরিষেবার কোনও
-          পরিবর্তন, মূল্য পরিবর্তন, সাসপেনশন বা বন্ধ করার জন্য আমরা কোনও গ্রাহক
-          বা কোনও তৃতীয় পক্ষের কাছে দায়বদ্ধ থাকব না।
-        </p>
-      </section>
+        <section>
+          <h2 className="mb-4 text-2xl font-bold">1. General Conditions</h2>
+          <p className="pl-4">
+            TechStudio reserves the right to refuse service to anyone for any reason at any time. You agree not to
+            reproduce, duplicate, copy, sell, or exploit any portion of our website, products, or services without our
+            written permission. We reserve the right to modify or discontinue any service without prior notice.
+          </p>
+        </section>
 
-      {/* Section 4: Products */}
-      <section className="mb-8">
-        <h2 className="mb-4 text-2xl font-bold">বিভাগ ৩ – পণ্য :</h2>
-        <p className="mb-4">
-          পণ্যগুলি techstudio.com.bd এর মাধ্যমে একচেটিয়াভাবে অনলাইনে পাওয়া
-          যায়। এই পণ্য বা পরিষেবাগুলির সীমিত পরিমাণ থাকতে পারে এবং শুধুমাত্র
-          আমাদের প্রত্যাবর্তন এবং প্রতিস্থাপন নীতি অনুযায়ী ফেরত বা বিনিময়
-          সাপেক্ষে।
-        </p>
-        <p className="mb-4">
-          techstudio.com.bd পণ্যটিকে তার আসল রঙ এবং সঠিক আকারে প্রদর্শন করার
-          জন্য যথাসম্ভব নির্ভুল হওয়ার জন্য যথাসাধ্য চেষ্টা করেছে। যাইহোক, আপনার
-          ডিভাইসের ডিসপ্লে সেটিংস, প্রযুক্তিগত সমস্যা এবং ডিসপ্লেতে পার্থক্যের
-          কারণে পণ্যের রঙ বা আকারে ভিন্নতা আসতে পারে। তাই, techstudio.com.bd
-          গ্যারান্টি দিতে পারে না যে প্রকৃত পণ্যটি প্রদর্শন চিত্রের মতো দেখতে
-          হবে। techstudio.com.bd-এর কোনো পণ্য বর্ণনা অনুযায়ী না হলে, আমাদের
-          রিটার্ন এবং রিপ্লেসমেন্ট নীতি অনুযায়ী সমস্ত শর্ত পূরণ করে অব্যবহৃত
-          অবস্থায় ফেরত দেওয়াই আপনার একমাত্র প্রতিকার।
-        </p>
-        <p className="mb-4">
-          আমরা অধিকার সংরক্ষণ করি, কিন্তু কোনো ব্যক্তি, ভৌগলিক অঞ্চল বা
-          এখতিয়ারে আমাদের পণ্য বা পরিষেবার বিক্রয় সীমাবদ্ধ করার জন্য বাধ্য নই।
-          আমরা কেস-বাই-কেস ভিত্তিতে এই অধিকার প্রয়োগ করতে পারি। আমরা যে কোনো
-          সময় যে কোনো পণ্য বা পরিষেবার পরিমাণ সীমিত করার অধিকার রাখি। পণ্যের
-          সমস্ত বিবরণ বা পণ্যের মূল্য আমাদের নিজস্ব বিবেচনার ভিত্তিতে, বিজ্ঞপ্তি
-          ছাড়াই যে কোনও সময় পরিবর্তন সাপেক্ষে। আমরা যেকোনো সময় যেকোনো পণ্য
-          বন্ধ করার অধিকার সংরক্ষণ করি।
-        </p>
-      </section>
+        <section>
+          <h2 className="mb-4 text-2xl font-bold">2. Submissions & User Content</h2>
+          <p className="pl-4">
+            Any reviews, comments, suggestions, or other submissions you provide become the property of TechStudio and
+            may be used for marketing or improvement purposes. You must not use a false email address, impersonate
+            another person, or mislead us regarding the origin of any submission.
+          </p>
+        </section>
 
-      {/* Section 5: Billing and Account Information */}
-      <section className="mb-8">
-        <h2 className="mb-4 text-2xl font-bold">
-          বিভাগ ৪ – বিলিং এবং অ্যাকাউন্টের তথ্যের যথার্থতা :
-        </h2>
-        <p className="mb-4">
-          আপনি আমাদের সাথে যে কোনো আদেশ প্রত্যাখ্যান করার অধিকার আমরা সংরক্ষণ
-          করি। আমরা, আমাদের নিজস্ব বিবেচনার ভিত্তিতে, প্রতি ব্যক্তি বা অর্ডার
-          প্রতি ক্রয়কৃত পরিমাণ সীমিত বা বাতিল করতে পারি। এই বিধিনিষেধগুলির
-          মধ্যে একই গ্রাহক অ্যাকাউন্ট, একই ক্রেডিট কার্ড এবং/অথবা একই বিলিং
-          এবং/অথবা শিপিং ঠিকানা ব্যবহার করে এমন আদেশগুলি অন্তর্ভুক্ত থাকতে পারে।
-          ইভেন্টে যে আমরা একটি অর্ডার পরিবর্তন বা বাতিল করি, আমরা অর্ডার করার
-          সময় প্রদত্ত ফোন নম্বর বা ই-মেইলের মাধ্যমে যোগাযোগ করে আপনাকে অবহিত
-          করার চেষ্টা করতে পারি। আমরা এমন আদেশ সীমিত বা নিষিদ্ধ করার অধিকার
-          সংরক্ষণ করি যা, আমাদের একমাত্র বিচারে, ডিলার, রিসেলার বা পরিবেশকদের
-          দ্বারা স্থাপিত বলে মনে হয়।
-        </p>
-        <p className="mb-4">
-          একজন দর্শক বা গ্রাহক হিসাবে, আপনি আমাদের দোকানে করা সমস্ত কেনাকাটার
-          জন্য বর্তমান, সম্পূর্ণ এবং সঠিক অ্যাকাউন্ট তথ্য প্রদান করতে সম্মত হন।
-          এছাড়াও আপনি অবিলম্বে আপনার ইমেল ঠিকানা এবং ক্রেডিট কার্ড নম্বর এবং
-          মেয়াদ শেষ হওয়ার তারিখ সহ আপনার অ্যাকাউন্ট এবং অন্যান্য তথ্য আপডেট
-          করতে সম্মত হন, যাতে আমরা আপনার লেনদেন সম্পূর্ণ করতে পারি এবং প্রয়োজনে
-          আপনার সাথে যোগাযোগ করতে পারি।
-        </p>
-        <p className="mb-4">
-          প্রতিটি ব্যবহারকারীর অ্যাকাউন্ট অবশ্যই একটি স্বতন্ত্র নিবন্ধিত সেল ফোন
-          নম্বর এবং ব্যবহারকারীর ইমেল ঠিকানার অধীনে তৈরি করতে হবে। উল্লেখিত একই
-          তথ্যের অধীনে একাধিক অ্যাকাউন্ট তৈরি করা যাবে না। এই ধরনের ইভেন্টে
-          ব্যবহারকারী প্রচারাভিযান বা অন্যান্য মাঝে মাঝে বিক্রয়ের সময় অফার,
-          ডিল, ডিসকাউন্ট কুপন বা উপহার কুপন একবারের বেশি নিতে পারবেন না।
-        </p>
-      </section>
+        <section>
+          <h2 className="mb-4 text-2xl font-bold">3. Product Information & Pricing</h2>
+          <p className="pl-4">
+            All prices on our website are in Bangladeshi Taka (BDT) and include VAT unless otherwise stated. Prices
+            and product availability are subject to change without prior notice. If a product is listed at an incorrect
+            price due to an error, we reserve the right to cancel or refuse any order placed at the incorrect price. We
+            do not offer price matching with competitors or other sellers.
+          </p>
+        </section>
 
-      {/* Section 6: Discounts and Allowances */}
-      <section className="mb-8">
-        <h2 className="mb-4 text-2xl font-bold">বিভাগ ৫ – ছাড় এবং ভাতা :</h2>
-        <p className="mb-4">
-          ডিসকাউন্ট এবং ভাতা (কুপন কোড, প্রোমো কোড, মাঝে মাঝে অফার বা সাইন আপ
-          অফার ইত্যাদি) হল পণ্য বা পরিষেবার মৌলিক মূল্য হ্রাস। techstudio.com.bd
-          থেকে একটি সফল অর্ডারের জন্য ব্যবহার করার পরে ডিসকাউন্ট কুপন বা উপহার
-          কার্ডের মূল্য ফেরত বা বিনিময়ে ফেরত দেওয়া হবে না। একই সেল ফোন নম্বর
-          বা ইমেল ঠিকানার অধীনে একাধিক অ্যাকাউন্ট থাকা ব্যবহারকারীরা একবারের
-          বেশি ডিসকাউন্ট বা অফার নিতে পারবেন না, যেমনটি নীতি।
-        </p>
-      </section>
+        <section>
+          <h2 className="mb-4 text-2xl font-bold">4. Orders & Payment</h2>
+          <p className="pl-4">
+            Orders outside Dhaka require an advance payment of Tk. 150 or 10% of the total amount for large orders. We
+            reserve the right to verify payment details before processing orders to prevent fraudulent transactions. If
+            additional verification is required and the customer fails to respond, the order may be canceled.
+          </p>
+        </section>
 
-      {/* Section 7: Third-Party Links */}
-      <section className="mb-8">
-        <h2 className="mb-4 text-2xl font-bold">
-          বিভাগ ৬ – তৃতীয় পক্ষের লিঙ্ক :
-        </h2>
-        <p className="mb-4">
-          আমাদের পরিষেবার মাধ্যমে উপলব্ধ কিছু বিষয়বস্তু, পণ্য এবং পরিষেবাগুলির
-          মধ্যে সম্পূর্ণ বা আংশিক, তৃতীয় পক্ষের সামগ্রী অন্তর্ভুক্ত থাকতে পারে
-          শুধুমাত্র আপনাকে আরও ভাল পরিষেবা প্রদানের উদ্দেশ্যে।
-        </p>
-        <p className="mb-4">
-          এই সাইটে তৃতীয় পক্ষের লিঙ্কগুলি আপনাকে তৃতীয় পক্ষের ওয়েবসাইটগুলিতে
-          নির্দেশ করতে পারে যেগুলি আমাদের সাথে অনুমোদিত নয়৷ আমরা বিষয়বস্তু বা
-          নির্ভুলতা পরীক্ষা বা মূল্যায়নের জন্য দায়ী নই, অথবা আমরা তৃতীয়
-          পক্ষের সামগ্রী, ওয়েবসাইট সামগ্রী, পরিষেবা বা তৃতীয় পক্ষের অন্য কোনো
-          উপকরণের জন্য কোনো দায়বদ্ধতার নিশ্চয়তা দিই না।
-        </p>
-        <p className="mb-4">
-          আমরা ক্রয় বা পণ্য, পরিষেবা, সম্পদ, বিষয়বস্তু, বা কোনো তৃতীয় পক্ষের
-          ওয়েবসাইটের সাথে সম্পর্কিত অন্য কোনো লেনদেনের ব্যবহার সম্পর্কিত কোনো
-          ক্ষতি বা ক্ষতির জন্য দায়ী নই। দয়া করে তৃতীয় পক্ষের নীতি এবং
-          অনুশীলনগুলি সাবধানে পর্যালোচনা করুন এবং নিশ্চিত করুন যে আপনি কোনও
-          লেনদেন করার আগে সেগুলি বুঝতে পেরেছেন৷ কোনো অভিযোগ, দাবি, উদ্বেগ, বা
-          তৃতীয় পক্ষের পণ্য বা পরিষেবা সংিষেবা সংক্রান্ত প্রশ্ন তৃতীয় পক্ষের
-          কাছে নির্দেশিত করা উচিত। আমাদের গোপনীয়তা নীতি পড়ে এই সম্পর্কে আরও
-          জানুন।
-        </p>
-      </section>
+        <section>
+          <h2 className="mb-4 text-2xl font-bold">5. Shipping & Delivery</h2>
+          <p className="pl-4">
+            Delivery timelines are estimates and may be subject to delays due to unforeseen circumstances such as
+            political unrest, public holidays, or supply chain disruptions. If a product is out of stock after an order
+            is placed, we reserve the right to cancel the order and issue a refund. Orders may take longer to arrive
+            during peak seasons or special promotions.
+          </p>
+        </section>
 
-      {/* Section 8: Personal Information */}
-      <section className="mb-8">
-        <h2 className="mb-4 text-2xl font-bold">বিভাগ ৭ – ব্যক্তিগত তথ্য :</h2>
-        <p className="mb-4">
-          দোকানের মাধ্যমে আপনার ব্যক্তিগত তথ্য জমা দেওয়া আমাদের গোপনীয়তা নীতি
-          দ্বারা পরিচালিত হয়। আমাদের গোপনীয়তা নীতি সম্পর্কে আরও জানতে আমাদের
-          ওয়েবসাইট দেখুন।
-        </p>
-      </section>
+        <section>
+          <h2 className="mb-4 text-2xl font-bold">6. Return & Refund Policy</h2>
+          <p className="mb-3 pl-4">
+            You may be eligible for a refund or replacement if you receive a damaged, defective, or incorrect item. If
+            an incorrect product is sent, we will provide the correct item. The customer must return the incorrect
+            product in its original condition. Items must be returned in their original packaging, unopened, and unused
+            to qualify for a refund. Refunds are also applicable if a customer orders a product that is later found to
+            be out of stock. Refunds will be processed using the original payment method and may take up to 14 working
+            days to complete.
+          </p>
+        </section>
 
-      {/* Section 9: Errors, Mistakes, and Omissions */}
-      <section className="mb-8">
-        <h2 className="mb-4 text-2xl font-bold">
-          অধ্যায় ৮ – ত্রুটি, ভুল এবং ভুল :
-        </h2>
-        <p className="mb-4">
-          মাঝে মাঝে আমাদের ওয়েবসাইট বা কিছু পরিষেবাতে টাইপোগ্রাফিক ত্রুটি, ভুল
-          বা বাদ দেওয়া তথ্য থাকতে পারে যা পণ্যের বিবরণ, মূল্য, প্রচার, অফার,
-          পণ্য শিপিং চার্জ এবং উপলব্ধতার সাথে সম্পর্কিত হতে পারে। আমরা কোনো
-          ত্রুটি, ভুল বা ভুল সংশোধন করার অধিকার সংরক্ষণ করি এবং তথ্য পরিবর্তন বা
-          হালনাগাদ করার বা অর্ডার বাতিল করার অধিকার রাখি যদি কোনো তথ্য, আমাদের
-          বা কোনো সম্পর্কিত ওয়েবসাইটে, কোনো তথ্য পূর্বের জ্ঞান ছাড়াই যে কোনো
-          সময়ে ভুল হয় (আপনি আপনার অর্ডার জমা দেওয়ার পরে সহ বা উদ্বেগ)।
-        </p>
-        <p className="mb-4">
-          আমরা আইন দ্বারা প্রয়োজনীয় ব্যতীত, সীমাবদ্ধতা ছাড়াই, মূল্যের তথ্য সহ
-          আমাদের বা কোনও সম্পর্কিত ওয়েবসাইটে তথ্য আপডেট, সংশোধন বা স্পষ্ট করার
-          কোনও বাধ্যবাধকতা গ্রহণ করি না।
-        </p>
-        <p className="mb-4">
-          পরিষেবাতে বা, কোনও সম্পর্কিত ওয়েবসাইটে প্রয়োগ করা কোনও নির্দিষ্ট
-          আপডেট বা রিফ্রেশের তারিখ নেওয়া উচিত নয়, এটি বোঝানোর জন্য যে পরিষেবা
-          বা কোনও সম্পর্কিত ওয়েবসাইটের সমস্ত তথ্য পরিবর্তন বা আপডেট করা হয়েছে।
-        </p>
-      </section>
+        <section>
+          <h2 className="mb-4 text-2xl font-bold">7. Warranty & After-Sales Support</h2>
+          <p className="pl-4">
+            Products sold on Shei Tech may come with a manufacturer&apos;s warranty, if applicable.
+          </p>
+        </section>
 
-      {/* Section 10: Order Cancellation */}
-      <section className="mb-8">
-        <h2 className="mb-4 text-2xl font-bold">অধ্যায় ৯ – অর্ডার বাতিল :</h2>
-        <p className="mb-4">
-          techstudio.com.bd তাদের গ্রাহকদের কাছে মানসম্পন্ন এবং খাঁটি পণ্য
-          সরবরাহ করার প্রতিশ্রুতি দেয়। অতএব, techstudio.com.bd সর্বদা অনুমোদিত
-          বিক্রেতাদের কাছ থেকে অর্ডারকৃত পণ্য পাওয়ার পর গুণমান নিয়ন্ত্রণ
-          পরীক্ষা চালায়। techstudio.com.bd অর্ডারকৃত পণ্যের গুণমান নিয়ন্ত্রণ
-          চেক থেকে কোনো মানের সমস্যা খুঁজে পাওয়ার পর গ্রাহকের যেকোনো অর্ডার
-          বাতিল করার সমস্ত অধিকার সংরক্ষণ করে, কারণ আমরা আমাদের গ্রাহকদের সেরা
-          অনলাইন কেনাকাটার অভিজ্ঞতা দেওয়ার লক্ষ্য রাখি।
-        </p>
-        <p className="mb-4">
-          techstudio.com.bd অর্ডারকৃত পণ্যটি অনুপলব্ধ হলে বা স্টকের বাইরে থাকলে
-          যে কোনও অর্ডার বাতিল করার সমস্ত অধিকার সংরক্ষণ করে৷ পণ্যের অনুপলব্ধতা
-          ওয়েবসাইট দ্বারা পূর্বনির্ধারিত বা ভবিষ্যদ্বাণী করা যায় না, এটি
-          অনিবার্য ইনভেন্টরি ম্যানেজমেন্ট সমস্যা, ওয়েবসাইট ম্যানেজমেন্ট সমস্যা,
-          বিক্রেতা স্টক আপডেট সমস্যা বা অন্য কোন অপ্রত্যাশিত কারণে।
-        </p>
-      </section>
+        <section>
+          <h2 className="mb-4 text-2xl font-bold">8. Claims Against Objectionable or Infringing Content</h2>
+          <p className="mb-3 pl-4">
+            If you believe that any content on our website is misleading, offensive, or infringes on intellectual
+            property rights, please contact us at support@techstudio.com.bd
+          </p>
+          <p className="pl-4">We will review all complaints and take appropriate action, including content removal if necessary.</p>
+        </section>
 
-      {/* Section 11: Prohibited Uses */}
-      <section className="mb-8">
-        <h2 className="mb-4 text-2xl font-bold">
-          বিভাগ ১০ – নিষিদ্ধ ব্যবহার :
-        </h2>
-        <p className="mb-4">
-          পরিষেবার শর্তাবলীতে উল্লিখিত অন্যান্য নিষেধাজ্ঞাগুলি ছাড়াও, আপনি
-          ওয়েবসাইট বা এর বিষয়বস্তু ব্যবহার করা নিষিদ্ধ:
-        </p>
-        <ul className="mb-4 list-disc pl-8">
-          <li>কোনো বেআইনি উদ্দেশ্যে;</li>
-          <li>
-            অন্যদেরকে কোনো বেআইনি কাজ সম্পাদন বা অংশগ্রহণের জন্য অনুরোধ করা;
-          </li>
-          <li>
-            কোনো আন্তর্জাতিক, ফেডারেল, প্রাদেশিক বা জাতীয় প্রবিধান, নিয়ম, আইন,
-            বা স্থানীয় অধ্যাদেশ লঙ্ঘন করা;
-          </li>
-          <li>
-            আমাদের মেধা সম্পত্তি অধিকার বা অন্যদের মেধা সম্পত্তি অধিকার লঙ্ঘন বা
-            লঙ্ঘন করা;
-          </li>
-          <li>
-            লিঙ্গ, যৌন অভিযোজন, ধর্ম, জাতিসত্তা, জাতি, বয়স, জাতীয় উত্স, বা
-            অক্ষমতার ভিত্তিতে হয়রানি, অপমান, অপমান, ক্ষতি, মানহানি, অপবাদ,
-            অপমান, ভয় দেখানো বা বৈষম্য করা;
-          </li>
-          <li>মিথ্যা বা বিভ্রান্তিকর তথ্য জমা দিতে;</li>
-          <li>
-            ভাইরাস বা অন্য কোনো ধরনের দূষিত কোড আপলোড বা প্রেরণ করা যা পরিষেবার
-            কার্যকারিতা বা কার্যকারিতা বা কোনো সম্পর্কিত ওয়েবসাইট, অন্যান্য
-            ওয়েবসাইট বা ইন্টারনেটকে প্রভাবিত করবে এমন কোনো উপায়ে ব্যবহার করা
-            যেতে পারে;
-          </li>
-          <li>অন্যদের ব্যক্তিগত তথ্য সংগ্রহ বা ট্র্যাক করতে;</li>
-          <li>স্প্যাম, ফিশ, ফার্ম, অজুহাত, স্পাইডার ক্রল বা স্ক্র্যাপ করতে;</li>
-          <li>কোন অশ্লীল বা অনৈতিক উদ্দেশ্যে; বা</li>
-          <li>
-            পরিষেবা বা কোনও সম্পর্কিত ওয়েবসাইট, অন্যান্য ওয়েবসাইট বা
-            ইন্টারনেটের সুরক্ষা বৈশিষ্ট্যগুলির সাথে হস্তক্ষেপ বা বাধা দিতে।
-          </li>
-        </ul>
-        <p className="mb-4">
-          আমরা আপনার পরিষেবা বা কোনও সম্পর্কিত ওয়েবসাইট ব্যবহার বন্ধ করার
-          অধিকার সংরক্ষণ করি যে কোনও নিষিদ্ধ ব্যবহার লঙ্ঘনের জন্য।
-        </p>
-      </section>
+        <section>
+          <h2 className="mb-4 text-2xl font-bold">9. Fraud & Security</h2>
+          <p className="pl-4">
+            Customers must not misuse vouchers, cashback offers, or other promotions. Any attempt to manipulate the
+            system for unauthorized benefits may result in order cancellation, account suspension, or legal action. If
+            fraudulent activity is detected, we reserve the right to refuse service and take further legal measures.
+          </p>
+        </section>
 
-      {/* Section 12: Warranty Disclaimer; Limitation of Liability */}
-      <section className="mb-8">
-        <h2 className="mb-4 text-2xl font-bold">
-          অনুচ্ছেদ ১১ – ওয়্যারেন্টি অস্বীকৃতি; দায়বদ্ধতা সীমাবদ্ধতা :
-        </h2>
-        <p className="mb-4">
-          আমরা গ্যারান্টি দিই না, প্রতিনিধিত্ব করি বা ওয়ারেন্টি দিই না যে
-          আমাদের পরিষেবার আপনার ব্যবহার নিরবচ্ছিন্ন, সময়োপযোগী, নিরাপদ বা
-          ত্রুটি-মুক্ত হবে। পরিষেবার ব্যবহার থেকে প্রাপ্ত ত্রুটি থেকে মুক্ত হতে
-          পারে এমন ফলাফলগুলি সঠিক বা নির্ভরযোগ্য হবে বলে আমরা নিশ্চয়তা দিই না।
-          ব্যবহারকারীকে অবশ্যই বুঝতে হবে যে, সময়ে সময়ে আমরা অনির্দিষ্ট সময়ের
-          জন্য পরিষেবাটি সরিয়ে ফেলতে পারি বা যে কোনও সময়ে, বিভিন্ন
-          পরিস্থিতিতে, আপনাকে পূর্ব বিজ্ঞপ্তি ছাড়াই পরিষেবাটি বাতিল করতে পারি৷
-        </p>
-        <p className="mb-4">
-          আপনি স্পষ্টভাবে সম্মত হন যে আপনার পরিষেবার ব্যবহার বা ব্যবহারে অক্ষমতা
-          শুধুমাত্র আপনার ঝুঁকি। পরিষেবা এবং পরিষেবার মাধ্যমে আপনাকে সরবরাহ করা
-          সমস্ত পণ্য এবং পরিষেবাগুলি (আমাদের দ্বারা স্পষ্টভাবে বলা ছাড়া) আপনার
-          ব্যবহারের জন্য ‘যেমন আছে’ এবং ‘যেমন উপলব্ধ’ প্রদান করা হয়, কোনো
-          প্রতিনিধিত্ব, ওয়ারেন্টি বা কোনো ধরনের শর্ত ছাড়াই, প্রকাশ বা
-          অন্তর্নিহিত, সমস্ত অন্তর্নিহিত ওয়ারেন্টি বা ব্যবসায়িকতার শর্তাবলী,
-          ব্যবসায়িক গুণমান, একটি নির্দিষ্ট উদ্দেশ্যে ফিটনেস, স্থায়িত্ব,
-          শিরোনাম এবং অ লঙ্ঘন।
-        </p>
-        <p className="mb-4">
-          কোনো অবস্থাতেই techstudio.com.bd, আমাদের পরিচালক, কর্মকর্তা, কর্মচারী,
-          সহযোগী, এজেন্ট, ঠিকাদার, ইন্টার্ন, সরবরাহকারী, বিক্রেতা, পরিষেবা
-          প্রদানকারী বা লাইসেন্সদাতারা কোনো আঘাত, ক্ষতি, দাবি বা কোনো প্রত্যক্ষ,
-          পরোক্ষ, আনুষঙ্গিক, শাস্তিমূলক দায়বদ্ধ থাকবেন না , সীমাবদ্ধতা ছাড়াই,
-          হারানো লাভ, হারানো রাজস্ব, হারানো সঞ্চয়, ডেটা হারানো, প্রতিস্থাপন
-          খরচ, বা অনুরূপ কোনো ক্ষতি, চুক্তির ভিত্তিতে হোক না কেন, নির্যাতন
-          (অবহেলা সহ), কঠোর দায়বদ্ধতা বা অন্যথায়, আপনার যে কোনো পরিষেবা বা
-          পরিষেবা ব্যবহার করে সংগৃহীত কোনো পণ্যের ব্যবহার থেকে উদ্ভূত, অথবা
-          আপনার পরিষেবা বা কোনো পণ্যের ব্যবহার সংক্রান্ত যেকোনো উপায়ে সম্পর্কিত
-          অন্য কোনো দাবির জন্য, যার মধ্যে কোনো ত্রুটি বা বাদ পড়া সহ কিন্তু
-          সীমাবদ্ধ নয় কোনো বিষয়বস্তু, বা পরিষেবা ব্যবহারের ফলে যে কোনো ধরনের
-          ক্ষতি বা ক্ষতি বা কোনো বিষয়বস্তু (বা পণ্য) পোস্ট করা, প্রেরণ করা, বা
-          অন্যভাবে পরিষেবার মাধ্যমে উপলব্ধ করা হয়েছে, এমনকি যদি তাদের সম্ভাবনার
-          পরামর্শ দেওয়া হয়।
-        </p>
-        <p className="mb-4">
-          এটাও বলা আবশ্যক যে, techstudio.com.bd-এর বেশিরভাগ পণ্যই ওয়ারেন্টি বহন
-          করে, ব্যবহারকারী সরাসরি যেকোনো ব্র্যান্ড অনুমোদিত সার্ভিসিং পয়েন্টে
-          বা techstudio.com.bd-এর মাধ্যমেও ওয়ারেন্টি পেতে পারেন।
-        </p>
-        <p className="mb-4">
-          যাইহোক, প্রত্যক্ষ বা পরোক্ষ যাই হোক না কেন কোনো আঘাত, ক্ষতি, বা ক্ষতির
-          ফলে পণ্যটির যে কোনো ব্যবহার, techstudio.com.bd কে সার্ভিসিং সুবিধা
-          প্রদানের জন্য দায়বদ্ধ করবে না, তবে শর্ত থাকে যে, এই ধরনের প্রত্যক্ষ
-          বা পরোক্ষ ব্যবহার এবং এর ফলাফলগুলি কভার করা হয় না। ওয়ারেন্টির সাথে
-          থাকা পণ্যগুলির অধীনে বিধান দ্বারা সমর্থিত
-        </p>
-      </section>
+        <section>
+          <h2 className="mb-4 text-2xl font-bold">10. Limitation of Liability</h2>
+          <p className="pl-4">
+            TechStudio is not responsible for any direct, indirect, incidental, or consequential damages arising from
+            the use of our website or products. We do not guarantee uninterrupted access to our services and are not
+            liable for any service interruptions.
+          </p>
+        </section>
 
-      {/* Section 13: Indemnification */}
-      <section className="mb-8">
-        <h2 className="mb-4 text-2xl font-bold">বিভাগ ১২ – ক্ষতিপূরণ :</h2>
-        <p className="mb-4">
-          ওয়েবসাইট এবং এতে থাকা পরিষেবাগুলির একজন ব্যবহারকারী হিসাবে, আপনি
-          techstudio.com.bdকে ক্ষতিপূরণ দিতে, রক্ষা করতে এবং ধরে রাখতে সম্মত হন
-          এবং আমাদের পিতামাতা, সহায়ক, সহযোগী, অংশীদার, কর্মকর্তা, পরিচালক,
-          এজেন্ট, ঠিকাদার, লাইসেন্সদাতা, পরিষেবা প্রদানকারী, উপ-কন্ট্রাক্টর,
-          সরবরাহকারী, বিক্রেতা, ইন্টার্ন এবং কর্মচারী, যে কোনও দাবি বা দাবি থেকে
-          ক্ষতিকারক নয়, যুক্তিসঙ্গত অ্যাটর্নি ফি সহ, আপনার এই পরিষেবার শর্তাবলী
-          বা রেফারেন্স দ্বারা অন্তর্ভুক্ত করা কোনও নথির লঙ্ঘন বা আপনার লঙ্ঘনের
-          কারণে যে কোনও তৃতীয় পক্ষের দ্বারা করা হয়েছে। কোনো আইন বা তৃতীয়
-          পক্ষের অধিকার।
-        </p>
-      </section>
+        <section>
+          <h2 className="mb-4 text-2xl font-bold">11. Governing Law & Jurisdiction</h2>
+          <p className="pl-4">
+            These Terms and Conditions are governed by the laws of the People&apos;s Republic of Bangladesh. Any disputes
+            will be resolved in the courts of Dhaka, Bangladesh.
+          </p>
+        </section>
 
-      {/* Section 14: Severability */}
-      <section className="mb-8">
-        <h2 className="mb-4 text-2xl font-bold">বিভাগ ১৩ – বিভাজনযোগ্যতা :</h2>
-        <p className="mb-4">
-          যদি এই পরিষেবার শর্তাবলীর কোনো বিধান বেআইনি, অকার্যকর বা অপ্রয়োগযোগ্য
-          বলে নির্ধারণ করা হয়, তবে এই ধরনের বিধান প্রযোজ্য আইন দ্বারা অনুমোদিত
-          সম্পূর্ণ পরিমাণে প্রয়োগযোগ্য হবে, এবং অপ্রয়োগযোগ্য অংশটিকে এই
-          শর্তাবলী থেকে বিচ্ছিন্ন বলে গণ্য করা হবে পরিষেবা, এই ধরনের সংকল্প অন্য
-          কোনও অবশিষ্ট বিধানের বৈধতা এবং প্রয়োগযোগ্যতাকে প্রভাবিত করবে না।
-        </p>
-      </section>
+        <section>
+          <h2 className="mb-4 text-2xl font-bold">12. Amendments to Terms & Conditions</h2>
+          <p className="pl-4">
+            Shei Tech reserves the right to update, change, or modify these Terms at any time. It is your responsibility
+            to review this page periodically for updates. Continued use of our website after any changes constitutes
+            acceptance of the new terms.
+          </p>
+        </section>
 
-      {/* Section 15: Termination */}
-      <section className="mb-8">
-        <h2 className="mb-4 text-2xl font-bold">বিভাগ ১৪ – সমাপ্তি :</h2>
-        <p className="mb-4">
-          সমাপ্তির তারিখের পূর্বে সংঘটিত পক্ষগুলির বাধ্যবাধকতা এবং দায়গুলি
-          সমস্ত উদ্দেশ্যে এই চুক্তির সমাপ্তির পরে বেঁচে থাকবে৷ এই পরিষেবার
-          শর্তাবলী কার্যকর হয় যদি না এবং যতক্ষণ না আপনি বা আমাদের দ্বারা সমাপ্ত
-          হয়। আপনি যেকোন সময় আমাদের এই পরিষেবার শর্তাদি বন্ধ করে দিতে পারেন যে
-          আপনি আমাদের পরিষেবাগুলি আর ব্যবহার করতে চান না, অথবা আপনি যখন আমাদের
-          সাইট ব্যবহার বন্ধ করবেন।
-        </p>
-        <p className="mb-4">
-          যদি, আমাদের একমাত্র বিচারে, আপনি ব্যর্থ হন বা আমাদের সন্দেহ হয় যে
-          আপনি এই পরিষেবার শর্তাবলীর কোনও শর্ত বা বিধান মেনে চলতে ব্যর্থ
-          হয়েছেন, আমরাও নোটিশ ছাড়াই যে কোনও সময় এই চুক্তিটি বাতিল করতে পারি
-          এবং আপনি সমস্ত বকেয়া পরিমাণের জন্য দায়বদ্ধ থাকবেন। এবং সমাপ্তির
-          তারিখ সহ; এবং/অথবা সেই অনুযায়ী আপনাকে আমাদের পরিষেবাগুলিতে অ্যাক্সেস
-          অস্বীকার করতে পারে (বা এর যে কোনও অংশ উপযুক্ত বলে মনে করা যেতে পারে)।
-        </p>
-        <p className="mb-4">
-          এই পরিষেবার শর্তাবলীর কোনো অধিকার বা বিধান প্রয়োগ বা প্রয়োগ করতে
-          আমাদের ব্যর্থতা এই ধরনের অধিকার বা বিধানের মওকুফ গঠন করবে না। এই
-          পরিষেবার শর্তাবলীর ব্যাখ্যায় কোন অস্পষ্টতা খসড়া দলের বিরুদ্ধে বোঝানো
-          হবে না।
-        </p>
-        <p className="mb-4">
-          এই পরিষেবার শর্তাদি এবং এই সাইটে বা পরিষেবার বিষয়ে আমাদের দ্বারা
-          পোস্ট করা কোনও নীতি বা অপারেটিং নিয়মগুলি আপনার এবং আমাদের মধ্যে
-          সম্পূর্ণ চুক্তি এবং বোঝাপড়া গঠন করে এবং আপনার পরিষেবার ব্যবহার
-          পরিচালনা করে, যে কোনও পূর্বের বা সমসাময়িক চুক্তি, যোগাযোগ এবং
-          প্রস্তাবগুলিকে ছাড়িয়ে যায়। , মৌখিক বা লিখিত যাই হোক না কেন, আপনার
-          এবং আমাদের মধ্যে (সহ, কিন্তু সীমাবদ্ধ নয়, পরিষেবার শর্তাবলীর কোনো
-          পূর্ববর্তী সংস্করণ)।
-        </p>
-      </section>
+        <section>
+          <h2 className="mb-4 text-2xl font-bold">13. Intellectual Property Rights</h2>
+          <p className="pl-4">
+            All content on the Shei Tech website, including text, images, logos, and product descriptions, is the
+            intellectual property of TechStudio and may not be copied, distributed, or used for any commercial purposes
+            without explicit written permission.
+          </p>
+        </section>
 
-      {/* Section 16: Governing Law */}
-      <section className="mb-8">
-        <h2 className="mb-4 text-2xl font-bold">ধারা ১৫ – শাসন আইন :</h2>
-        <p className="mb-4">
-          এই পরিষেবার শর্তাবলী এবং যেকোন পৃথক চুক্তি যার দ্বারা আমরা আপনাকে
-          পরিষেবা প্রদান করি তা বাংলাদেশে ই-কমার্স নিয়ন্ত্রণকারী প্রযোজ্য আইন
-          অনুসারে পরিচালিত হবে এবং ব্যাখ্যা করা হবে। এই ওয়েবসাইট থেকে বা এর
-          সাথে সম্পর্কিত যেকোন এবং সমস্ত কার্যকর আইনি দাবি বা কার্যধারা অবশ্যই
-          বাংলাদেশের একটি উপযুক্ত আদালতের এখতিয়ারের মধ্যে আনতে হবে।
-        </p>
-      </section>
+        <section>
+          <h2 className="mb-4 text-2xl font-bold">14. Customer Responsibilities</h2>
+          <p className="pl-4">
+            Customers must ensure that the contact details provided during checkout—such as phone number, email, and
+            delivery address—are accurate. TechStudio is not responsible for failed deliveries due to incorrect or
+            incomplete information provided by the customer.
+          </p>
+        </section>
 
-      {/* Section 17: Changes to Terms of Service */}
-      <section className="mb-8">
-        <h2 className="mb-4 text-2xl font-bold">
-          বিভাগ ১৬ – পরিষেবার শর্তাবলীতে পরিবর্তন :
-        </h2>
-        <p className="mb-4">
-          আপনি এই পৃষ্ঠায় যেকোনো সময় পরিষেবার শর্তাবলীর সবচেয়ে সাম্প্রতিক
-          সংস্করণ পর্যালোচনা করতে পারেন।
-        </p>
-        <p className="mb-4">
-          আমরা আমাদের নিজস্ব বিবেচনার ভিত্তিতে, আমাদের ওয়েবসাইটে আপডেট এবং
-          পরিবর্তন পোস্ট করে এই পরিষেবার শর্তাবলীর যেকোনো অংশ আপডেট, পরিবর্তন বা
-          প্রতিস্থাপন করার অধিকার সংরক্ষণ করি। পরিবর্তনের জন্য পর্যায়ক্রমে
-          আমাদের ওয়েবসাইট চেক করা আপনার দায়িত্ব। এই পরিষেবার শর্তাবলীতে কোনও
-          পরিবর্তন পোস্ট করার পরে আমাদের ওয়েবসাইট বা পরিষেবার আপনার ক্রমাগত
-          ব্যবহার বা অ্যাক্সেস সেই পরিবর্তনগুলির স্বীকৃতি গঠন করে।
-        </p>
-      </section>
+        <section>
+          <h2 className="mb-4 text-2xl font-bold">15. Cancellation Policy</h2>
+          <p className="pl-4">
+            Customers may request order cancellation before the order is shipped. Once an order has been shipped,
+            cancellations will not be accepted. If an order is canceled before shipping, any advance payment made will
+            be refunded according to our refund policy.
+          </p>
+        </section>
 
-      {/* Section 18: Contact Information */}
-      <section className="mb-8">
-        <h2 className="mb-4 text-2xl font-bold">বিভাগ ১৭ – যোগাযোগের তথ্য :</h2>
-        <p className="mb-4">
-          পরিষেবার শর্তাবলী সম্পর্কিত আরও তথ্যের জন্য বা আপনার যদি কোনও প্রশ্ন
-          বা উদ্বেগ থাকে তবে আপনি আমাদের সাথে যোগাযোগ করতে পারেন বা পরিষেবার
-          শর্তাদি সম্পর্কে কোনও প্রশ্নের জন্য আমাদেরকে info@techstudio.com.bd এ
-          পাঠাতে হবে৷
-        </p>
-      </section>
-    </div>
+        <section>
+          <h2 className="mb-4 text-2xl font-bold">16. Data Privacy & Security</h2>
+          <p className="pl-4">
+            TechStudio collects and stores customer data to process orders and improve services. We do not share
+            personal information with third parties without customer consent, except as required by law. We take
+            appropriate security measures to protect customer data but cannot guarantee absolute security due to the
+            nature of the internet.
+          </p>
+        </section>
+      </div>
+    </main>
   );
-};
-
-export default TermsAndConditionsPage;
+}

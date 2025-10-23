@@ -39,7 +39,7 @@ const OfferCard = ({ data }: { data: Offer }) => {
 
 const OffersPageModule = ({ data }: { data: Offer[] }) => {
   return (
-    <div className="my-10 grid size-full min-h-96 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+    <div className="my-10 grid size-full min-h-96 grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
       {data &&
         data.length > 0 &&
         data?.map((i) => <OfferCard key={i?.id} data={i} />)}
