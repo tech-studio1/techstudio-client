@@ -168,6 +168,30 @@ export default function Footer() {
         </div>
       </div>
 
+      {/* SSL Commerz Payment Banner */}
+      <div className="border-t border-slate-700 bg-slate-800">
+        <div className="container mx-auto px-4 py-6">
+          <div className="flex items-center justify-center">
+            {/* Desktop Version */}
+            <picture className="hidden md:block">
+              <img
+                src="https://securepay.sslcommerz.com/public/image/SSLCommerz-Pay-With-logo-All-Size-01.png"
+                alt="SSL Commerz Payment Gateway"
+                className="h-auto w-full max-w-4xl"
+              />
+            </picture>
+            {/* Mobile Version */}
+            <picture className="md:hidden">
+              <img
+                src="https://securepay.sslcommerz.com/public/image/SSLCommerz-Pay-With-logo-All-Size-02.png"
+                alt="SSL Commerz Payment Gateway"
+                className="h-auto w-full max-w-sm"
+              />
+            </picture>
+          </div>
+        </div>
+      </div>
+
       {/* Bottom Bar */}
       <div className="border-t border-slate-700 bg-slate-800 pb-20 md:pb-0">
         <div className="container mx-auto p-4 pb-2 md:pb-4">
