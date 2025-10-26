@@ -48,6 +48,7 @@ import { useRouter } from 'nextjs-toploader/app';
 import { Textarea } from '@/components/ui/textarea';
 import { Profile } from '../user/profile/user';
 import { trackBeginCheckout, trackPurchase } from '@/lib/gtm';
+import Link from 'next/link';
 
 // Mock data for cart items
 
@@ -204,6 +205,7 @@ export default function CheckoutForm({ user }: { user: Profile }) {
       shipping_city_id: undefined,
       bkashNumber: '',
       bkashTransactionId: '',
+      agreeToTerms: true,
     },
   });
   const { watch, setValue, getValues, resetField } = form;
@@ -639,6 +641,59 @@ export default function CheckoutForm({ user }: { user: Profile }) {
                   </div>
                 </Card>
               )}
+
+              {/* Terms and Conditions Agreement */}
+              <FormField
+                control={form.control}
+                name="agreeToTerms"
+                render={({ field }) => (
+                  <FormItem className="flex flex-row items-start space-x-3 space-y-0 rounded-md border p-4">
+                    <FormControl>
+                      <Checkbox
+                        checked={field.value}
+                        onCheckedChange={field.onChange}
+                      />
+                    </FormControl>
+                    <div className="space-y-1 leading-none">
+                      <FormLabel className="text-sm font-normal text-gray-700">
+                        I agree to the{' '}
+                        <Link
+                          href="/terms"
+                          target="_blank"
+                          className="font-medium text-blue-600 hover:underline"
+                        >
+                          Terms & Conditions
+                        </Link>
+                        ,{' '}
+                        <Link
+                          href="/privacy-policy"
+                          target="_blank"
+                          className="font-medium text-blue-600 hover:underline"
+                        >
+                          Privacy Policy
+                        </Link>
+                        ,{' '}
+                        <Link
+                          href="/return-policy"
+                          target="_blank"
+                          className="font-medium text-blue-600 hover:underline"
+                        >
+                          Return Policy
+                        </Link>
+                        , and{' '}
+                        <Link
+                          href="/refund-policy"
+                          target="_blank"
+                          className="font-medium text-blue-600 hover:underline"
+                        >
+                          Refund Policy
+                        </Link>
+                      </FormLabel>
+                      <FormMessage className="text-xs" />
+                    </div>
+                  </FormItem>
+                )}
+              />
 
               <Button
                 id="order"

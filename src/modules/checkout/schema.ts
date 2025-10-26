@@ -30,6 +30,9 @@ export const paymentSchema = z
       .optional()
       .or(z.literal('')),
     bkashTransactionId: z.string().optional(),
+
+    // Terms and conditions agreement
+    agreeToTerms: z.boolean().default(true),
   })
   .refine(
     (data) => {
@@ -60,6 +63,15 @@ export const paymentSchema = z
     {
       message: 'Shipping address is required when not same as billing',
       path: ['shippingAddress'],
+    },
+  )
+  .refine(
+    (data) => {
+      return data.agreeToTerms === true;
+    },
+    {
+      message: 'You must agree to the terms and conditions',
+      path: ['agreeToTerms'],
     },
   );
 
