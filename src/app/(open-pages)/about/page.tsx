@@ -1,223 +1,271 @@
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from '@/components/ui/accordion';
-import { redirect } from 'next/navigation';
+import { Mail, Phone, Facebook, Instagram, Users } from 'lucide-react';
+import Link from 'next/link';
 import React from 'react';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'About Us - TechStudio Bangladesh',
+  description:
+    'Founded in 2020, TechStudio has become one of Bangladesh\'s most trusted gadget retailers. Learn about our mission, vision, and commitment to quality.',
+  keywords:
+    'TechStudio Bangladesh, buy gadgets online BD, premium gadget store, authentic tech accessories, best gadget shop in Bangladesh, after-sales service BD, trusted gadget seller',
+};
 
 function AboutUsPage() {
-  redirect('/');
-  // return (
-  //   <div className="min-h-screen bg-gray-50">
-  //     <main className="mx-auto max-w-6xl px-4 py-16">
-  //       {/* Section 1: Who We Are */}
-  //       <section className="mb-24 flex flex-col items-center gap-12 md:flex-row">
-  //         <div className="flex-1">
-  //           <picture>
-  //             <img
-  //               src="/outlet/munshiganj.jpg"
-  //               alt="TechStudio store"
-  //               className="h-[400px] w-full rounded-lg object-cover shadow-lg"
-  //             />
-  //           </picture>
-  //         </div>
-  //         <div className="flex-1 space-y-6">
-  //           <h2 className="text-4xl font-bold text-gray-900">Who We Are</h2>
-  //           <h3 className="text-2xl font-semibold text-indigo-600">
-  //             Bangladesh&apos;s Premier Electronics Destination
-  //           </h3>
-  //           <p className="text-gray-600">
-  //             At TechStudio, we power your digital life with cutting-edge
-  //             electronics and genuine accessories. Since 2015, we&apos;ve been
-  //             committed to bringing the latest tech innovations to your
-  //             doorstep, offering everything from smartphones to smart home
-  //             devices at competitive prices.
-  //           </p>
-  //           <ul className="space-y-3">
-  //             <li className="flex items-center gap-2">
-  //               <svg
-  //                 className="size-5 text-indigo-600"
-  //                 fill="none"
-  //                 stroke="currentColor"
-  //                 viewBox="0 0 24 24"
-  //               >
-  //                 <path
-  //                   strokeLinecap="round"
-  //                   strokeLinejoin="round"
-  //                   strokeWidth="2"
-  //                   d="M5 13l4 4L19 7"
-  //                 />
-  //               </svg>
-  //               <span>Authentic products with warranty</span>
-  //             </li>
-  //             <li className="flex items-center gap-2">
-  //               <svg
-  //                 className="size-5 text-indigo-600"
-  //                 fill="none"
-  //                 stroke="currentColor"
-  //                 viewBox="0 0 24 24"
-  //               >
-  //                 <path
-  //                   strokeLinecap="round"
-  //                   strokeLinejoin="round"
-  //                   strokeWidth="2"
-  //                   d="M5 13l4 4L19 7"
-  //                 />
-  //               </svg>
-  //               <span>Nationwide delivery within 3-5 days</span>
-  //             </li>
-  //             <li className="flex items-center gap-2">
-  //               <svg
-  //                 className="size-5 text-indigo-600"
-  //                 fill="none"
-  //                 stroke="currentColor"
-  //                 viewBox="0 0 24 24"
-  //               >
-  //                 <path
-  //                   strokeLinecap="round"
-  //                   strokeLinejoin="round"
-  //                   strokeWidth="2"
-  //                   d="M5 13l4 4L19 7"
-  //                 />
-  //               </svg>
-  //               <span>Expert technical support team</span>
-  //             </li>
-  //           </ul>
-  //         </div>
-  //       </section>
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <main className="mx-auto max-w-6xl px-4 py-12">
+        {/* Hero Section */}
+        <div className="mb-12 text-center">
+          <h1 className="mb-4 text-4xl font-bold text-gray-900 md:text-5xl">
+            About TechStudio
+          </h1>
+          <p className="mx-auto max-w-3xl text-lg text-gray-600">
+            Your Trusted Gadget Destination Since 2020
+          </p>
+        </div>
 
-  //       {/* Section 2: Our Services */}
-  //       <section className="mb-24">
-  //         <h2 className="mb-12 text-center text-4xl font-bold text-gray-900">
-  //           Our Services
-  //         </h2>
-  //         <div className="grid grid-cols-1 gap-8 2xl:grid-cols-2">
-  //           <Accordion type="single" collapsible className="w-full space-y-4">
-  //             <AccordionItem value="item-1" className="rounded-lg border">
-  //               <AccordionTrigger className="px-4 py-2 font-bold transition-colors duration-300 hover:no-underline data-[state=open]:text-secondary">
-  //                 Genuine Products Guarantee
-  //               </AccordionTrigger>
-  //               <AccordionContent className="px-4 pb-2">
-  //                 All products come with official manufacturer warranties and
-  //                 7-day return policy. We source directly from authorized
-  //                 distributors.
-  //               </AccordionContent>
-  //             </AccordionItem>
-  //             <AccordionItem value="item-2" className="rounded-lg border">
-  //               <AccordionTrigger className="px-4 py-2 font-bold transition-colors duration-300 hover:no-underline data-[state=open]:text-secondary">
-  //                 Nationwide Delivery
-  //               </AccordionTrigger>
-  //               <AccordionContent className="px-4 pb-2">
-  //                 Fast and reliable delivery to all districts via SSL, Sundarban
-  //                 Courier, and eCourier. Dhaka metro area same-day delivery
-  //                 available.
-  //               </AccordionContent>
-  //             </AccordionItem>
-  //             <AccordionItem value="item-3" className="rounded-lg border">
-  //               <AccordionTrigger className="px-4 py-2 font-bold transition-colors duration-300 hover:no-underline data-[state=open]:text-secondary">
-  //                 Installation Support
-  //               </AccordionTrigger>
-  //               <AccordionContent className="px-4 pb-2">
-  //                 Free basic setup for smart devices and home electronics in
-  //                 Dhaka, Chittagong, and Sylhet regions.
-  //               </AccordionContent>
-  //             </AccordionItem>
-  //           </Accordion>
+        {/* Introduction */}
+        <section className="mb-16 rounded-xl bg-white p-8 shadow-sm">
+          <p className="mb-4 text-lg leading-relaxed text-gray-700">
+            Founded in 2020, <strong>TechStudio</strong> has become one of
+            Bangladesh&apos;s most trusted and customer-focused gadget
+            retailers. We specialize exclusively in{' '}
+            <strong>
+              premium gadgets, accessories, and lifestyle tech products
+            </strong>
+            —bringing you quality, authenticity, and expert support every step
+            of the way.
+          </p>
+          <p className="text-lg leading-relaxed text-gray-700">
+            Whether you shop online or visit our outlet, you&apos;ll experience
+            the same commitment to{' '}
+            <strong>
+              authentic products, fast delivery, and exceptional after-sales
+              service.
+            </strong>
+          </p>
+        </section>
 
-  //           <Accordion type="single" collapsible className="w-full space-y-4">
-  //             <AccordionItem value="item-1" className="rounded-lg border">
-  //               <AccordionTrigger className="px-4 py-2 font-bold transition-colors duration-300 hover:no-underline data-[state=open]:text-secondary">
-  //                 EMI Options
-  //               </AccordionTrigger>
-  //               <AccordionContent className="px-4 pb-2">
-  //                 Flexible payment plans through bKash, Nagad, and major bank
-  //                 credit cards with 0% interest for 3-12 months.
-  //               </AccordionContent>
-  //             </AccordionItem>
-  //             <AccordionItem value="item-2" className="rounded-lg border">
-  //               <AccordionTrigger className="px-4 py-2 font-bold transition-colors duration-300 hover:no-underline data-[state=open]:text-secondary">
-  //                 Corporate Solutions
-  //               </AccordionTrigger>
-  //               <AccordionContent className="px-4 pb-2">
-  //                 Special pricing and bulk order arrangements for businesses,
-  //                 educational institutions, and government organizations.
-  //               </AccordionContent>
-  //             </AccordionItem>
-  //             <AccordionItem value="item-3" className="rounded-lg border">
-  //               <AccordionTrigger className="px-4 py-2 font-bold transition-colors duration-300 hover:no-underline data-[state=open]:text-secondary">
-  //                 Repair Services
-  //               </AccordionTrigger>
-  //               <AccordionContent className="px-4 pb-2">
-  //                 Authorized service center partnerships for smartphones,
-  //                 laptops, and other electronics with pickup/drop-off service.
-  //               </AccordionContent>
-  //             </AccordionItem>
-  //           </Accordion>
-  //         </div>
-  //       </section>
+        {/* Mission & Vision */}
+        <div className="mb-16 grid gap-8 md:grid-cols-2">
+          {/* Mission */}
+          <div className="rounded-xl bg-white p-8 shadow-sm">
+            <div className="mb-4 flex items-center gap-3">
+              <div className="rounded-full bg-blue-100 p-3">
+                <svg
+                  className="h-6 w-6 text-blue-600"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M13 10V3L4 14h7v7l9-11h-7z"
+                  />
+                </svg>
+              </div>
+              <h2 className="text-2xl font-bold text-gray-900">Our Mission</h2>
+            </div>
+            <p className="leading-relaxed text-gray-700">
+              Our mission is simple — to make quality gadgets more{' '}
+              <strong>accessible, affordable, and enjoyable</strong> for
+              everyone in Bangladesh. We aim to redefine gadget shopping through
+              expert recommendations, honest service, and community engagement.
+            </p>
+          </div>
 
-  //       {/* Section 3: Why Choose Us */}
-  //       <section>
-  //         <h2 className="mb-12 text-center text-4xl font-bold text-gray-900">
-  //           Why TechStudio?
-  //         </h2>
-  //         <div className="flex flex-col items-center gap-12 md:flex-row md:items-start">
-  //           <div className="flex-1">
-  //             <Accordion type="single" collapsible className="w-full space-y-4">
-  //               <AccordionItem value="item-1" className="rounded-lg border">
-  //                 <AccordionTrigger className="px-4 py-2 font-bold transition-colors duration-300 hover:no-underline data-[state=open]:text-secondary">
-  //                   Largest Electronics Inventory
-  //                 </AccordionTrigger>
-  //                 <AccordionContent className="px-4 pb-2">
-  //                   15,000+ products across 50+ brands with real-time stock
-  //                   updates and pre-order options for upcoming launches.
-  //                 </AccordionContent>
-  //               </AccordionItem>
-  //               <AccordionItem value="item-2" className="rounded-lg border">
-  //                 <AccordionTrigger className="px-4 py-2 font-bold transition-colors duration-300 hover:no-underline data-[state=open]:text-secondary">
-  //                   Price Match Guarantee
-  //                 </AccordionTrigger>
-  //                 <AccordionContent className="px-4 pb-2">
-  //                   Found it cheaper? We&apos;ll match any authorized
-  //                   dealer&apos;s price plus give 5% extra discount.
-  //                 </AccordionContent>
-  //               </AccordionItem>
-  //               <AccordionItem value="item-3" className="rounded-lg border">
-  //                 <AccordionTrigger className="px-4 py-2 font-bold transition-colors duration-300 hover:no-underline data-[state=open]:text-secondary">
-  //                   Tech Experts On Call
-  //                 </AccordionTrigger>
-  //                 <AccordionContent className="px-4 pb-2">
-  //                   Free consultation with our certified technicians via phone,
-  //                   chat, or in-store visit.
-  //                 </AccordionContent>
-  //               </AccordionItem>
-  //               <AccordionItem value="item-4" className="rounded-lg border">
-  //                 <AccordionTrigger className="px-4 py-2 font-bold transition-colors duration-300 hover:no-underline data-[state=open]:text-secondary">
-  //                   Secure Shopping
-  //                 </AccordionTrigger>
-  //                 <AccordionContent className="px-4 pb-2">
-  //                   SSL encrypted payments and cash-on-delivery option with
-  //                   complete order protection.
-  //                 </AccordionContent>
-  //               </AccordionItem>
-  //             </Accordion>
-  //           </div>
-  //           <div className="flex-1">
-  //             <picture>
-  //               <img
-  //                 src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf"
-  //                 alt="TechStudio warehouse"
-  //                 className="h-[500px] w-full rounded-lg object-cover shadow-lg"
-  //               />
-  //             </picture>
-  //           </div>
-  //         </div>
-  //       </section>
-  //     </main>
-  //   </div>
-  // );
+          {/* Vision */}
+          <div className="rounded-xl bg-white p-8 shadow-sm">
+            <div className="mb-4 flex items-center gap-3">
+              <div className="rounded-full bg-purple-100 p-3">
+                <svg
+                  className="h-6 w-6 text-purple-600"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                  />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+                  />
+                </svg>
+              </div>
+              <h2 className="text-2xl font-bold text-gray-900">Our Vision</h2>
+            </div>
+            <p className="leading-relaxed text-gray-700">
+              To become the{' '}
+              <strong>most reliable gadget brand in Bangladesh</strong>,
+              connecting people to technology that enhances everyday life —
+              while maintaining transparency, authenticity, and customer-first
+              values.
+            </p>
+          </div>
+        </div>
+
+        {/* Why Choose TechStudio */}
+        <section className="mb-16 rounded-xl bg-white p-8 shadow-sm">
+          <h2 className="mb-6 text-3xl font-bold text-gray-900">
+            Why Choose TechStudio?
+          </h2>
+          <p className="mb-6 text-lg leading-relaxed text-gray-700">
+            At TechStudio, we do more than sell gadgets — we help you choose
+            smarter. Our team consists of passionate tech enthusiasts who{' '}
+            <strong>research, test, and recommend</strong> products that truly
+            add value to your daily life. By focusing only on gadgets—not
+            phones or unrelated electronics—we provide{' '}
+            <strong>specialized expertise</strong> and a{' '}
+            <strong>curated product range</strong> that you can trust.
+          </p>
+
+          <h3 className="mb-4 text-xl font-semibold text-gray-900">
+            Our Promises
+          </h3>
+          <ul className="space-y-3">
+            {[
+              '100% authentic and verified products',
+              'Fast nationwide delivery',
+              'Reliable warranty and after-sales support',
+              'Expert guidance from real tech users',
+              'Hassle-free online shopping experience',
+            ].map((promise, index) => (
+              <li key={index} className="flex items-start gap-3">
+                <svg
+                  className="mt-1 h-5 w-5 flex-shrink-0 text-green-600"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <span className="text-gray-700">{promise}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        {/* Our Story */}
+        <section className="mb-16 rounded-xl bg-gradient-to-r from-blue-50 to-purple-50 p-8 shadow-sm">
+          <h2 className="mb-6 text-3xl font-bold text-gray-900">Our Story</h2>
+          <p className="mb-4 leading-relaxed text-gray-700">
+            Starting from a small online store in 2020, TechStudio has grown
+            into a recognized name among gadget lovers in Bangladesh. Over the
+            years, we&apos;ve built a loyal customer community who rely on us
+            for their favorite tech gear and accessories.
+          </p>
+          <p className="leading-relaxed text-gray-700">
+            Every purchase is backed by our passion for technology and
+            dedication to customer satisfaction.
+          </p>
+        </section>
+
+        {/* Official Channels */}
+        <section className="mb-16 rounded-xl bg-white p-8 shadow-sm">
+          <h2 className="mb-6 text-3xl font-bold text-gray-900">
+            Official Channels
+          </h2>
+          <div className="grid gap-6 md:grid-cols-2">
+            <div>
+              <h3 className="mb-4 font-semibold text-gray-900">
+                Connect With Us
+              </h3>
+              <div className="space-y-3">
+                <Link
+                  href="https://www.facebook.com/techstudio.com.bd"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 text-gray-700 transition-colors hover:text-blue-600"
+                >
+                  <Facebook className="h-5 w-5" />
+                  <span>facebook.com/techstudio.com.bd</span>
+                </Link>
+                <Link
+                  href="https://www.instagram.com/techstudioofficialbd"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 text-gray-700 transition-colors hover:text-pink-600"
+                >
+                  <Instagram className="h-5 w-5" />
+                  <span>instagram.com/techstudioofficialbd</span>
+                </Link>
+                <Link
+                  href="https://www.facebook.com/share/g/1FvDHijTY9/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 text-gray-700 transition-colors hover:text-blue-600"
+                >
+                  <Users className="h-5 w-5" />
+                  <span>Community Group</span>
+                </Link>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="mb-4 font-semibold text-gray-900">Contact Info</h3>
+              <div className="space-y-3">
+                <Link
+                  href="tel:01XXXXXXXXX"
+                  className="flex items-center gap-3 text-gray-700 transition-colors hover:text-green-600"
+                >
+                  <Phone className="h-5 w-5" />
+                  <span>01XXXXXXXXX</span>
+                </Link>
+                <Link
+                  href="mailto:support@techstudio.com.bd"
+                  className="flex items-center gap-3 text-gray-700 transition-colors hover:text-blue-600"
+                >
+                  <Mail className="h-5 w-5" />
+                  <span>support@techstudio.com.bd</span>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Authenticity Notice */}
+        <section className="rounded-xl border-2 border-red-200 bg-red-50 p-8 shadow-sm">
+          <h2 className="mb-4 text-2xl font-bold text-red-900">
+            Authenticity & Safety Notice
+          </h2>
+          <p className="leading-relaxed text-red-800">
+            We are{' '}
+            <strong>
+              not affiliated with any other website, Facebook page, or
+              marketplace
+            </strong>{' '}
+            beyond the official channels listed above. Any transactions made
+            outside these channels are not our responsibility. Always verify
+            before you buy — your safety matters to us.
+          </p>
+        </section>
+
+        {/* Footer tagline */}
+        <div className="mt-12 text-center">
+          <p className="text-2xl font-bold text-gray-900">
+            TechStudio – Where Gadgets Meet Trust.
+          </p>
+          <p className="mt-2 text-sm text-gray-600">
+            Trade License No: TRAD/[number here]
+          </p>
+        </div>
+      </main>
+    </div>
+  );
 }
 
 export default AboutUsPage;
