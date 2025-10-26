@@ -6,7 +6,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'About Us - TechStudio Bangladesh',
   description:
-    'Founded in 2020, TechStudio has become one of Bangladesh\'s most trusted gadget retailers. Learn about our mission, vision, and commitment to quality.',
+    "Founded in 2020, TechStudio has become one of Bangladesh's most trusted gadget retailers. Learn about our mission, vision, and commitment to quality.",
   keywords:
     'TechStudio Bangladesh, buy gadgets online BD, premium gadget store, authentic tech accessories, best gadget shop in Bangladesh, after-sales service BD, trusted gadget seller',
 };
@@ -122,8 +122,8 @@ function AboutUsPage() {
             At TechStudio, we do more than sell gadgets — we help you choose
             smarter. Our team consists of passionate tech enthusiasts who{' '}
             <strong>research, test, and recommend</strong> products that truly
-            add value to your daily life. By focusing only on gadgets—not
-            phones or unrelated electronics—we provide{' '}
+            add value to your daily life. By focusing only on gadgets—not phones
+            or unrelated electronics—we provide{' '}
             <strong>specialized expertise</strong> and a{' '}
             <strong>curated product range</strong> that you can trust.
           </p>
@@ -219,11 +219,11 @@ function AboutUsPage() {
               <h3 className="mb-4 font-semibold text-gray-900">Contact Info</h3>
               <div className="space-y-3">
                 <Link
-                  href="tel:01XXXXXXXXX"
+                  href="tel:01670957108"
                   className="flex items-center gap-3 text-gray-700 transition-colors hover:text-green-600"
                 >
                   <Phone className="h-5 w-5" />
-                  <span>01XXXXXXXXX</span>
+                  <span>01670957108</span>
                 </Link>
                 <Link
                   href="mailto:support@techstudio.com.bd"
@@ -260,7 +260,7 @@ function AboutUsPage() {
             TechStudio – Where Gadgets Meet Trust.
           </p>
           <p className="mt-2 text-sm text-gray-600">
-            Trade License No: TRAD/[number here]
+            Trade License No: TRAD/255926605190007412
           </p>
         </div>
       </main>
