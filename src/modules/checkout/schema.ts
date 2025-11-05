@@ -15,7 +15,10 @@ export const addressSchema = z.object({
 
 export const paymentSchema = z
   .object({
-    paymentMethod: z.enum(['COD']).default('COD'),
+    paymentMethod: z.enum(['COD', 'SSLCOMMERZ']).default('COD'),
+
+    // Payment option for outside Dhaka COD: 'ssl' or 'bkash'
+    paymentOption: z.enum(['ssl', 'bkash']).optional(),
 
     billingAddress: addressSchema,
     sameAsBilling: z.boolean().default(true),
@@ -36,25 +39,6 @@ export const paymentSchema = z
   })
   .refine(
     (data) => {
-      // Check if bkash fields are required (outside Dhaka)
-      const isDhaka = data.billingAddress.district === 'Dhaka';
-      const hasCityId = data.city_id;
-
-      if (!isDhaka || (isDhaka && !hasCityId)) {
-        // Outside Dhaka, bkash number is required
-        if (!data.bkashNumber || data.bkashNumber.trim() === '') {
-          return false;
-        }
-      }
-      return true;
-    },
-    {
-      message: 'bKash number is required for outside Dhaka orders',
-      path: ['bkashNumber'],
-    },
-  )
-  .refine(
-    (data) => {
       if (!data.sameAsBilling && !data.shippingAddress) {
         return false;
       }
@@ -63,6 +47,28 @@ export const paymentSchema = z
     {
       message: 'Shipping address is required when not same as billing',
       path: ['shippingAddress'],
+    },
+  )
+  .refine(
+    (data) => {
+      // Check if bkash fields are required (outside Dhaka COD with bkash option)
+      const isDhaka = data.billingAddress.district === 'Dhaka';
+      const hasCityId = data.city_id;
+      const isOutsideDhaka = !isDhaka || (isDhaka && !hasCityId);
+      const isCOD = data.paymentMethod === 'COD';
+      const isBkashOption = data.paymentOption === 'bkash';
+
+      if (isCOD && isOutsideDhaka && isBkashOption) {
+        // Outside Dhaka COD with bKash option, bkash number is required
+        if (!data.bkashNumber || data.bkashNumber.trim() === '') {
+          return false;
+        }
+      }
+      return true;
+    },
+    {
+      message: 'bKash number is required for bKash payment option',
+      path: ['bkashNumber'],
     },
   )
   .refine(

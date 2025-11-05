@@ -4,6 +4,7 @@ import { auth } from '@/services/auth';
 import { handleOrderEmail } from './resend';
 
 export const handlePostOrder = async (body: any) => {
+  console.log('body', body);
   const session = await auth();
   try {
     if (session && session?.token && session?.token.length > 0) {
@@ -33,7 +34,6 @@ export const handlePostOrder = async (body: any) => {
       }
       return result;
     } else {
-      console.log('XYZS');
       const response = await fetch(`${process.env.BASE_URL}/v1/order/orders`, {
         method: 'POST',
         headers: {
@@ -60,5 +60,70 @@ export const handlePostOrder = async (body: any) => {
   } catch (error: any) {
     // console.log(error);
     throw new Error('Failed to create order', error);
+  }
+};
+
+export const handlePostOrderWithPayment = async (body: any) => {
+  const session = await auth();
+  try {
+    if (session && session?.token && session?.token.length > 0) {
+      const response = await fetch(
+        `${process.env.BASE_URL}/v1/order/orders-with-payment`,
+        {
+          method: 'POST',
+          headers: {
+            'content-type': 'application/json',
+            Authorization: `Bearer ${session?.token}`,
+            'x-shop-ns': 'techstudio',
+            'x-shop-db': 'techstudio',
+          },
+          body: JSON.stringify(body),
+        },
+      );
+      const result = await response.json();
+      if (!result?.success) {
+        throw new Error('Something Went Wrong');
+      }
+
+      // Process payment response payload
+      // The API returns:
+      // - paymentUrl: SSLCommerz gateway URL to redirect to
+      // - sessionKey: Session key for the payment
+      // - transactionId: Unique transaction identifier
+      // - paymentAmount: Amount to be paid
+      // - paymentType: 'DELIVERY_FEE' or 'FULL_PAYMENT'
+
+      return result;
+    } else {
+      const response = await fetch(
+        `${process.env.BASE_URL}/v1/order/orders-with-payment`,
+        {
+          method: 'POST',
+          headers: {
+            'content-type': 'application/json',
+            'x-shop-ns': 'techstudio',
+            'x-shop-db': 'techstudio',
+          },
+          body: JSON.stringify(body),
+        },
+      );
+      const result = await response.json();
+      if (!result?.success) {
+        throw new Error('Something Went Wrong');
+      }
+
+      // Process payment response payload
+      // The API returns:
+      // - paymentUrl: SSLCommerz gateway URL to redirect to
+      // - sessionKey: Session key for the payment
+      // - transactionId: Unique transaction identifier
+      // - paymentAmount: Amount to be paid
+      // - paymentType: 'DELIVERY_FEE' or 'FULL_PAYMENT'
+
+      return result;
+    }
+  } catch (error: any) {
+    // console.log(error);
+    throw new Error('Failed to create order with payment', error);
   }
 };

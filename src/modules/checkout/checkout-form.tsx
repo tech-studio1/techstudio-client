@@ -33,7 +33,10 @@ import DistrictSelectForm from './district-select-form';
 import AreaSelectForm from './area-select-form';
 import area_data from '@/lib/area.json';
 import district_data from '@/lib/districts.json';
-import { handlePostOrder } from '@/app/actions/order';
+import {
+  handlePostOrder,
+  handlePostOrderWithPayment,
+} from '@/app/actions/order';
 import { useToast } from '@/hooks/use-toast';
 import {
   Dialog,
@@ -49,6 +52,8 @@ import { Textarea } from '@/components/ui/textarea';
 import { Profile } from '../user/profile/user';
 import { trackBeginCheckout, trackPurchase } from '@/lib/gtm';
 import Link from 'next/link';
+import Image from 'next/image';
+import { Info } from 'lucide-react';
 
 // Mock data for cart items
 
@@ -184,6 +189,7 @@ export default function CheckoutForm({ user }: { user: Profile }) {
     resolver: zodResolver(paymentSchema),
     defaultValues: {
       paymentMethod: 'COD',
+      paymentOption: 'ssl',
       sameAsBilling: true,
       billingAddress: {
         firstName: user?.first_name || '',
@@ -211,6 +217,8 @@ export default function CheckoutForm({ user }: { user: Profile }) {
   const { watch, setValue, getValues, resetField } = form;
   const sameAsBilling = watch('sameAsBilling');
   const billingAddress = watch('billingAddress');
+  const paymentMethod = watch('paymentMethod');
+  const paymentOption = watch('paymentOption');
   const billing_district = useWatch({
     control: form.control,
     name: `billingAddress.district`, // Corrected spelling
@@ -284,35 +292,76 @@ export default function CheckoutForm({ user }: { user: Profile }) {
         variantInfo: item.selectedVariant,
       };
     });
-    // Check if order is outside Dhaka and needs payment_info
+    // Check if order is outside Dhaka
     const isDhaka = data.billingAddress.district === 'Dhaka';
     const hasCityId = data.city_id;
     const isOutsideDhaka = !isDhaka || (isDhaka && !hasCityId);
 
-    const body = {
+    let body: any = {
       client_info: processedData,
       order_items,
       pricing: { shipping, items_cost: subtotal, total_cost: total },
-      ...(isOutsideDhaka && {
-        payment_info: {
-          bkashNumber: data.bkashNumber,
-          bkashTransactionId: data.bkashTransactionId || '',
-        },
-      }),
     };
 
-    // Handle form submission
+    // Handle form submission based on payment method and options
     try {
-      const result = await handlePostOrder(body);
+      let result;
+
+      if (data.paymentMethod === 'SSLCOMMERZ') {
+        // Pay Online with SSLCommerz - Full amount
+        result = await handlePostOrderWithPayment(body);
+      } else if (isOutsideDhaka) {
+        // COD Outside Dhaka
+        if (data.paymentOption === 'ssl') {
+          // Pay with SSLCommerz - ৳120 advance
+          result = await handlePostOrderWithPayment(body);
+        } else {
+          // Pay with bKash - ৳120 advance
+          body = {
+            ...body,
+            payment_info: {
+              bkashNumber: data.bkashNumber,
+              bkashTransactionId: data.bkashTransactionId || '',
+            },
+          };
+          result = await handlePostOrder(body);
+        }
+      } else {
+        // COD Inside Dhaka
+        result = await handlePostOrder(body);
+      }
 
       setLoading(false);
-      setIsSuccess(true);
-      trackPurchase(result?.data, cartItems);
-      form.reset();
-      setTimeout(() => {
-        router.push('/');
-        clearCart();
-      }, 10000);
+
+      // Check if payment gateway redirect is needed
+      if (result?.data?.paymentUrl) {
+        // Payment gateway redirect required (SSLCommerz)
+        // Store transaction details in sessionStorage for callback pages
+        if (typeof window !== 'undefined') {
+          sessionStorage.setItem(
+            'pendingPayment',
+            JSON.stringify({
+              transactionId: result.data.transactionId,
+              orderId: result.data.order?.id,
+              paymentAmount: result.data.paymentAmount,
+              paymentType: result.data.paymentType,
+              cartItems: cartItems,
+            }),
+          );
+        }
+
+        // Redirect to payment gateway
+        window.location.href = result.data.paymentUrl;
+      } else {
+        // Regular order (bKash COD) - show success dialog
+        setIsSuccess(true);
+        trackPurchase(result?.data, cartItems);
+        clearCart(); // Clear cart immediately after successful order
+        form.reset();
+        setTimeout(() => {
+          router.push('/');
+        }, 10000);
+      }
     } catch (error) {
       setLoading(false);
       toast({ title: `Failed!` });
@@ -395,7 +444,6 @@ export default function CheckoutForm({ user }: { user: Profile }) {
               type="button"
               onClick={() => {
                 router.push('/');
-                clearCart();
               }}
               className="w-full bg-green-600 hover:bg-green-700"
             >
@@ -405,7 +453,17 @@ export default function CheckoutForm({ user }: { user: Profile }) {
         </DialogContent>
       </Dialog>
       <div className="mx-auto max-w-6xl px-4 xl:px-0">
-        {/* <h1 className="mb-8 text-3xl font-bold">Checkout Summary</h1> */}
+        {/* Stock Availability Notice */}
+        <div className="mb-6 rounded-lg border border-blue-200 bg-blue-50 p-4">
+          <div className="flex items-start gap-3">
+            <Info className="mt-0.5 size-5 flex-shrink-0 text-blue-600" />
+            <p className="text-sm font-semibold text-blue-900">
+              পণ্যের স্টক সীমিত এবং পরিবর্তনশীল। অর্ডার নিশ্চিত করার পূর্বে
+              আমাদের প্রতিনিধি আপনার সাথে ফোনে যোগাযোগ করে অর্ডারের বিস্তারিত
+              এবং স্টক নিশ্চিত করবেন।
+            </p>
+          </div>
+        </div>
 
         <Form {...form}>
           <form
@@ -507,14 +565,51 @@ export default function CheckoutForm({ user }: { user: Profile }) {
                   </h2>
                 </div>
 
-                <div className="flex items-center space-x-2">
-                  <div className="flex size-4 items-center justify-center rounded-full border-2 border-primary bg-primary">
-                    <div className="size-2 rounded-full bg-white"></div>
-                  </div>
-                  <Label className="text-sm text-gray-700">
-                    Cash on Delivery
-                  </Label>
-                </div>
+                <FormField
+                  control={form.control}
+                  name="paymentMethod"
+                  render={({ field }) => (
+                    <FormItem className="space-y-3">
+                      <FormControl>
+                        <RadioGroup
+                          onValueChange={field.onChange}
+                          defaultValue={field.value}
+                          className="flex flex-col space-y-2"
+                        >
+                          <div className="flex items-center space-x-2">
+                            <RadioGroupItem value="COD" id="cod" />
+                            <Label
+                              htmlFor="cod"
+                              className="text-sm font-normal text-gray-700"
+                            >
+                              Cash on Delivery
+                            </Label>
+                          </div>
+                          <div className="flex items-center space-x-2">
+                            <RadioGroupItem
+                              value="SSLCOMMERZ"
+                              id="sslcommerz"
+                            />
+                            <Label
+                              htmlFor="sslcommerz"
+                              className="flex items-center gap-2 text-sm font-normal text-gray-700"
+                            >
+                              Pay Online
+                              <Image
+                                src="/ssl-logo.png"
+                                alt="SSL"
+                                width={120}
+                                height={20}
+                                className="object-contain"
+                              />
+                            </Label>
+                          </div>
+                        </RadioGroup>
+                      </FormControl>
+                      <FormMessage />
+                    </FormItem>
+                  )}
+                />
               </Card>
             </div>
 
@@ -531,186 +626,489 @@ export default function CheckoutForm({ user }: { user: Profile }) {
                 <AddressFields prefix="billingAddress" />
               </Card>
 
-              {/* Advance Payment for Outside Dhaka */}
-              {(billing_district !== 'Dhaka' ||
-                (billing_district === 'Dhaka' && !billing_city_id)) && (
+              {/* Payment Details Section */}
+              {paymentMethod === 'SSLCOMMERZ' ? (
+                // Pay Online with SSLCommerz - Full Payment
                 <Card className="p-6">
                   <div className="mb-4 flex items-center gap-2">
-                    <picture>
-                      <img
-                        src="/bkash_logo.png"
-                        alt="bKash"
-                        className="h-8 w-auto"
-                      />
-                    </picture>
+                    <CreditCard className="size-5" />
                     <h2 className="text-lg font-semibold text-gray-800 md:text-xl">
-                      ৳120 Advance Payment (Outside Dhaka)
+                      Online Payment
                     </h2>
                   </div>
 
-                  <div className="mb-4 rounded-lg border border-orange-200 bg-orange-50 p-4">
-                    <p className="mb-3 text-sm text-orange-800">
+                  <div className="mb-4 rounded-lg border border-green-200 bg-green-50 p-4">
+                    <p className="text-sm text-green-800">
                       <strong>
-                        ঢাকার বাহিরে অর্ডার কনফার্ম করার জন্যে অগ্রিম ১২০ টাকা
-                        এডভান্স পেমেন্ট করতে হবে। প্রোডাক্টের অবশিষ্ট টাকা আপনি
-                        “ক্যাশ অন ডেলিভারি“ তে পরিশোধ করবেন।
+                        আপনি সম্পূর্ণ টাকা অনলাইনে পেমেন্ট করবেন। পেমেন্ট সফল
+                        হলে আপনার অর্ডার কনফার্ম হবে।
                       </strong>
                     </p>
-
-                    <div className="grid grid-cols-2 gap-4">
-                      <div className="flex flex-col items-center rounded-lg border bg-white p-3">
-                        <picture>
-                          <img
-                            src="/make_payment.png"
-                            alt="Make Payment"
-                            className="mb-2 h-12 w-auto"
-                          />
-                        </picture>
-                        <p className="text-center text-xs text-gray-600">
-                          <strong>Make Payment:</strong>
-                          <br />
-                          Go to bKash → Make Payment → Enter:{' '}
-                          <strong>01636196613</strong> → Amount: 120
-                        </p>
-                      </div>
-                      <div className="flex flex-col items-center rounded-lg border bg-white p-3">
-                        <picture>
-                          <img
-                            src="/send_money.png"
-                            alt="Send Money"
-                            className="mb-2 h-12 w-auto"
-                          />
-                        </picture>
-                        <p className="text-center text-xs text-gray-600">
-                          <strong>Send Money:</strong>
-                          <br />
-                          Go to bKash → Send Money → Enter:{' '}
-                          <strong>01924752175</strong> → Amount: 120
-                        </p>
-                      </div>
-                    </div>
                   </div>
 
-                  <div className="grid grid-cols-1 gap-4">
-                    <FormField
-                      control={form.control}
-                      name="bkashNumber"
-                      render={({ field }) => (
-                        <FormItem>
-                          <FormLabel>
-                            <span className="text-sm text-gray-700">
-                              Your bKash Number
-                            </span>
-                            <span className="text-sm text-destructive">*</span>
+                  {/* Terms and Conditions Agreement */}
+                  <FormField
+                    control={form.control}
+                    name="agreeToTerms"
+                    render={({ field }) => (
+                      <FormItem className="mb-4 flex flex-row items-start space-x-3 space-y-0 rounded-md border p-4">
+                        <FormControl>
+                          <Checkbox
+                            checked={field.value}
+                            onCheckedChange={field.onChange}
+                          />
+                        </FormControl>
+                        <div className="space-y-1 leading-none">
+                          <FormLabel className="text-sm font-normal text-gray-700">
+                            I agree to the{' '}
+                            <Link
+                              href="/terms"
+                              target="_blank"
+                              className="font-medium text-blue-600 hover:underline"
+                            >
+                              Terms & Conditions
+                            </Link>
+                            ,{' '}
+                            <Link
+                              href="/privacy-policy"
+                              target="_blank"
+                              className="font-medium text-blue-600 hover:underline"
+                            >
+                              Privacy Policy
+                            </Link>
+                            ,{' '}
+                            <Link
+                              href="/return-policy"
+                              target="_blank"
+                              className="font-medium text-blue-600 hover:underline"
+                            >
+                              Return Policy
+                            </Link>
+                            , and{' '}
+                            <Link
+                              href="/refund-policy"
+                              target="_blank"
+                              className="font-medium text-blue-600 hover:underline"
+                            >
+                              Refund Policy
+                            </Link>
                           </FormLabel>
-                          <FormControl>
-                            <PhoneInput
-                              defaultCountry="BD"
-                              placeholder="1XXXXXXXXX"
-                              {...field}
-                            />
-                          </FormControl>
                           <FormMessage className="text-xs" />
-                        </FormItem>
-                      )}
-                    />
+                        </div>
+                      </FormItem>
+                    )}
+                  />
 
-                    <FormField
-                      control={form.control}
-                      name="bkashTransactionId"
-                      render={({ field }) => (
-                        <FormItem>
-                          <FormLabel>
-                            <span className="text-sm text-gray-700">
-                              bKash Transaction ID
-                            </span>
-                            <span className="ml-1 text-xs text-gray-500">
-                              (optional)
-                            </span>
-                          </FormLabel>
-                          <FormControl>
-                            <Input
-                              placeholder="Enter transaction ID if available"
-                              {...field}
-                            />
-                          </FormControl>
-                          <FormMessage className="text-xs" />
-                        </FormItem>
-                      )}
-                    />
+                  <Button
+                    id="order"
+                    type="submit"
+                    disabled={loading}
+                    className="mb-4 w-full bg-green-600 py-6 text-base font-semibold hover:bg-green-700"
+                    onClick={() => {
+                      // Trigger validation on click to show errors
+                      form.trigger();
+                    }}
+                  >
+                    {loading ? (
+                      <LoaderCircle className="animate-spin transition-all duration-500 ease-in-out" />
+                    ) : (
+                      `Pay Now - ৳${total.toFixed(2)}`
+                    )}
+                  </Button>
+
+                  <div className="flex w-full flex-col items-center bg-slate-800">
+                    <picture>
+                      <img
+                        src="https://securepay.sslcommerz.com/public/image/SSLCommerz-Pay-With-logo-All-Size-04.png"
+                        alt="SSLCommerz Payment"
+                        className="h-auto w-full"
+                      />
+                    </picture>
                   </div>
                 </Card>
-              )}
+              ) : billing_district !== 'Dhaka' ||
+                (billing_district === 'Dhaka' && !billing_city_id) ? (
+                // COD - Outside Dhaka - Show payment options
+                <Card className="p-6">
+                  <div className="mb-4 flex items-center gap-2">
+                    <CreditCard className="size-5" />
+                    <h2 className="text-lg font-semibold text-gray-800 md:text-xl">
+                      Advance Payment (Outside Dhaka)
+                    </h2>
+                  </div>
 
-              {/* Terms and Conditions Agreement */}
-              <FormField
-                control={form.control}
-                name="agreeToTerms"
-                render={({ field }) => (
-                  <FormItem className="flex flex-row items-start space-x-3 space-y-0 rounded-md border p-4">
-                    <FormControl>
-                      <Checkbox
-                        checked={field.value}
-                        onCheckedChange={field.onChange}
+                  <div className="mb-4 rounded-lg border border-blue-200 bg-blue-50 p-4">
+                    <p className="text-sm text-blue-800">
+                      <strong>
+                        ঢাকার বাহিরে অর্ডার কনফার্ম করার জন্যে অগ্রিম ১৫০ টাকা
+                        এডভান্স পেমেন্ট করতে হবে। প্রোডাক্টের অবশিষ্ট টাকা আপনি
+                        &ldquo;ক্যাশ অন ডেলিভারি&rdquo; তে পরিশোধ করবেন।
+                      </strong>
+                    </p>
+                  </div>
+
+                  {/* Payment Option Selector */}
+                  <FormField
+                    control={form.control}
+                    name="paymentOption"
+                    render={({ field }) => (
+                      <FormItem className="mb-4 space-y-3">
+                        <FormLabel className="text-sm font-medium text-gray-700">
+                          Select Payment Method
+                        </FormLabel>
+                        <FormControl>
+                          <RadioGroup
+                            onValueChange={field.onChange}
+                            defaultValue={field.value}
+                            className="flex flex-col space-y-2"
+                          >
+                            <div className="flex items-center space-x-2">
+                              <RadioGroupItem value="ssl" id="ssl" />
+                              <Label
+                                htmlFor="ssl"
+                                className="flex items-center gap-2 text-sm font-normal text-gray-700"
+                              >
+                                Pay with SSLCommerz
+                                <Image
+                                  src="/ssl-logo.png"
+                                  alt="SSL"
+                                  width={120}
+                                  height={20}
+                                  className="object-contain"
+                                />
+                              </Label>
+                            </div>
+                            <div className="flex items-center space-x-2">
+                              <RadioGroupItem value="bkash" id="bkash" />
+                              <Label
+                                htmlFor="bkash"
+                                className="text-sm font-normal text-gray-700"
+                              >
+                                Pay with bKash
+                              </Label>
+                            </div>
+                          </RadioGroup>
+                        </FormControl>
+                        <FormMessage />
+                      </FormItem>
+                    )}
+                  />
+
+                  {/* Conditional rendering based on payment option */}
+                  {paymentOption === 'ssl' ? (
+                    <>
+                      {/* Terms and Conditions Agreement */}
+                      <FormField
+                        control={form.control}
+                        name="agreeToTerms"
+                        render={({ field }) => (
+                          <FormItem className="flex flex-row items-start space-x-3 space-y-0 rounded-md border p-4">
+                            <FormControl>
+                              <Checkbox
+                                checked={field.value}
+                                onCheckedChange={field.onChange}
+                              />
+                            </FormControl>
+                            <div className="space-y-1 leading-none">
+                              <FormLabel className="text-sm font-normal text-gray-700">
+                                I agree to the{' '}
+                                <Link
+                                  href="/terms"
+                                  target="_blank"
+                                  className="font-medium text-blue-600 hover:underline"
+                                >
+                                  Terms & Conditions
+                                </Link>
+                                ,{' '}
+                                <Link
+                                  href="/privacy-policy"
+                                  target="_blank"
+                                  className="font-medium text-blue-600 hover:underline"
+                                >
+                                  Privacy Policy
+                                </Link>
+                                ,{' '}
+                                <Link
+                                  href="/return-policy"
+                                  target="_blank"
+                                  className="font-medium text-blue-600 hover:underline"
+                                >
+                                  Return Policy
+                                </Link>
+                                , and{' '}
+                                <Link
+                                  href="/refund-policy"
+                                  target="_blank"
+                                  className="font-medium text-blue-600 hover:underline"
+                                >
+                                  Refund Policy
+                                </Link>
+                              </FormLabel>
+                              <FormMessage className="text-xs" />
+                            </div>
+                          </FormItem>
+                        )}
                       />
-                    </FormControl>
-                    <div className="space-y-1 leading-none">
-                      <FormLabel className="text-sm font-normal text-gray-700">
-                        I agree to the{' '}
-                        <Link
-                          href="/terms"
-                          target="_blank"
-                          className="font-medium text-blue-600 hover:underline"
-                        >
-                          Terms & Conditions
-                        </Link>
-                        ,{' '}
-                        <Link
-                          href="/privacy-policy"
-                          target="_blank"
-                          className="font-medium text-blue-600 hover:underline"
-                        >
-                          Privacy Policy
-                        </Link>
-                        ,{' '}
-                        <Link
-                          href="/return-policy"
-                          target="_blank"
-                          className="font-medium text-blue-600 hover:underline"
-                        >
-                          Return Policy
-                        </Link>
-                        , and{' '}
-                        <Link
-                          href="/refund-policy"
-                          target="_blank"
-                          className="font-medium text-blue-600 hover:underline"
-                        >
-                          Refund Policy
-                        </Link>
-                      </FormLabel>
-                      <FormMessage className="text-xs" />
-                    </div>
-                  </FormItem>
-                )}
-              />
 
-              <Button
-                id="order"
-                type="submit"
-                disabled={loading}
-                className="w-full py-6 text-base font-semibold"
-                onClick={() => {
-                  // Trigger validation on click to show errors
-                  form.trigger();
-                }}
-              >
-                {loading ? (
-                  <LoaderCircle className="animate-spin transition-all duration-500 ease-in-out" />
-                ) : (
-                  `Place Order - ৳${total.toFixed(2)}`
-                )}
-              </Button>
+                      <Button
+                        id="order"
+                        type="submit"
+                        disabled={loading}
+                        className="my-4 w-full bg-green-600 py-6 text-base font-semibold hover:bg-green-700"
+                        onClick={() => {
+                          form.trigger();
+                        }}
+                      >
+                        {loading ? (
+                          <LoaderCircle className="animate-spin transition-all duration-500 ease-in-out" />
+                        ) : (
+                          'Pay Now - ৳150'
+                        )}
+                      </Button>
+
+                      <div className="flex w-full flex-col items-center bg-slate-800">
+                        <picture>
+                          <img
+                            src="https://securepay.sslcommerz.com/public/image/SSLCommerz-Pay-With-logo-All-Size-04.png"
+                            alt="SSLCommerz Payment"
+                            className="h-auto w-full"
+                          />
+                        </picture>
+                      </div>
+                    </>
+                  ) : (
+                    <>
+                      {/* bKash Payment Form */}
+                      <div className="mb-4 rounded-lg border border-orange-200 bg-orange-50 p-4">
+                        <div className="mb-3 grid grid-cols-2 gap-4">
+                          <div className="flex flex-col items-center rounded-lg border bg-white p-3">
+                            <picture>
+                              <img
+                                src="/make_payment.png"
+                                alt="Make Payment"
+                                className="mb-2 h-12 w-auto"
+                              />
+                            </picture>
+                            <p className="text-center text-xs text-gray-600">
+                              <strong>Make Payment:</strong>
+                              <br />
+                              Go to bKash → Make Payment → Enter:{' '}
+                              <strong>01636196613</strong> → Amount: 150
+                            </p>
+                          </div>
+                          <div className="flex flex-col items-center rounded-lg border bg-white p-3">
+                            <picture>
+                              <img
+                                src="/send_money.png"
+                                alt="Send Money"
+                                className="mb-2 h-12 w-auto"
+                              />
+                            </picture>
+                            <p className="text-center text-xs text-gray-600">
+                              <strong>Send Money:</strong>
+                              <br />
+                              Go to bKash → Send Money → Enter:{' '}
+                              <strong>01924752175</strong> → Amount: 150
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="mb-4 grid grid-cols-1 gap-4">
+                        <FormField
+                          control={form.control}
+                          name="bkashNumber"
+                          render={({ field }) => (
+                            <FormItem>
+                              <FormLabel>
+                                <span className="text-sm text-gray-700">
+                                  Your bKash Number
+                                </span>
+                                <span className="text-sm text-destructive">
+                                  *
+                                </span>
+                              </FormLabel>
+                              <FormControl>
+                                <PhoneInput
+                                  defaultCountry="BD"
+                                  placeholder="1XXXXXXXXX"
+                                  {...field}
+                                />
+                              </FormControl>
+                              <FormMessage className="text-xs" />
+                            </FormItem>
+                          )}
+                        />
+
+                        <FormField
+                          control={form.control}
+                          name="bkashTransactionId"
+                          render={({ field }) => (
+                            <FormItem>
+                              <FormLabel>
+                                <span className="text-sm text-gray-700">
+                                  bKash Transaction ID
+                                </span>
+                                <span className="ml-1 text-xs text-gray-500">
+                                  (optional)
+                                </span>
+                              </FormLabel>
+                              <FormControl>
+                                <Input
+                                  placeholder="Enter transaction ID if available"
+                                  {...field}
+                                />
+                              </FormControl>
+                              <FormMessage className="text-xs" />
+                            </FormItem>
+                          )}
+                        />
+                      </div>
+
+                      {/* Terms and Conditions Agreement */}
+                      <FormField
+                        control={form.control}
+                        name="agreeToTerms"
+                        render={({ field }) => (
+                          <FormItem className="flex flex-row items-start space-x-3 space-y-0 rounded-md border p-4">
+                            <FormControl>
+                              <Checkbox
+                                checked={field.value}
+                                onCheckedChange={field.onChange}
+                              />
+                            </FormControl>
+                            <div className="space-y-1 leading-none">
+                              <FormLabel className="text-sm font-normal text-gray-700">
+                                I agree to the{' '}
+                                <Link
+                                  href="/terms"
+                                  target="_blank"
+                                  className="font-medium text-blue-600 hover:underline"
+                                >
+                                  Terms & Conditions
+                                </Link>
+                                ,{' '}
+                                <Link
+                                  href="/privacy-policy"
+                                  target="_blank"
+                                  className="font-medium text-blue-600 hover:underline"
+                                >
+                                  Privacy Policy
+                                </Link>
+                                ,{' '}
+                                <Link
+                                  href="/return-policy"
+                                  target="_blank"
+                                  className="font-medium text-blue-600 hover:underline"
+                                >
+                                  Return Policy
+                                </Link>
+                                , and{' '}
+                                <Link
+                                  href="/refund-policy"
+                                  target="_blank"
+                                  className="font-medium text-blue-600 hover:underline"
+                                >
+                                  Refund Policy
+                                </Link>
+                              </FormLabel>
+                              <FormMessage className="text-xs" />
+                            </div>
+                          </FormItem>
+                        )}
+                      />
+
+                      <Button
+                        id="order"
+                        type="submit"
+                        disabled={loading}
+                        className="mt-4 w-full py-6 text-base font-semibold"
+                        onClick={() => {
+                          form.trigger();
+                        }}
+                      >
+                        {loading ? (
+                          <LoaderCircle className="animate-spin transition-all duration-500 ease-in-out" />
+                        ) : (
+                          'Place Order'
+                        )}
+                      </Button>
+                    </>
+                  )}
+                </Card>
+              ) : (
+                // COD - Inside Dhaka
+                <>
+                  {/* Terms and Conditions Agreement */}
+                  <FormField
+                    control={form.control}
+                    name="agreeToTerms"
+                    render={({ field }) => (
+                      <FormItem className="flex flex-row items-start space-x-3 space-y-0 rounded-md border p-4">
+                        <FormControl>
+                          <Checkbox
+                            checked={field.value}
+                            onCheckedChange={field.onChange}
+                          />
+                        </FormControl>
+                        <div className="space-y-1 leading-none">
+                          <FormLabel className="text-sm font-normal text-gray-700">
+                            I agree to the{' '}
+                            <Link
+                              href="/terms"
+                              target="_blank"
+                              className="font-medium text-blue-600 hover:underline"
+                            >
+                              Terms & Conditions
+                            </Link>
+                            ,{' '}
+                            <Link
+                              href="/privacy-policy"
+                              target="_blank"
+                              className="font-medium text-blue-600 hover:underline"
+                            >
+                              Privacy Policy
+                            </Link>
+                            ,{' '}
+                            <Link
+                              href="/return-policy"
+                              target="_blank"
+                              className="font-medium text-blue-600 hover:underline"
+                            >
+                              Return Policy
+                            </Link>
+                            , and{' '}
+                            <Link
+                              href="/refund-policy"
+                              target="_blank"
+                              className="font-medium text-blue-600 hover:underline"
+                            >
+                              Refund Policy
+                            </Link>
+                          </FormLabel>
+                          <FormMessage className="text-xs" />
+                        </div>
+                      </FormItem>
+                    )}
+                  />
+
+                  <Button
+                    id="order"
+                    type="submit"
+                    disabled={loading}
+                    className="w-full py-6 text-base font-semibold"
+                    onClick={() => {
+                      form.trigger();
+                    }}
+                  >
+                    {loading ? (
+                      <LoaderCircle className="animate-spin transition-all duration-500 ease-in-out" />
+                    ) : (
+                      `Place Order - ৳${total.toFixed(2)}`
+                    )}
+                  </Button>
+                </>
+              )}
             </div>
           </form>
         </Form>

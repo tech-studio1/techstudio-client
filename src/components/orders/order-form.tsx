@@ -75,7 +75,7 @@ export default function OrderForm() {
   });
 
   const onSubmit = (data: OrderFormValues) => {
-    console.log('Order submitted:', data);
+    // console.log('Order submitted:', data);
   };
 
   const totalPrice = cartItems.reduce(
