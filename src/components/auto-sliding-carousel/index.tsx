@@ -75,6 +75,11 @@ export default function AutoSlidingCarousel() {
   }, [emblaApi, startAutoSlide, stopAutoSlide]);
   const images = [
     {
+      url: ' https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/11_11_main.webp',
+      href: '/offers/11-11',
+      name: '11.11 Sale',
+    },
+    {
       url: '/banner/monson-best-seal.webp',
       href: '/',
       name: 'Best Deal',

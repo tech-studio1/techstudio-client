@@ -60,7 +60,7 @@ function OfferPopup() {
         </DialogClose>
         <picture>
           <img
-            src="https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/ssl-coming-soon.webp"
+            src="https://pub-4102cf85b0404c5d84ab2f2a70770c11.r2.dev/11_11_popup.webp"
             alt="offer"
             className="size-full"
           />
